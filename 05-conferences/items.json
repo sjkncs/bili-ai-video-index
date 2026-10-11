@@ -1,0 +1,866 @@
+[
+    {
+        "index":  1,
+        "bvid":  "BV1oyMizqE6Z",
+        "url":  "https://www.bilibili.com/video/BV1oyMizqE6Z",
+        "title":  "国科大高林：基于混合表达与生成模型的可视媒体合成与编辑方法",
+        "duration_s":  2923,
+        "views":  863,
+        "pubdate":  "2025-06-16"
+    },
+    {
+        "index":  2,
+        "bvid":  "BV1hoMizbEiY",
+        "url":  "https://www.bilibili.com/video/BV1hoMizbEiY",
+        "title":  "腾讯混元周子翔：多模态驱动的数字人技术（系统）",
+        "duration_s":  1665,
+        "views":  262,
+        "pubdate":  "2025-06-16"
+    },
+    {
+        "index":  3,
+        "bvid":  "BV1bcMqzdE2w",
+        "url":  "https://www.bilibili.com/video/BV1bcMqzdE2w",
+        "title":  "高德熊峰: 面向3D生成数字人的大规模自动绑骨数据集和端到端自动绑骨算法",
+        "duration_s":  942,
+        "views":  262,
+        "pubdate":  "2025-06-16"
+    },
+    {
+        "index":  4,
+        "bvid":  "BV1AWNezYEyR",
+        "url":  "https://www.bilibili.com/video/BV1AWNezYEyR",
+        "title":  "北大张继耀：基于以物体为中心的交互基元构造空间约束驱动机器人通用操作",
+        "duration_s":  999,
+        "views":  221,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  5,
+        "bvid":  "BV1PpNezPEEh",
+        "url":  "https://www.bilibili.com/video/BV1PpNezPEEh",
+        "title":  "国科大唐熠杰：二维视觉基础模型引导的零样本在线三维实例分割方法",
+        "duration_s":  949,
+        "views":  223,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  6,
+        "bvid":  "BV1R6NezDEBu",
+        "url":  "https://www.bilibili.com/video/BV1R6NezDEBu",
+        "title":  "北大黄江勇：可靠精细的新型三维视觉语言评测基准",
+        "duration_s":  1085,
+        "views":  108,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  7,
+        "bvid":  "BV1hTNez5Ets",
+        "url":  "https://www.bilibili.com/video/BV1hTNez5Ets",
+        "title":  "北航黄雷：从表征和学习视角议多模态大模型的统一之路",
+        "duration_s":  2735,
+        "views":  1327,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  8,
+        "bvid":  "BV1RcNezEEVd",
+        "url":  "https://www.bilibili.com/video/BV1RcNezEEVd",
+        "title":  "圆桌对话：迈向理解与生成统一的多模态大模型",
+        "duration_s":  2672,
+        "views":  960,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  9,
+        "bvid":  "BV1KjNezME4e",
+        "url":  "https://www.bilibili.com/video/BV1KjNezME4e",
+        "title":  "中国科大郭俊甫：基于三维高斯泼贱的铰链物体自监督重建方法",
+        "duration_s":  1074,
+        "views":  205,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  10,
+        "bvid":  "BV1PsNiz6ECb",
+        "url":  "https://www.bilibili.com/video/BV1PsNiz6ECb",
+        "title":  "清华汪晗阳：基于一致性蒸馏的单步视频扩散与场景生成",
+        "duration_s":  830,
+        "views":  322,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  11,
+        "bvid":  "BV1wtNizBEzu",
+        "url":  "https://www.bilibili.com/video/BV1wtNizBEzu",
+        "title":  "人大高瓴王希华：图像到有声视频的生成模型",
+        "duration_s":  1336,
+        "views":  228,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  12,
+        "bvid":  "BV1RyNizdEBv",
+        "url":  "https://www.bilibili.com/video/BV1RyNizdEBv",
+        "title":  "中科院张泽锋：基于噪声感知偏好优化缓解多模态大模型的模态偏差",
+        "duration_s":  823,
+        "views":  196,
+        "pubdate":  "2025-06-17"
+    },
+    {
+        "index":  13,
+        "bvid":  "BV1G4Vz6NEMD",
+        "url":  "https://www.bilibili.com/video/BV1G4Vz6NEMD",
+        "title":  "上交邓志杰 | 隐空间统一模型：从跨模态推理到世界建模",
+        "duration_s":  2422,
+        "views":  1365,
+        "pubdate":  "2026-06-02"
+    },
+    {
+        "index":  14,
+        "bvid":  "BV1TdVB64EEx",
+        "url":  "https://www.bilibili.com/video/BV1TdVB64EEx",
+        "title":  "清华陈泽华：Omni2Sound-破解统一多模态音频生成的\"通才困境\"",
+        "duration_s":  905,
+        "views":  815,
+        "pubdate":  "2026-06-02"
+    },
+    {
+        "index":  15,
+        "bvid":  "BV1j7Vz63EXJ",
+        "url":  "https://www.bilibili.com/video/BV1j7Vz63EXJ",
+        "title":  "北大张金禄：多模态条件可控动作生成",
+        "duration_s":  643,
+        "views":  685,
+        "pubdate":  "2026-06-02"
+    },
+    {
+        "index":  16,
+        "bvid":  "BV1HKVz6UEqU",
+        "url":  "https://www.bilibili.com/video/BV1HKVz6UEqU",
+        "title":  "中科院自动化所田浩辰: SimScale-大规模真实世界仿真重塑端到端自动驾驶学习范式",
+        "duration_s":  1402,
+        "views":  344,
+        "pubdate":  "2026-06-02"
+    },
+    {
+        "index":  17,
+        "bvid":  "BV12hV26yEGS",
+        "url":  "https://www.bilibili.com/video/BV12hV26yEGS",
+        "title":  "清华韩东辰：解锁视觉测试时训练新架构",
+        "duration_s":  1165,
+        "views":  247,
+        "pubdate":  "2026-06-03"
+    },
+    {
+        "index":  18,
+        "bvid":  "BV1vzVB6TEWt",
+        "url":  "https://www.bilibili.com/video/BV1vzVB6TEWt",
+        "title":  "北理王宇航：压缩域辅助的在线视频超分辨率方法",
+        "duration_s":  1260,
+        "views":  145,
+        "pubdate":  "2026-06-02"
+    },
+    {
+        "index":  19,
+        "bvid":  "BV1NdVm67EU6",
+        "url":  "https://www.bilibili.com/video/BV1NdVm67EU6",
+        "title":  "北大黄倍：从高斯内部建模到混合材料模拟",
+        "duration_s":  986,
+        "views":  742,
+        "pubdate":  "2026-06-03"
+    },
+    {
+        "index":  20,
+        "bvid":  "BV1a1VB6AEWo",
+        "url":  "https://www.bilibili.com/video/BV1a1VB6AEWo",
+        "title":  "北航盛律：基于生成式视觉先验的三维内容生成和理解",
+        "duration_s":  2211,
+        "views":  901,
+        "pubdate":  "2026-06-02"
+    },
+    {
+        "index":  21,
+        "bvid":  "BV1hDV66qEjK",
+        "url":  "https://www.bilibili.com/video/BV1hDV66qEjK",
+        "title":  "圆桌对话：下一代视觉智能，该如何定义?",
+        "duration_s":  3754,
+        "views":  874,
+        "pubdate":  "2026-06-03"
+    },
+    {
+        "index":  22,
+        "bvid":  "BV1PeV26CESo",
+        "url":  "https://www.bilibili.com/video/BV1PeV26CESo",
+        "title":  "清华苑会宁：评估大模型在多智能体环境中的推理决策能力",
+        "duration_s":  728,
+        "views":  712,
+        "pubdate":  "2026-06-03"
+    },
+    {
+        "index":  23,
+        "bvid":  "BV1mtV262EST",
+        "url":  "https://www.bilibili.com/video/BV1mtV262EST",
+        "title":  "浙大郭英楠：具身导航基座模型-不仅要“走得到”，还要“走得对”",
+        "duration_s":  507,
+        "views":  225,
+        "pubdate":  "2026-06-03"
+    },
+    {
+        "index":  24,
+        "bvid":  "BV1KhV261EsN",
+        "url":  "https://www.bilibili.com/video/BV1KhV261EsN",
+        "title":  "南大刘尚格：理解并强化任务算术中的权重解耦",
+        "duration_s":  889,
+        "views":  204,
+        "pubdate":  "2026-06-03"
+    },
+    {
+        "index":  25,
+        "bvid":  "BV1apGyzbEsn",
+        "url":  "https://www.bilibili.com/video/BV1apGyzbEsn",
+        "title":  "清华陈键飞｜基于量化稀疏的高效训练推理：理论及算法",
+        "duration_s":  2495,
+        "views":  1179,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  26,
+        "bvid":  "BV1YHGyzFEKz",
+        "url":  "https://www.bilibili.com/video/BV1YHGyzFEKz",
+        "title":  "人大渠常乐｜从人工标注到自我迭代：大模型工具学习的动态文档优化新范式",
+        "duration_s":  805,
+        "views":  278,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  27,
+        "bvid":  "BV11BGyzEEcc",
+        "url":  "https://www.bilibili.com/video/BV11BGyzEEcc",
+        "title":  "复旦江书洋：参数冗余微调算法NoRM",
+        "duration_s":  924,
+        "views":  129,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  28,
+        "bvid":  "BV1xiGyzSEgp",
+        "url":  "https://www.bilibili.com/video/BV1xiGyzSEgp",
+        "title":  "北理工李朋祥：多模态智能体微调-为高效工具调用构建多模态智能体",
+        "duration_s":  676,
+        "views":  174,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  29,
+        "bvid":  "BV1DyGCzsEUt",
+        "url":  "https://www.bilibili.com/video/BV1DyGCzsEUt",
+        "title":  "清华叶天竺：差分注意力攻克长序列建模难题",
+        "duration_s":  1102,
+        "views":  656,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  30,
+        "bvid":  "BV1KgGCzUEfD",
+        "url":  "https://www.bilibili.com/video/BV1KgGCzUEfD",
+        "title":  "北理工兰天：分块注意力提升大模型检索增强生成效率",
+        "duration_s":  904,
+        "views":  763,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  31,
+        "bvid":  "BV1pJGCzkEer",
+        "url":  "https://www.bilibili.com/video/BV1pJGCzkEer",
+        "title":  "国科大温学儒：重新思考奖励模型评估",
+        "duration_s":  769,
+        "views":  594,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  32,
+        "bvid":  "BV1APG2znE2p",
+        "url":  "https://www.bilibili.com/video/BV1APG2znE2p",
+        "title":  "人大李崇轩｜LLaDA：语言模型新范式",
+        "duration_s":  2024,
+        "views":  4457,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  33,
+        "bvid":  "BV1wTG2zEEbx",
+        "url":  "https://www.bilibili.com/video/BV1wTG2zEEbx",
+        "title":  "圆桌对话 ｜ LLM 驱动的 Agent：技术瓶颈与融合路径",
+        "duration_s":  2432,
+        "views":  2056,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  34,
+        "bvid":  "BV1kNG2zUEtH",
+        "url":  "https://www.bilibili.com/video/BV1kNG2zUEtH",
+        "title":  "南科大杨林易：基于多表多跳复杂问题的大模型评估",
+        "duration_s":  669,
+        "views":  576,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  35,
+        "bvid":  "BV1wNG2zSEi7",
+        "url":  "https://www.bilibili.com/video/BV1wNG2zSEi7",
+        "title":  "清华齐济：多模态大模型基于操作链进行有证据的视觉推理",
+        "duration_s":  572,
+        "views":  839,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  36,
+        "bvid":  "BV12ZG1zWEut",
+        "url":  "https://www.bilibili.com/video/BV12ZG1zWEut",
+        "title":  "北大杨昊桐：数字对于大模型来说为什么这么难？",
+        "duration_s":  862,
+        "views":  1083,
+        "pubdate":  "2025-04-29"
+    },
+    {
+        "index":  37,
+        "bvid":  "BV1eEosBiEL8",
+        "url":  "https://www.bilibili.com/video/BV1eEosBiEL8",
+        "title":  "清华姚权铭 | 结构化上下文：有限监督泛化的新路径",
+        "duration_s":  2486,
+        "views":  794,
+        "pubdate":  "2026-04-22"
+    },
+    {
+        "index":  38,
+        "bvid":  "BV173osB3E5f",
+        "url":  "https://www.bilibili.com/video/BV173osB3E5f",
+        "title":  "浙大张宁豫 | 迈向可持续学习的智能体：现状与趋势——以 OpenClaw 为例",
+        "duration_s":  2523,
+        "views":  1870,
+        "pubdate":  "2026-04-22"
+    },
+    {
+        "index":  39,
+        "bvid":  "BV1q1oaBcEvV",
+        "url":  "https://www.bilibili.com/video/BV1q1oaBcEvV",
+        "title":  "圆桌对话：OpenClaw 后，Agent 何去何从？",
+        "duration_s":  2706,
+        "views":  1800,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  40,
+        "bvid":  "BV1dmoaBfE3e",
+        "url":  "https://www.bilibili.com/video/BV1dmoaBfE3e",
+        "title":  "蚂蚁田长鑫：模型合并驱动的大模型预训练策略革新",
+        "duration_s":  974,
+        "views":  531,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  41,
+        "bvid":  "BV1SEoaBUE2S",
+        "url":  "https://www.bilibili.com/video/BV1SEoaBUE2S",
+        "title":  "博世张志洲：有效利用无标仿真，基于纯几何信息的神经算子预训练框架",
+        "duration_s":  1441,
+        "views":  182,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  42,
+        "bvid":  "BV1RuoaBdEQE",
+        "url":  "https://www.bilibili.com/video/BV1RuoaBdEQE",
+        "title":  "清华占国建：生成式强化学习迈入极速单步时代",
+        "duration_s":  1167,
+        "views":  344,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  43,
+        "bvid":  "BV1XGoaBXEUZ",
+        "url":  "https://www.bilibili.com/video/BV1XGoaBXEUZ",
+        "title":  "中科院王耀宇：融合预训练模型与深度强化学习攻克稀疏矩阵高性能代码生成难题",
+        "duration_s":  857,
+        "views":  383,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  44,
+        "bvid":  "BV11toaBkEPx",
+        "url":  "https://www.bilibili.com/video/BV11toaBkEPx",
+        "title":  "帝国理工杜思逸：让多模态模型学会选择，突破模态缺失难题",
+        "duration_s":  974,
+        "views":  391,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  45,
+        "bvid":  "BV124oaBVEVe",
+        "url":  "https://www.bilibili.com/video/BV124oaBVEVe",
+        "title":  "人大林宁：降低对称性提升-等变神经网络的表征能力与特征选择",
+        "duration_s":  884,
+        "views":  323,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  46,
+        "bvid":  "BV1MkohB5EGP",
+        "url":  "https://www.bilibili.com/video/BV1MkohB5EGP",
+        "title":  "清华邱海权：低精度语言模型训练为什么失败？",
+        "duration_s":  741,
+        "views":  18242,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  47,
+        "bvid":  "BV1b6ohB1EEE",
+        "url":  "https://www.bilibili.com/video/BV1b6ohB1EEE",
+        "title":  "清华何秉翔：大模型的无监督强化学习能走多远？",
+        "duration_s":  1153,
+        "views":  915,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  48,
+        "bvid":  "BV1GhohBQEBd",
+        "url":  "https://www.bilibili.com/video/BV1GhohBQEBd",
+        "title":  "帝国理工元文瑄：信息塑造的Koopman表征",
+        "duration_s":  904,
+        "views":  958,
+        "pubdate":  "2026-04-23"
+    },
+    {
+        "index":  49,
+        "bvid":  "BV1v5qmYbESf",
+        "url":  "https://www.bilibili.com/video/BV1v5qmYbESf",
+        "title":  "中国科学院冯洋：即时交互多模态大模型初探",
+        "duration_s":  2211,
+        "views":  1186,
+        "pubdate":  "2024-12-11"
+    },
+    {
+        "index":  50,
+        "bvid":  "BV1S2q2YmEp7",
+        "url":  "https://www.bilibili.com/video/BV1S2q2YmEp7",
+        "title":  "复旦魏忠钰：大模型驱动的社会智能体",
+        "duration_s":  2106,
+        "views":  1123,
+        "pubdate":  "2024-12-11"
+    },
+    {
+        "index":  51,
+        "bvid":  "BV1PZq2Y3E93",
+        "url":  "https://www.bilibili.com/video/BV1PZq2Y3E93",
+        "title":  "圆桌对话：大模型技术拐点到了吗？",
+        "duration_s":  3480,
+        "views":  1205,
+        "pubdate":  "2024-12-11"
+    },
+    {
+        "index":  52,
+        "bvid":  "BV1KdqZYGEgz",
+        "url":  "https://www.bilibili.com/video/BV1KdqZYGEgz",
+        "title":  "字节焦少慧：各向异性3D高斯泼溅",
+        "duration_s":  1626,
+        "views":  994,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  53,
+        "bvid":  "BV1q7qSYNE3V",
+        "url":  "https://www.bilibili.com/video/BV1q7qSYNE3V",
+        "title":  "哈工大陈麒光：如何量化与提升思维链的推理能力边界？",
+        "duration_s":  1177,
+        "views":  1213,
+        "pubdate":  "2024-12-11"
+    },
+    {
+        "index":  54,
+        "bvid":  "BV11FqSY2EKJ",
+        "url":  "https://www.bilibili.com/video/BV11FqSY2EKJ",
+        "title":  "华为诺亚陈汉亭： 重拾U-Net的扩散架构U-DiT",
+        "duration_s":  599,
+        "views":  1499,
+        "pubdate":  "2024-12-12"
+    },
+    {
+        "index":  55,
+        "bvid":  "BV1rHqZYeECL",
+        "url":  "https://www.bilibili.com/video/BV1rHqZYeECL",
+        "title":  "OpenDrivelab 布清文：迈向机器人操作的基础模型",
+        "duration_s":  1037,
+        "views":  813,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  56,
+        "bvid":  "BV164qZYcE3d",
+        "url":  "https://www.bilibili.com/video/BV164qZYcE3d",
+        "title":  "北大林昊苇：无训练的扩散生成指导",
+        "duration_s":  1154,
+        "views":  757,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  57,
+        "bvid":  "BV16sqZYaEes",
+        "url":  "https://www.bilibili.com/video/BV16sqZYaEes",
+        "title":  "北大孟繁续：高效微调方法PiSSA",
+        "duration_s":  1709,
+        "views":  595,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  58,
+        "bvid":  "BV1nsqZYYEan",
+        "url":  "https://www.bilibili.com/video/BV1nsqZYYEan",
+        "title":  "智源崔玉峰：无编码器视觉语言模型",
+        "duration_s":  745,
+        "views":  536,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  59,
+        "bvid":  "BV1y7qZYTEpN",
+        "url":  "https://www.bilibili.com/video/BV1y7qZYTEpN",
+        "title":  "清华张亦弛：多模态可信评估MultiTrust",
+        "duration_s":  935,
+        "views":  1100,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  60,
+        "bvid":  "BV1y7qZYTEMy",
+        "url":  "https://www.bilibili.com/video/BV1y7qZYTEMy",
+        "title":  "复旦黄辰宇：免微调的高性能模型融合",
+        "duration_s":  863,
+        "views":  587,
+        "pubdate":  "2024-12-15"
+    },
+    {
+        "index":  61,
+        "bvid":  "BV1pEUSBPEhj",
+        "url":  "https://www.bilibili.com/video/BV1pEUSBPEhj",
+        "title":  "圆桌对话：世界模型会成为下一个 AI前沿吗?",
+        "duration_s":  2689,
+        "views":  2460,
+        "pubdate":  "2025-11-25"
+    },
+    {
+        "index":  62,
+        "bvid":  "BV1HJUSBYEdj",
+        "url":  "https://www.bilibili.com/video/BV1HJUSBYEdj",
+        "title":  "复旦邱锡鹏教授：情境智能：补全 AGI 的关键拼图",
+        "duration_s":  2452,
+        "views":  1156,
+        "pubdate":  "2025-11-25"
+    },
+    {
+        "index":  63,
+        "bvid":  "BV18PUSBCEW8",
+        "url":  "https://www.bilibili.com/video/BV18PUSBCEW8",
+        "title":  "南大范琦副教授：从帧到世界：面向世界模型的长视频生成",
+        "duration_s":  2264,
+        "views":  924,
+        "pubdate":  "2025-11-25"
+    },
+    {
+        "index":  64,
+        "bvid":  "BV1bVUhBREuV",
+        "url":  "https://www.bilibili.com/video/BV1bVUhBREuV",
+        "title":  "清华大学顾欣然：数据混合下大模型知识学习的相变规律",
+        "duration_s":  1253,
+        "views":  313,
+        "pubdate":  "2025-11-26"
+    },
+    {
+        "index":  65,
+        "bvid":  "BV19RUUBSEeH",
+        "url":  "https://www.bilibili.com/video/BV19RUUBSEeH",
+        "title":  "人大卫雅珂：关注单模态学习的PEFT方法",
+        "duration_s":  963,
+        "views":  321,
+        "pubdate":  "2025-11-25"
+    },
+    {
+        "index":  66,
+        "bvid":  "BV1V6UQBoEBt",
+        "url":  "https://www.bilibili.com/video/BV1V6UQBoEBt",
+        "title":  "国防科技大学王奉祥：扩展遥感多模态大模型支撑8K以上分辨率",
+        "duration_s":  775,
+        "views":  221,
+        "pubdate":  "2025-11-25"
+    },
+    {
+        "index":  67,
+        "bvid":  "BV1tXUQBUEtm",
+        "url":  "https://www.bilibili.com/video/BV1tXUQBUEtm",
+        "title":  "灵初智能实习研究员祝可菲：自我提升式灵巧手数据生成飞轮",
+        "duration_s":  520,
+        "views":  327,
+        "pubdate":  "2025-11-25"
+    },
+    {
+        "index":  68,
+        "bvid":  "BV1jeUbBYE6e",
+        "url":  "https://www.bilibili.com/video/BV1jeUbBYE6e",
+        "title":  "人大李安亿：几何等变模型：破解混合体系性质预测的新密钥",
+        "duration_s":  1029,
+        "views":  241,
+        "pubdate":  "2025-11-26"
+    },
+    {
+        "index":  69,
+        "bvid":  "BV1SmUbBXEeU",
+        "url":  "https://www.bilibili.com/video/BV1SmUbBXEeU",
+        "title":  "清华大学潘至璇：从压缩视角理解大语言模型",
+        "duration_s":  959,
+        "views":  1220,
+        "pubdate":  "2025-11-26"
+    },
+    {
+        "index":  70,
+        "bvid":  "BV1mDUbBDEXp",
+        "url":  "https://www.bilibili.com/video/BV1mDUbBDEXp",
+        "title":  "清华大学乐洋：RLVR 能力边界再审视——提效多，创新少",
+        "duration_s":  1195,
+        "views":  912,
+        "pubdate":  "2025-11-26"
+    },
+    {
+        "index":  71,
+        "bvid":  "BV1F4UbBMEkm",
+        "url":  "https://www.bilibili.com/video/BV1F4UbBMEkm",
+        "title":  "北大孟繁续：将 GQA 转成 MLA 获得10倍推理加速",
+        "duration_s":  1153,
+        "views":  1069,
+        "pubdate":  "2025-11-26"
+    },
+    {
+        "index":  72,
+        "bvid":  "BV1WEUbBCE6D",
+        "url":  "https://www.bilibili.com/video/BV1WEUbBCE6D",
+        "title":  "杜伦大学肖程昊：揭示生成-表征缩放定律，以语言为中心的全模态表征学习新范式",
+        "duration_s":  1010,
+        "views":  258,
+        "pubdate":  "2025-11-26"
+    },
+    {
+        "index":  73,
+        "bvid":  "BV1qB8szbEfm",
+        "url":  "https://www.bilibili.com/video/BV1qB8szbEfm",
+        "title":  "哈工大车万翔教授：ACL 2025 趋势及展望",
+        "duration_s":  2109,
+        "views":  1794,
+        "pubdate":  "2025-07-26"
+    },
+    {
+        "index":  74,
+        "bvid":  "BV1Eq8szFENv",
+        "url":  "https://www.bilibili.com/video/BV1Eq8szFENv",
+        "title":  "上交刘鹏飞副教授：大模型强化学习与复杂推理",
+        "duration_s":  2117,
+        "views":  2493,
+        "pubdate":  "2025-07-26"
+    },
+    {
+        "index":  75,
+        "bvid":  "BV1zF87z3ErW",
+        "url":  "https://www.bilibili.com/video/BV1zF87z3ErW",
+        "title":  "圆桌对话：爆火的「上下文工程」，价值几何？",
+        "duration_s":  2963,
+        "views":  606,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  76,
+        "bvid":  "BV1XY8jzfE8N",
+        "url":  "https://www.bilibili.com/video/BV1XY8jzfE8N",
+        "title":  "清华邱寒副教授：揭示大语言模型反思技术的黑暗面",
+        "duration_s":  596,
+        "views":  373,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  77,
+        "bvid":  "BV1hi8jzZEWM",
+        "url":  "https://www.bilibili.com/video/BV1hi8jzZEWM",
+        "title":  "人大王磊：基于大模型智能体研究霍曼斯社会交换论",
+        "duration_s":  802,
+        "views":  197,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  78,
+        "bvid":  "BV1Di8jzoEoj",
+        "url":  "https://www.bilibili.com/video/BV1Di8jzoEoj",
+        "title":  "北师大徐书航 ：借助隐喻实现游戏智能体的隐蔽通信策略",
+        "duration_s":  884,
+        "views":  179,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  79,
+        "bvid":  "BV1e58JzzEtG",
+        "url":  "https://www.bilibili.com/video/BV1e58JzzEtG",
+        "title":  "中科院信工所胡斗：通过平衡表示实现公平的多任务学习",
+        "duration_s":  1042,
+        "views":  189,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  80,
+        "bvid":  "BV1vV8JzgE7G",
+        "url":  "https://www.bilibili.com/video/BV1vV8JzgE7G",
+        "title":  "南大程紫峰：增强大语言模型嵌入通过免训练的词元前置技术",
+        "duration_s":  476,
+        "views":  116,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  81,
+        "bvid":  "BV1xY8Jz4EtR",
+        "url":  "https://www.bilibili.com/video/BV1xY8Jz4EtR",
+        "title":  "清华黄宇翔 ：设计序列并行友好的近似注意力机制",
+        "duration_s":  981,
+        "views":  158,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  82,
+        "bvid":  "BV1xY8Jz4EtX",
+        "url":  "https://www.bilibili.com/video/BV1xY8Jz4EtX",
+        "title":  "哈工大罗先镇 ：变废为宝:用2MB空间撬起2倍无损加速",
+        "duration_s":  1006,
+        "views":  171,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  83,
+        "bvid":  "BV12h8JzZEpk",
+        "url":  "https://www.bilibili.com/video/BV12h8JzZEpk",
+        "title":  "腾讯 AI Lab 王琰：低熵并行编码实现高效推理",
+        "duration_s":  1122,
+        "views":  305,
+        "pubdate":  "2025-07-28"
+    },
+    {
+        "index":  84,
+        "bvid":  "BV1EQtuz2Ezs",
+        "url":  "https://www.bilibili.com/video/BV1EQtuz2Ezs",
+        "title":  "北京大学吉嘉铭：从弹簧胡克定律思考大模型的参数弹性与抗拒对齐",
+        "duration_s":  1038,
+        "views":  1675,
+        "pubdate":  "2025-08-04"
+    },
+    {
+        "index":  85,
+        "bvid":  "BV1K9Tk6QE4j",
+        "url":  "https://www.bilibili.com/video/BV1K9Tk6QE4j",
+        "title":  "北大张文涛：面向大模型的 Data-centric AI 基础设施",
+        "duration_s":  2108,
+        "views":  442,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  86,
+        "bvid":  "BV1K9Tk6QEvN",
+        "url":  "https://www.bilibili.com/video/BV1K9Tk6QEvN",
+        "title":  "北师大钟方威：基于欲求对齐的高效具身通信与主动交互",
+        "duration_s":  1256,
+        "views":  127,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  87,
+        "bvid":  "BV1x9Tk6QERY",
+        "url":  "https://www.bilibili.com/video/BV1x9Tk6QERY",
+        "title":  "清华陈泽华：全局语义、精确时间、人声可懂的高可控文生音频系统ControlAudio",
+        "duration_s":  734,
+        "views":  193,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  88,
+        "bvid":  "BV1T9Tk6QEVG",
+        "url":  "https://www.bilibili.com/video/BV1T9Tk6QEVG",
+        "title":  "UCLA周自横：用 LLM Agent 模拟研究人类为何进化出道德",
+        "duration_s":  841,
+        "views":  180,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  89,
+        "bvid":  "BV1K9Tk6QErv",
+        "url":  "https://www.bilibili.com/video/BV1K9Tk6QErv",
+        "title":  "人大汤昕宇：可验证奖励的强化学习中样本极性的探索",
+        "duration_s":  913,
+        "views":  189,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  90,
+        "bvid":  "BV1K9Tk6QEiE",
+        "url":  "https://www.bilibili.com/video/BV1K9Tk6QEiE",
+        "title":  "MBZUAI高朗：个性化场景下AI文本检测器的效果反转现象",
+        "duration_s":  1168,
+        "views":  770,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  91,
+        "bvid":  "BV11dTk6nES9",
+        "url":  "https://www.bilibili.com/video/BV11dTk6nES9",
+        "title":  "中科院李阳：面向细粒度AI生成文本检测的“创作者-编辑者”双重建模",
+        "duration_s":  982,
+        "views":  174,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  92,
+        "bvid":  "BV1xdTk6nEZC",
+        "url":  "https://www.bilibili.com/video/BV1xdTk6nEZC",
+        "title":  "西湖大学张驰 | 自主进化智能体：从固定工作流到动态架构的演进",
+        "duration_s":  2391,
+        "views":  1013,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  93,
+        "bvid":  "BV1KdTk6nEtd",
+        "url":  "https://www.bilibili.com/video/BV1KdTk6nEtd",
+        "title":  "圆桌对话：Agent又有了新范式？",
+        "duration_s":  3418,
+        "views":  898,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  94,
+        "bvid":  "BV12dTk6nE4T",
+        "url":  "https://www.bilibili.com/video/BV12dTk6nE4T",
+        "title":  "北理工田炎智：基于Agent-as-a-Judge的非字面翻译评测",
+        "duration_s":  757,
+        "views":  315,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  95,
+        "bvid":  "BV1NdTk6nE6n",
+        "url":  "https://www.bilibili.com/video/BV1NdTk6nE6n",
+        "title":  "清华花佳诚：结构化文本表征引导多模态大模型空间推理",
+        "duration_s":  849,
+        "views":  300,
+        "pubdate":  "2026-07-02"
+    },
+    {
+        "index":  96,
+        "bvid":  "BV1NdTk6nEyP",
+        "url":  "https://www.bilibili.com/video/BV1NdTk6nEyP",
+        "title":  "北理工杨振：大模型视角旋转理解可解释性研究",
+        "duration_s":  823,
+        "views":  321,
+        "pubdate":  "2026-07-02"
+    }
+]
