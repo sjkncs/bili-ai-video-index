@@ -1,121 +1,389 @@
 # 顶会论文分享
 
-> 来源：B 站 **机器之心**（mid `73414544`）
-> 快照：**2026-10-11**，共 **96** 集。
-> 结构化数据：[items.json](items.json)
+> 来源：B 站 **机器之心**（mid 73414544）
+> 快照：**2026-10-11**，共 **96** 集。结构化数据：[items.json](items.json)
 
 ## 数据来源 · 计算方法 · 口径限制
 
-**数据来源**：B 站公开接口 \x/polymer/web-space/seasons_archives_list\。
+**数据来源**：B 站 x/polymer/web-space/seasons_archives_list 取分集列表；逐条调 x/web-interface/view 取 **desc（简介）** 字段。
 
-**计算方法**：合集名称即本目录的分类归属；条目按投稿顺序排列；\iews\ 与 \duration\ 直接取接口字段，\iews\ 只是弱热度信号。
+**计算方法**：机器之心的简介**没有统一格式**（不像论文解读那样有 【论文分享】 模板），所以：
+- speaker / ffiliation **只从简介中的「嘉宾介绍」段落提取**，且仅当开头形如 姓名，单位… 或 姓名 单位… 时才采纳；
+- 提取结果会做**有效性校验**（含「的/与/和」、以「教授/老师」结尾、含「嘉宾/主持」等一律判为不合格，整段退回到 ffiliation，speaker 留空）；
+- **标题格式不参与拆解**——机器之心的标题风格混杂（机构+姓名：题目、题目 | 智者访谈、纯题目），按标题硬拆会产生错误数据，因此不做。
 
 **口径限制**
-- 本目录**只索引标题、时长、链接**，不含视频、字幕或讲义。
-- 标题为 B 站原文。**B 站对标题有 80 字符上限**，过长标题会被截断，本目录不做补全或猜测。
-- 合集内容会随 UP 主更新而变化；本文件是 **2026-10-11** 的快照。
+- 本目录**不声称完整的讲者名单**：只有 104/188 条的简介含「嘉宾介绍」段落，其余保持为空。圆桌类条目的「嘉宾介绍」常含多人，本表只取段落原文，**未拆分到个人**。
+- ull_title 对机器之心的条目**为空**（它不是论文解读，没有论文全名）。
+- 只做目录索引，不含视频、字幕或讲义。
 
 ## 全部 96 集
 
-| # | BVID | title | length | views |
-|---:|---|---|---:|---:|
-| 1 | [BV1oyMizqE6Z](https://www.bilibili.com/video/BV1oyMizqE6Z) | 国科大高林：基于混合表达与生成模型的可视媒体合成与编辑方法 | 48:43 | 863 |
-| 2 | [BV1hoMizbEiY](https://www.bilibili.com/video/BV1hoMizbEiY) | 腾讯混元周子翔：多模态驱动的数字人技术（系统） | 27:45 | 262 |
-| 3 | [BV1bcMqzdE2w](https://www.bilibili.com/video/BV1bcMqzdE2w) | 高德熊峰: 面向3D生成数字人的大规模自动绑骨数据集和端到端自动绑骨算法 | 15:42 | 262 |
-| 4 | [BV1AWNezYEyR](https://www.bilibili.com/video/BV1AWNezYEyR) | 北大张继耀：基于以物体为中心的交互基元构造空间约束驱动机器人通用操作 | 16:39 | 221 |
-| 5 | [BV1PpNezPEEh](https://www.bilibili.com/video/BV1PpNezPEEh) | 国科大唐熠杰：二维视觉基础模型引导的零样本在线三维实例分割方法 | 15:49 | 223 |
-| 6 | [BV1R6NezDEBu](https://www.bilibili.com/video/BV1R6NezDEBu) | 北大黄江勇：可靠精细的新型三维视觉语言评测基准 | 18:05 | 108 |
-| 7 | [BV1hTNez5Ets](https://www.bilibili.com/video/BV1hTNez5Ets) | 北航黄雷：从表征和学习视角议多模态大模型的统一之路 | 45:35 | 1327 |
-| 8 | [BV1RcNezEEVd](https://www.bilibili.com/video/BV1RcNezEEVd) | 圆桌对话：迈向理解与生成统一的多模态大模型 | 44:32 | 960 |
-| 9 | [BV1KjNezME4e](https://www.bilibili.com/video/BV1KjNezME4e) | 中国科大郭俊甫：基于三维高斯泼贱的铰链物体自监督重建方法 | 17:54 | 205 |
-| 10 | [BV1PsNiz6ECb](https://www.bilibili.com/video/BV1PsNiz6ECb) | 清华汪晗阳：基于一致性蒸馏的单步视频扩散与场景生成 | 13:50 | 322 |
-| 11 | [BV1wtNizBEzu](https://www.bilibili.com/video/BV1wtNizBEzu) | 人大高瓴王希华：图像到有声视频的生成模型 | 22:16 | 228 |
-| 12 | [BV1RyNizdEBv](https://www.bilibili.com/video/BV1RyNizdEBv) | 中科院张泽锋：基于噪声感知偏好优化缓解多模态大模型的模态偏差 | 13:43 | 196 |
-| 13 | [BV1G4Vz6NEMD](https://www.bilibili.com/video/BV1G4Vz6NEMD) | 上交邓志杰 | 隐空间统一模型：从跨模态推理到世界建模 | 40:22 | 1365 |
-| 14 | [BV1TdVB64EEx](https://www.bilibili.com/video/BV1TdVB64EEx) | 清华陈泽华：Omni2Sound-破解统一多模态音频生成的"通才困境" | 15:05 | 815 |
-| 15 | [BV1j7Vz63EXJ](https://www.bilibili.com/video/BV1j7Vz63EXJ) | 北大张金禄：多模态条件可控动作生成 | 10:43 | 685 |
-| 16 | [BV1HKVz6UEqU](https://www.bilibili.com/video/BV1HKVz6UEqU) | 中科院自动化所田浩辰: SimScale-大规模真实世界仿真重塑端到端自动驾驶学习范式 | 23:22 | 344 |
-| 17 | [BV12hV26yEGS](https://www.bilibili.com/video/BV12hV26yEGS) | 清华韩东辰：解锁视觉测试时训练新架构 | 19:25 | 247 |
-| 18 | [BV1vzVB6TEWt](https://www.bilibili.com/video/BV1vzVB6TEWt) | 北理王宇航：压缩域辅助的在线视频超分辨率方法 | 21:00 | 145 |
-| 19 | [BV1NdVm67EU6](https://www.bilibili.com/video/BV1NdVm67EU6) | 北大黄倍：从高斯内部建模到混合材料模拟 | 16:26 | 742 |
-| 20 | [BV1a1VB6AEWo](https://www.bilibili.com/video/BV1a1VB6AEWo) | 北航盛律：基于生成式视觉先验的三维内容生成和理解 | 36:51 | 901 |
-| 21 | [BV1hDV66qEjK](https://www.bilibili.com/video/BV1hDV66qEjK) | 圆桌对话：下一代视觉智能，该如何定义? | 62:34 | 874 |
-| 22 | [BV1PeV26CESo](https://www.bilibili.com/video/BV1PeV26CESo) | 清华苑会宁：评估大模型在多智能体环境中的推理决策能力 | 12:08 | 712 |
-| 23 | [BV1mtV262EST](https://www.bilibili.com/video/BV1mtV262EST) | 浙大郭英楠：具身导航基座模型-不仅要“走得到”，还要“走得对” | 8:27 | 225 |
-| 24 | [BV1KhV261EsN](https://www.bilibili.com/video/BV1KhV261EsN) | 南大刘尚格：理解并强化任务算术中的权重解耦 | 14:49 | 204 |
-| 25 | [BV1apGyzbEsn](https://www.bilibili.com/video/BV1apGyzbEsn) | 清华陈键飞｜基于量化稀疏的高效训练推理：理论及算法 | 41:35 | 1179 |
-| 26 | [BV1YHGyzFEKz](https://www.bilibili.com/video/BV1YHGyzFEKz) | 人大渠常乐｜从人工标注到自我迭代：大模型工具学习的动态文档优化新范式 | 13:25 | 278 |
-| 27 | [BV11BGyzEEcc](https://www.bilibili.com/video/BV11BGyzEEcc) | 复旦江书洋：参数冗余微调算法NoRM | 15:24 | 129 |
-| 28 | [BV1xiGyzSEgp](https://www.bilibili.com/video/BV1xiGyzSEgp) | 北理工李朋祥：多模态智能体微调-为高效工具调用构建多模态智能体 | 11:16 | 174 |
-| 29 | [BV1DyGCzsEUt](https://www.bilibili.com/video/BV1DyGCzsEUt) | 清华叶天竺：差分注意力攻克长序列建模难题 | 18:22 | 656 |
-| 30 | [BV1KgGCzUEfD](https://www.bilibili.com/video/BV1KgGCzUEfD) | 北理工兰天：分块注意力提升大模型检索增强生成效率 | 15:04 | 763 |
-| 31 | [BV1pJGCzkEer](https://www.bilibili.com/video/BV1pJGCzkEer) | 国科大温学儒：重新思考奖励模型评估 | 12:49 | 594 |
-| 32 | [BV1APG2znE2p](https://www.bilibili.com/video/BV1APG2znE2p) | 人大李崇轩｜LLaDA：语言模型新范式 | 33:44 | 4457 |
-| 33 | [BV1wTG2zEEbx](https://www.bilibili.com/video/BV1wTG2zEEbx) | 圆桌对话 ｜ LLM 驱动的 Agent：技术瓶颈与融合路径 | 40:32 | 2056 |
-| 34 | [BV1kNG2zUEtH](https://www.bilibili.com/video/BV1kNG2zUEtH) | 南科大杨林易：基于多表多跳复杂问题的大模型评估 | 11:09 | 576 |
-| 35 | [BV1wNG2zSEi7](https://www.bilibili.com/video/BV1wNG2zSEi7) | 清华齐济：多模态大模型基于操作链进行有证据的视觉推理 | 9:32 | 839 |
-| 36 | [BV12ZG1zWEut](https://www.bilibili.com/video/BV12ZG1zWEut) | 北大杨昊桐：数字对于大模型来说为什么这么难？ | 14:22 | 1083 |
-| 37 | [BV1eEosBiEL8](https://www.bilibili.com/video/BV1eEosBiEL8) | 清华姚权铭 | 结构化上下文：有限监督泛化的新路径 | 41:26 | 794 |
-| 38 | [BV173osB3E5f](https://www.bilibili.com/video/BV173osB3E5f) | 浙大张宁豫 | 迈向可持续学习的智能体：现状与趋势——以 OpenClaw 为例 | 42:03 | 1870 |
-| 39 | [BV1q1oaBcEvV](https://www.bilibili.com/video/BV1q1oaBcEvV) | 圆桌对话：OpenClaw 后，Agent 何去何从？ | 45:06 | 1800 |
-| 40 | [BV1dmoaBfE3e](https://www.bilibili.com/video/BV1dmoaBfE3e) | 蚂蚁田长鑫：模型合并驱动的大模型预训练策略革新 | 16:14 | 531 |
-| 41 | [BV1SEoaBUE2S](https://www.bilibili.com/video/BV1SEoaBUE2S) | 博世张志洲：有效利用无标仿真，基于纯几何信息的神经算子预训练框架 | 24:01 | 182 |
-| 42 | [BV1RuoaBdEQE](https://www.bilibili.com/video/BV1RuoaBdEQE) | 清华占国建：生成式强化学习迈入极速单步时代 | 19:27 | 344 |
-| 43 | [BV1XGoaBXEUZ](https://www.bilibili.com/video/BV1XGoaBXEUZ) | 中科院王耀宇：融合预训练模型与深度强化学习攻克稀疏矩阵高性能代码生成难题 | 14:17 | 383 |
-| 44 | [BV11toaBkEPx](https://www.bilibili.com/video/BV11toaBkEPx) | 帝国理工杜思逸：让多模态模型学会选择，突破模态缺失难题 | 16:14 | 391 |
-| 45 | [BV124oaBVEVe](https://www.bilibili.com/video/BV124oaBVEVe) | 人大林宁：降低对称性提升-等变神经网络的表征能力与特征选择 | 14:44 | 323 |
-| 46 | [BV1MkohB5EGP](https://www.bilibili.com/video/BV1MkohB5EGP) | 清华邱海权：低精度语言模型训练为什么失败？ | 12:21 | 18242 |
-| 47 | [BV1b6ohB1EEE](https://www.bilibili.com/video/BV1b6ohB1EEE) | 清华何秉翔：大模型的无监督强化学习能走多远？ | 19:13 | 915 |
-| 48 | [BV1GhohBQEBd](https://www.bilibili.com/video/BV1GhohBQEBd) | 帝国理工元文瑄：信息塑造的Koopman表征 | 15:04 | 958 |
-| 49 | [BV1v5qmYbESf](https://www.bilibili.com/video/BV1v5qmYbESf) | 中国科学院冯洋：即时交互多模态大模型初探 | 36:51 | 1186 |
-| 50 | [BV1S2q2YmEp7](https://www.bilibili.com/video/BV1S2q2YmEp7) | 复旦魏忠钰：大模型驱动的社会智能体 | 35:06 | 1123 |
-| 51 | [BV1PZq2Y3E93](https://www.bilibili.com/video/BV1PZq2Y3E93) | 圆桌对话：大模型技术拐点到了吗？ | 58:00 | 1205 |
-| 52 | [BV1KdqZYGEgz](https://www.bilibili.com/video/BV1KdqZYGEgz) | 字节焦少慧：各向异性3D高斯泼溅 | 27:06 | 994 |
-| 53 | [BV1q7qSYNE3V](https://www.bilibili.com/video/BV1q7qSYNE3V) | 哈工大陈麒光：如何量化与提升思维链的推理能力边界？ | 19:37 | 1213 |
-| 54 | [BV11FqSY2EKJ](https://www.bilibili.com/video/BV11FqSY2EKJ) | 华为诺亚陈汉亭： 重拾U-Net的扩散架构U-DiT | 9:59 | 1499 |
-| 55 | [BV1rHqZYeECL](https://www.bilibili.com/video/BV1rHqZYeECL) | OpenDrivelab 布清文：迈向机器人操作的基础模型 | 17:17 | 813 |
-| 56 | [BV164qZYcE3d](https://www.bilibili.com/video/BV164qZYcE3d) | 北大林昊苇：无训练的扩散生成指导 | 19:14 | 757 |
-| 57 | [BV16sqZYaEes](https://www.bilibili.com/video/BV16sqZYaEes) | 北大孟繁续：高效微调方法PiSSA | 28:29 | 595 |
-| 58 | [BV1nsqZYYEan](https://www.bilibili.com/video/BV1nsqZYYEan) | 智源崔玉峰：无编码器视觉语言模型 | 12:25 | 536 |
-| 59 | [BV1y7qZYTEpN](https://www.bilibili.com/video/BV1y7qZYTEpN) | 清华张亦弛：多模态可信评估MultiTrust | 15:35 | 1100 |
-| 60 | [BV1y7qZYTEMy](https://www.bilibili.com/video/BV1y7qZYTEMy) | 复旦黄辰宇：免微调的高性能模型融合 | 14:23 | 587 |
-| 61 | [BV1pEUSBPEhj](https://www.bilibili.com/video/BV1pEUSBPEhj) | 圆桌对话：世界模型会成为下一个 AI前沿吗? | 44:49 | 2460 |
-| 62 | [BV1HJUSBYEdj](https://www.bilibili.com/video/BV1HJUSBYEdj) | 复旦邱锡鹏教授：情境智能：补全 AGI 的关键拼图 | 40:52 | 1156 |
-| 63 | [BV18PUSBCEW8](https://www.bilibili.com/video/BV18PUSBCEW8) | 南大范琦副教授：从帧到世界：面向世界模型的长视频生成 | 37:44 | 924 |
-| 64 | [BV1bVUhBREuV](https://www.bilibili.com/video/BV1bVUhBREuV) | 清华大学顾欣然：数据混合下大模型知识学习的相变规律 | 20:53 | 313 |
-| 65 | [BV19RUUBSEeH](https://www.bilibili.com/video/BV19RUUBSEeH) | 人大卫雅珂：关注单模态学习的PEFT方法 | 16:03 | 321 |
-| 66 | [BV1V6UQBoEBt](https://www.bilibili.com/video/BV1V6UQBoEBt) | 国防科技大学王奉祥：扩展遥感多模态大模型支撑8K以上分辨率 | 12:55 | 221 |
-| 67 | [BV1tXUQBUEtm](https://www.bilibili.com/video/BV1tXUQBUEtm) | 灵初智能实习研究员祝可菲：自我提升式灵巧手数据生成飞轮 | 8:40 | 327 |
-| 68 | [BV1jeUbBYE6e](https://www.bilibili.com/video/BV1jeUbBYE6e) | 人大李安亿：几何等变模型：破解混合体系性质预测的新密钥 | 17:09 | 241 |
-| 69 | [BV1SmUbBXEeU](https://www.bilibili.com/video/BV1SmUbBXEeU) | 清华大学潘至璇：从压缩视角理解大语言模型 | 15:59 | 1220 |
-| 70 | [BV1mDUbBDEXp](https://www.bilibili.com/video/BV1mDUbBDEXp) | 清华大学乐洋：RLVR 能力边界再审视——提效多，创新少 | 19:55 | 912 |
-| 71 | [BV1F4UbBMEkm](https://www.bilibili.com/video/BV1F4UbBMEkm) | 北大孟繁续：将 GQA 转成 MLA 获得10倍推理加速 | 19:13 | 1069 |
-| 72 | [BV1WEUbBCE6D](https://www.bilibili.com/video/BV1WEUbBCE6D) | 杜伦大学肖程昊：揭示生成-表征缩放定律，以语言为中心的全模态表征学习新范式 | 16:50 | 258 |
-| 73 | [BV1qB8szbEfm](https://www.bilibili.com/video/BV1qB8szbEfm) | 哈工大车万翔教授：ACL 2025 趋势及展望 | 35:09 | 1794 |
-| 74 | [BV1Eq8szFENv](https://www.bilibili.com/video/BV1Eq8szFENv) | 上交刘鹏飞副教授：大模型强化学习与复杂推理 | 35:17 | 2493 |
-| 75 | [BV1zF87z3ErW](https://www.bilibili.com/video/BV1zF87z3ErW) | 圆桌对话：爆火的「上下文工程」，价值几何？ | 49:23 | 606 |
-| 76 | [BV1XY8jzfE8N](https://www.bilibili.com/video/BV1XY8jzfE8N) | 清华邱寒副教授：揭示大语言模型反思技术的黑暗面 | 9:56 | 373 |
-| 77 | [BV1hi8jzZEWM](https://www.bilibili.com/video/BV1hi8jzZEWM) | 人大王磊：基于大模型智能体研究霍曼斯社会交换论 | 13:22 | 197 |
-| 78 | [BV1Di8jzoEoj](https://www.bilibili.com/video/BV1Di8jzoEoj) | 北师大徐书航 ：借助隐喻实现游戏智能体的隐蔽通信策略 | 14:44 | 179 |
-| 79 | [BV1e58JzzEtG](https://www.bilibili.com/video/BV1e58JzzEtG) | 中科院信工所胡斗：通过平衡表示实现公平的多任务学习 | 17:22 | 189 |
-| 80 | [BV1vV8JzgE7G](https://www.bilibili.com/video/BV1vV8JzgE7G) | 南大程紫峰：增强大语言模型嵌入通过免训练的词元前置技术 | 7:56 | 116 |
-| 81 | [BV1xY8Jz4EtR](https://www.bilibili.com/video/BV1xY8Jz4EtR) | 清华黄宇翔 ：设计序列并行友好的近似注意力机制 | 16:21 | 158 |
-| 82 | [BV1xY8Jz4EtX](https://www.bilibili.com/video/BV1xY8Jz4EtX) | 哈工大罗先镇 ：变废为宝:用2MB空间撬起2倍无损加速 | 16:46 | 171 |
-| 83 | [BV12h8JzZEpk](https://www.bilibili.com/video/BV12h8JzZEpk) | 腾讯 AI Lab 王琰：低熵并行编码实现高效推理 | 18:42 | 305 |
-| 84 | [BV1EQtuz2Ezs](https://www.bilibili.com/video/BV1EQtuz2Ezs) | 北京大学吉嘉铭：从弹簧胡克定律思考大模型的参数弹性与抗拒对齐 | 17:18 | 1675 |
-| 85 | [BV1K9Tk6QE4j](https://www.bilibili.com/video/BV1K9Tk6QE4j) | 北大张文涛：面向大模型的 Data-centric AI 基础设施 | 35:08 | 442 |
-| 86 | [BV1K9Tk6QEvN](https://www.bilibili.com/video/BV1K9Tk6QEvN) | 北师大钟方威：基于欲求对齐的高效具身通信与主动交互 | 20:56 | 127 |
-| 87 | [BV1x9Tk6QERY](https://www.bilibili.com/video/BV1x9Tk6QERY) | 清华陈泽华：全局语义、精确时间、人声可懂的高可控文生音频系统ControlAudio | 12:14 | 193 |
-| 88 | [BV1T9Tk6QEVG](https://www.bilibili.com/video/BV1T9Tk6QEVG) | UCLA周自横：用 LLM Agent 模拟研究人类为何进化出道德 | 14:01 | 180 |
-| 89 | [BV1K9Tk6QErv](https://www.bilibili.com/video/BV1K9Tk6QErv) | 人大汤昕宇：可验证奖励的强化学习中样本极性的探索 | 15:13 | 189 |
-| 90 | [BV1K9Tk6QEiE](https://www.bilibili.com/video/BV1K9Tk6QEiE) | MBZUAI高朗：个性化场景下AI文本检测器的效果反转现象 | 19:28 | 770 |
-| 91 | [BV11dTk6nES9](https://www.bilibili.com/video/BV11dTk6nES9) | 中科院李阳：面向细粒度AI生成文本检测的“创作者-编辑者”双重建模 | 16:22 | 174 |
-| 92 | [BV1xdTk6nEZC](https://www.bilibili.com/video/BV1xdTk6nEZC) | 西湖大学张驰 | 自主进化智能体：从固定工作流到动态架构的演进 | 39:51 | 1013 |
-| 93 | [BV1KdTk6nEtd](https://www.bilibili.com/video/BV1KdTk6nEtd) | 圆桌对话：Agent又有了新范式？ | 56:58 | 898 |
-| 94 | [BV12dTk6nE4T](https://www.bilibili.com/video/BV12dTk6nE4T) | 北理工田炎智：基于Agent-as-a-Judge的非字面翻译评测 | 12:37 | 315 |
-| 95 | [BV1NdTk6nE6n](https://www.bilibili.com/video/BV1NdTk6nE6n) | 清华花佳诚：结构化文本表征引导多模态大模型空间推理 | 14:09 | 300 |
-| 96 | [BV1NdTk6nEyP](https://www.bilibili.com/video/BV1NdTk6nEyP) | 北理工杨振：大模型视角旋转理解可解释性研究 | 13:43 | 321 |
+| # | 讲者 | 单位/身份 | 题目 | 时长 | B站 |
+|---:|---|---|---|---:|---|
+| 1 | 冯洋 | 中国科学院计算技术研究所研究员、博士生导师、“新百星人才计划” 入选者，长期从事自然语言处理方向的研究，在本领域重要期刊… | 中国科学院冯洋：即时交互多模态大模型初探 | 36:51 | [看](https://www.bilibili.com/video/BV1v5qmYbESf) |
+| 2 | - | 叶天竺是来自清华大学的一年级博士生，导师为清华大学自动化系黄高副教授。他的研究主要围绕开发更强大、更高效的深度学习基础模… | 清华叶天竺：差分注意力攻克长序列建模难题 | 18:22 | [看](https://www.bilibili.com/video/BV1DyGCzsEUt) |
+| 3 | 郭英楠 | 高德地图视觉技术中心实习生、浙江大学控制科学与工程学院硕士研究生 | 浙大郭英楠：具身导航基座模型-不仅要“走得到”，还要“走得对” | 8:27 | [看](https://www.bilibili.com/video/BV1mtV262EST) |
+| 4 | 班义琨 | 北航计算机学院教授 黄之鹏 华为 AI 开源生态总监、LFAI&Data 基金会董事会主席 张宁豫 浙江大学副教授 | 圆桌对话：OpenClaw 后，Agent 何去何从？ | 45:06 | [看](https://www.bilibili.com/video/BV1q1oaBcEvV) |
+| 5 | - | 清华大学计算机专业博五 顾欣然 | 清华大学顾欣然：数据混合下大模型知识学习的相变规律 | 20:53 | [看](https://www.bilibili.com/video/BV1bVUhBREuV) |
+| 6 | 王琰 | 腾讯AI Lab模型架构探索负责人。曾任职于米哈游以及腾讯游戏AI平台部。曾获ACL 2021杰出论文奖，IEEE Tr… | 腾讯 AI Lab 王琰：低熵并行编码实现高效推理 | 18:42 | [看](https://www.bilibili.com/video/BV12h8JzZEpk) |
+| 7 | - | 杜伦大学博士生肖程昊 | 杜伦大学肖程昊：揭示生成-表征缩放定律，以语言为中心的全模态表征学习新范式 | 16:50 | [看](https://www.bilibili.com/video/BV1WEUbBCE6D) |
+| 8 | - | 灵初智能实习研究员祝可菲 | 灵初智能实习研究员祝可菲：自我提升式灵巧手数据生成飞轮 | 8:40 | [看](https://www.bilibili.com/video/BV1tXUQBUEtm) |
+| 9 | - | - | 北大林昊苇：无训练的扩散生成指导 | 19:14 | [看](https://www.bilibili.com/video/BV164qZYcE3d) |
+| 10 | 刘尚格 | 南京大学计算机学院硕士生 | 南大刘尚格：理解并强化任务算术中的权重解耦 | 14:49 | [看](https://www.bilibili.com/video/BV1KhV261EsN) |
+| 11 | 程紫峰 | 2025年6月于南京大学计算机学院获得博士学位，导师为顾庆教授和蒋智威助理教授，研究方向为大语言模型嵌入和引导。在ACL… | 南大程紫峰：增强大语言模型嵌入通过免训练的词元前置技术 | 7:56 | [看](https://www.bilibili.com/video/BV1vV8JzgE7G) |
+| 12 | 占国建 | 清华大学车辆学院&人工智能学院博士生 | 清华占国建：生成式强化学习迈入极速单步时代 | 19:27 | [看](https://www.bilibili.com/video/BV1RuoaBdEQE) |
+| 13 | 徐书航 | 北京师范大学人工智能学院硕士生 | 北师大徐书航 ：借助隐喻实现游戏智能体的隐蔽通信策略 | 14:44 | [看](https://www.bilibili.com/video/BV1Di8jzoEoj) |
+| 14 | 王磊 | 中国人民大学高瓴人工智能学院博士生，研究方向为大模型智能体角色扮演和模拟仿真，在WWW，NIPS，TOIS，ACL等会议… | 人大王磊：基于大模型智能体研究霍曼斯社会交换论 | 13:22 | [看](https://www.bilibili.com/video/BV1hi8jzZEWM) |
+| 15 | - | 张群英（主持人）ICT 产业观察家，黄大年茶思屋科技网站总编 薄杨 华为香港研究所小艺大模型应用实验室多模态专家、技术 … | 圆桌对话：下一代视觉智能，该如何定义? | 62:34 | [看](https://www.bilibili.com/video/BV1hDV66qEjK) |
+| 16 | 熊峰 | 阿里巴巴高德地图算法专家。作为阿里巴巴高德地图世界模型团队负责人，带领团队构建下一代空间智能地图基础设施。我们推出业界首… | 高德熊峰: 面向3D生成数字人的大规模自动绑骨数据集和端到端自动绑骨算法 | 15:42 | [看](https://www.bilibili.com/video/BV1bcMqzdE2w) |
+| 17 | - | 杨林易博士自2017年起在都柏林大学攻读博士学位，后在UCL及华为诺亚伦敦研究所从事研究科学家工作，在人工智能领域取得了… | 南科大杨林易：基于多表多跳复杂问题的大模型评估 | 11:09 | [看](https://www.bilibili.com/video/BV1kNG2zUEtH) |
+| 18 | - | - | 中科院李阳：面向细粒度AI生成文本检测的“创作者-编辑者”双重建模 | 16:22 | [看](https://www.bilibili.com/video/BV11dTk6nES9) |
+| 19 | 王耀宇 | 中国科学院计算技术研究所博士生 | 中科院王耀宇：融合预训练模型与深度强化学习攻克稀疏矩阵高性能代码生成难题 | 14:17 | [看](https://www.bilibili.com/video/BV1XGoaBXEUZ) |
+| 20 | - | - | 北师大钟方威：基于欲求对齐的高效具身通信与主动交互 | 20:56 | [看](https://www.bilibili.com/video/BV1K9Tk6QEvN) |
+| 21 | 车万翔 | 哈尔滨工业大学计算学部长聘教授 / 博士生导师，人工智能研究院副院长，斯坦福大学访问学者。主要研究领域为自然语言处理、大… | 哈工大车万翔教授：ACL 2025 趋势及展望 | 35:09 | [看](https://www.bilibili.com/video/BV1qB8szbEfm) |
+| 22 | 汪晗阳 | 清华大学计算机系本科四年级学生，即将进入清华大学段岳圻老师课题组读研。研究方向为三维视觉、视频生成等，已在CVPR，EC… | 清华汪晗阳：基于一致性蒸馏的单步视频扩散与场景生成 | 13:50 | [看](https://www.bilibili.com/video/BV1PsNiz6ECb) |
+| 23 | - | - | 清华陈泽华：全局语义、精确时间、人声可懂的高可控文生音频系统ControlAudio | 12:14 | [看](https://www.bilibili.com/video/BV1x9Tk6QERY) |
+| 24 | 姚权铭 | 清华大学电子工程系副教授 | 清华姚权铭 / 结构化上下文：有限监督泛化的新路径 | 41:26 | [看](https://www.bilibili.com/video/BV1eEosBiEL8) |
+| 25 | - | - | 清华张亦弛：多模态可信评估MultiTrust | 15:35 | [看](https://www.bilibili.com/video/BV1y7qZYTEpN) |
+| 26 | 温学儒 | 中国科学院大学计算机科学与技术专业博士研究生，研究方向为大语言模型对齐与强化学习。在 ICLR、SIGIR等国际顶级学术… | 国科大温学儒：重新思考奖励模型评估 | 12:49 | [看](https://www.bilibili.com/video/BV1pJGCzkEer) |
+| 27 | 魏忠钰 | 复旦大学大数据学院副教授、智能复杂体系实验室双聘研究员、博士生导师、数据智能与社会计算实验室（Fudan DISC）负责… | 复旦魏忠钰：大模型驱动的社会智能体 | 35:06 | [看](https://www.bilibili.com/video/BV1S2q2YmEp7) |
+| 28 | - | - | MBZUAI高朗：个性化场景下AI文本检测器的效果反转现象 | 19:28 | [看](https://www.bilibili.com/video/BV1K9Tk6QEiE) |
+| 29 | 何秉翔 | 清华大学计算机系博士生 | 清华何秉翔：大模型的无监督强化学习能走多远？ | 19:13 | [看](https://www.bilibili.com/video/BV1b6ohB1EEE) |
+| 30 | - | - | 圆桌对话：Agent又有了新范式？ | 56:58 | [看](https://www.bilibili.com/video/BV1KdTk6nEtd) |
+| 31 | 盛律 | 北京航空航天大学教授，博导 | 北航盛律：基于生成式视觉先验的三维内容生成和理解 | 36:51 | [看](https://www.bilibili.com/video/BV1a1VB6AEWo) |
+| 32 | 邓志杰 | 上海交通大学副教授，博导 | 上交邓志杰 / 隐空间统一模型：从跨模态推理到世界建模 | 40:22 | [看](https://www.bilibili.com/video/BV1G4Vz6NEMD) |
+| 33 | 陈键飞 | 清华大学计算机系准聘副教授。2010-2019 年获清华大学学士和博士学位。从事高效机器学习研究，谷歌学术引用 5000… | 清华陈键飞｜基于量化稀疏的高效训练推理：理论及算法 | 41:35 | [看](https://www.bilibili.com/video/BV1apGyzbEsn) |
+| 34 | - | 南京大学智能科学与技术学院准聘副教授,国家高层次青年人才范琦 | 南大范琦副教授：从帧到世界：面向世界模型的长视频生成 | 37:44 | [看](https://www.bilibili.com/video/BV18PUSBCEW8) |
+| 35 | 陈泽华 | 清华大学计算机系水木学者博士后 | 清华陈泽华：Omni2Sound-破解统一多模态音频生成的"通才困境" | 15:05 | [看](https://www.bilibili.com/video/BV1TdVB64EEx) |
+| 36 | - | 国防科技大学计算机学院博士三年级研究生 王奉祥 | 国防科技大学王奉祥：扩展遥感多模态大模型支撑8K以上分辨率 | 12:55 | [看](https://www.bilibili.com/video/BV1V6UQBoEBt) |
+| 37 | 吉嘉铭 | 北京大学人工智能研究院博士生，导师为杨耀东助理教授，研究方向为强化学习和大模型对齐，共发表顶会期刊论文二十余篇，论文入选… | 北京大学吉嘉铭：从弹簧胡克定律思考大模型的参数弹性与抗拒对齐 | 17:18 | [看](https://www.bilibili.com/video/BV1EQtuz2Ezs) |
+| 38 | - | - | 西湖大学张驰 / 自主进化智能体：从固定工作流到动态架构的演进 | 39:51 | [看](https://www.bilibili.com/video/BV1xdTk6nEZC) |
+| 39 | - | - | 字节焦少慧：各向异性3D高斯泼溅 | 27:06 | [看](https://www.bilibili.com/video/BV1KdqZYGEgz) |
+| 40 | 苑会宁 | 清华大学深圳国际研究生院博士生 | 清华苑会宁：评估大模型在多智能体环境中的推理决策能力 | 12:08 | [看](https://www.bilibili.com/video/BV1PeV26CESo) |
+| 41 | 韩东辰 | 清华大学在读博士生 | 清华韩东辰：解锁视觉测试时训练新架构 | 19:25 | [看](https://www.bilibili.com/video/BV12hV26yEGS) |
+| 42 | 渠常乐 | 中国人民大学高瓴人工智能学院博士二年级，师从徐君教授，研究方向为大模型工具学习，信息检索等，在ICLR，SIGIR，CI… | 人大渠常乐｜从人工标注到自我迭代：大模型工具学习的动态文档优化新范式 | 13:25 | [看](https://www.bilibili.com/video/BV1YHGyzFEKz) |
+| 43 | 刘鹏飞 | 上海交通大学副教授、创智学院导师、清源研究院院长助理，国家海外优青。专注于自然语言的预训、复杂推理等研究方向；谷歌学术引… | 上交刘鹏飞副教授：大模型强化学习与复杂推理 | 35:17 | [看](https://www.bilibili.com/video/BV1Eq8szFENv) |
+| 44 | 元文瑄 | 英国帝国理工学院应用计算硕士 | 帝国理工元文瑄：信息塑造的Koopman表征 | 15:04 | [看](https://www.bilibili.com/video/BV1GhohBQEBd) |
+| 45 | - | - | OpenDrivelab 布清文：迈向机器人操作的基础模型 | 17:17 | [看](https://www.bilibili.com/video/BV1rHqZYeECL) |
+| 46 | - | - | 人大汤昕宇：可验证奖励的强化学习中样本极性的探索 | 15:13 | [看](https://www.bilibili.com/video/BV1K9Tk6QErv) |
+| 47 | 郭俊甫 | 中国科学技术大学博士三年级，数学专业，计算机图形学方向，导师为刘利刚老师和深圳大学的胡瑞珍老师。博士期间在图形学会议SI… | 中国科大郭俊甫：基于三维高斯泼贱的铰链物体自监督重建方法 | 17:54 | [看](https://www.bilibili.com/video/BV1KjNezME4e) |
+| 48 | - | 中国人民大学高瓴人工智能学院博士生李安亿 | 人大李安亿：几何等变模型：破解混合体系性质预测的新密钥 | 17:09 | [看](https://www.bilibili.com/video/BV1jeUbBYE6e) |
+| 49 | 田浩辰 | 中科院自动化所模式识别实验室在读博士生 | 中科院自动化所田浩辰: SimScale-大规模真实世界仿真重塑端到端自动驾驶学习范式 | 23:22 | [看](https://www.bilibili.com/video/BV1HKVz6UEqU) |
+| 50 | - | - | 圆桌对话：世界模型会成为下一个 AI前沿吗? | 44:49 | [看](https://www.bilibili.com/video/BV1pEUSBPEhj) |
+| 51 | - | - | 智源崔玉峰：无编码器视觉语言模型 | 12:25 | [看](https://www.bilibili.com/video/BV1nsqZYYEan) |
+| 52 | - | 李朋祥为北京理工大学与北京通用人工智能研究院联合培养博士生，主研多模态智能体、视觉语言模型及三维视觉理解。已在NeurI… | 北理工李朋祥：多模态智能体微调-为高效工具调用构建多模态智能体 | 11:16 | [看](https://www.bilibili.com/video/BV1xiGyzSEgp) |
+| 53 | - | - | 北大张文涛：面向大模型的 Data-centric AI 基础设施 | 35:08 | [看](https://www.bilibili.com/video/BV1K9Tk6QE4j) |
+| 54 | 张金禄 | 北京大学博士三年级 | 北大张金禄：多模态条件可控动作生成 | 10:43 | [看](https://www.bilibili.com/video/BV1j7Vz63EXJ) |
+| 55 | 黄倍 | 北京大学智能科学与技术专业在读研究生 | 北大黄倍：从高斯内部建模到混合材料模拟 | 16:26 | [看](https://www.bilibili.com/video/BV1NdVm67EU6) |
+| 56 | 杨昊桐 | 北京大学智能学院四年级博士研究生，导师为林宙辰教授和张牧涵助理教授，主要研究方向是大语言模型的复杂推理（reason）能… | 北大杨昊桐：数字对于大模型来说为什么这么难？ | 14:22 | [看](https://www.bilibili.com/video/BV12ZG1zWEut) |
+| 57 | 王宇航 | 北京理工大学信息与电子学院在读博士 | 北理王宇航：压缩域辅助的在线视频超分辨率方法 | 21:00 | [看](https://www.bilibili.com/video/BV1vzVB6TEWt) |
+| 58 | - | - | 圆桌对话：大模型技术拐点到了吗？ | 58:00 | [看](https://www.bilibili.com/video/BV1PZq2Y3E93) |
+| 59 | 黄宇翔 | 即将入学清华大学自然语言处理与社会人文计算实验室攻读博士学位。他的研究兴趣集中在高效大语言模型，主要从事大模型推理加速方… | 清华黄宇翔 ：设计序列并行友好的近似注意力机制 | 16:21 | [看](https://www.bilibili.com/video/BV1xY8Jz4EtR) |
+| 60 | 张志洲 | 博世人工智能中心 AI Research Scientist | 博世张志洲：有效利用无标仿真，基于纯几何信息的神经算子预训练框架 | 24:01 | [看](https://www.bilibili.com/video/BV1SEoaBUE2S) |
+| 61 | 李崇轩 | 中国人民大学高瓴人工智能学院准聘副教授、博士生导师，2010-2019年获清华大学学士和博士学位。主要研究机器学习、深度… | 人大李崇轩｜LLaDA：语言模型新范式 | 33:44 | [看](https://www.bilibili.com/video/BV1APG2znE2p) |
+| 62 | 邱海权 | 清华大学电子工程系四年级博士生 | 清华邱海权：低精度语言模型训练为什么失败？ | 12:21 | [看](https://www.bilibili.com/video/BV1MkohB5EGP) |
+| 63 | 邱寒 | 清华网研院副教授、博导。研究方向为AI安全，在AI和安全领域顶会顶刊共发表50余篇论文，获ACL 2024杰出论文奖、入… | 清华邱寒副教授：揭示大语言模型反思技术的黑暗面 | 9:56 | [看](https://www.bilibili.com/video/BV1XY8jzfE8N) |
+| 64 | - | - | 华为诺亚陈汉亭： 重拾U-Net的扩散架构U-DiT | 9:59 | [看](https://www.bilibili.com/video/BV11FqSY2EKJ) |
+| 65 | - | - | 圆桌对话 ｜ LLM 驱动的 Agent：技术瓶颈与融合路径 | 40:32 | [看](https://www.bilibili.com/video/BV1wTG2zEEbx) |
+| 66 | - | - | 北大孟繁续：高效微调方法PiSSA | 28:29 | [看](https://www.bilibili.com/video/BV16sqZYaEes) |
+| 67 | 张泽锋 | 中国科学院大学信息工程研究所硕博三年级，导师为柳厅文研究员，主要关注多模态大模型后训练。以第一作者发表于 CVPR 20… | 中科院张泽锋：基于噪声感知偏好优化缓解多模态大模型的模态偏差 | 13:43 | [看](https://www.bilibili.com/video/BV1RyNizdEBv) |
+| 68 | 田长鑫 | 蚂蚁集团算法专家 | 蚂蚁田长鑫：模型合并驱动的大模型预训练策略革新 | 16:14 | [看](https://www.bilibili.com/video/BV1dmoaBfE3e) |
+| 69 | - | 复旦大学教授、上海创智学院导师邱锡鹏 | 复旦邱锡鹏教授：情境智能：补全 AGI 的关键拼图 | 40:52 | [看](https://www.bilibili.com/video/BV1HJUSBYEdj) |
+| 70 | - | 中国人民大学高瓴人工智能学院博士生卫雅珂 | 人大卫雅珂：关注单模态学习的PEFT方法 | 16:03 | [看](https://www.bilibili.com/video/BV19RUUBSEeH) |
+| 71 | 杜思逸 | 英国帝国理工学院 BioMedIA 实验室博士三年级 | 帝国理工杜思逸：让多模态模型学会选择，突破模态缺失难题 | 16:14 | [看](https://www.bilibili.com/video/BV11toaBkEPx) |
+| 72 | - | （排名不分先后）： 徐军，黄大年茶思屋科技网站首席内容官，在ICT从业的30多年期间，从事多种技术和市场工作，服务于包括… | 圆桌对话：迈向理解与生成统一的多模态大模型 | 44:32 | [看](https://www.bilibili.com/video/BV1RcNezEEVd) |
+| 73 | 黄雷 | 北京航空航天大学人工智能学院副教授。本科和博士均毕业于北京航空航天大学，曾在美国密歇根大学访学和阿联酋IIAI工作。研究… | 北航黄雷：从表征和学习视角议多模态大模型的统一之路 | 45:35 | [看](https://www.bilibili.com/video/BV1hTNez5Ets) |
+| 74 | - | - | 复旦黄辰宇：免微调的高性能模型融合 | 14:23 | [看](https://www.bilibili.com/video/BV1y7qZYTEMy) |
+| 75 | - | 清华大学四年级直博生乐洋 | 清华大学乐洋：RLVR 能力边界再审视——提效多，创新少 | 19:55 | [看](https://www.bilibili.com/video/BV1mDUbBDEXp) |
+| 76 | 兰天 | 北京理工大学计算机科学与技术硕博连读研究生，师从毛先领教授，主攻文本生成、生成质量评估及大语言模型反思能力研究。在Neu… | 北理工兰天：分块注意力提升大模型检索增强生成效率 | 15:04 | [看](https://www.bilibili.com/video/BV1KgGCzUEfD) |
+| 77 | - | - | UCLA周自横：用 LLM Agent 模拟研究人类为何进化出道德 | 14:01 | [看](https://www.bilibili.com/video/BV1T9Tk6QEVG) |
+| 78 | - | - | 哈工大陈麒光：如何量化与提升思维链的推理能力边界？ | 19:37 | [看](https://www.bilibili.com/video/BV1q7qSYNE3V) |
+| 79 | 黄江勇 | 北京大学智能学院在读博士生，师从朱松纯教授，同时是北京通用人工智能研究院通用视觉实验室实习研究员。研究方向包括三维场景理… | 北大黄江勇：可靠精细的新型三维视觉语言评测基准 | 18:05 | [看](https://www.bilibili.com/video/BV1R6NezDEBu) |
+| 80 | - | 复旦大学计算机学院的二年级博士生，由上海人工智能实验室共同指导。研究兴趣包括自然语言处理、高效机器学习以及医疗/临床领域… | 复旦江书洋：参数冗余微调算法NoRM | 15:24 | [看](https://www.bilibili.com/video/BV11BGyzEEcc) |
+| 81 | - | 张群英（主持人）ICT 产业观察家，黄大年茶思屋科技网站总编 程鹏宇 阿里巴巴夸克基座大模型强化学习方向 Lead 刘鹏… | 圆桌对话：爆火的「上下文工程」，价值几何？ | 49:23 | [看](https://www.bilibili.com/video/BV1zF87z3ErW) |
+| 82 | 张宁豫 | 浙江大学副教授 | 浙大张宁豫 / 迈向可持续学习的智能体：现状与趋势——以 OpenClaw 为例 | 42:03 | [看](https://www.bilibili.com/video/BV173osB3E5f) |
+| 83 | 林宁 | 中国人民大学高瓴人工智能学院硕士二年级 | 人大林宁：降低对称性提升-等变神经网络的表征能力与特征选择 | 14:44 | [看](https://www.bilibili.com/video/BV124oaBVEVe) |
+| 84 | - | 清华大学交叉信息研究院二年级博士生潘至璇 | 清华大学潘至璇：从压缩视角理解大语言模型 | 15:59 | [看](https://www.bilibili.com/video/BV1SmUbBXEeU) |
+| 85 | 高林 | 中国科学院计算技术研究所研究员、中国科学院大学岗位教授。研究方向为计算机图形学、三维计算机视觉。在SIGGRAPH、TP… | 国科大高林：基于混合表达与生成模型的可视媒体合成与编辑方法 | 48:43 | [看](https://www.bilibili.com/video/BV1oyMizqE6Z) |
+| 86 | - | - | 北理工田炎智：基于Agent-as-a-Judge的非字面翻译评测 | 12:37 | [看](https://www.bilibili.com/video/BV12dTk6nE4T) |
+| 87 | 张继耀 | 北京大学前沿计算研究中心博士研究生，师从董豪助理教授。研究方向聚焦于3D感知与具身智能。以第一作者或共同第一作者的身份在… | 北大张继耀：基于以物体为中心的交互基元构造空间约束驱动机器人通用操作 | 16:39 | [看](https://www.bilibili.com/video/BV1AWNezYEyR) |
+| 88 | 王希华 | 本科毕业于哈尔滨工业大学，目前是中国人民大学高瓴人工智能学院在读博士生，导师宋睿华副教授。主要研究兴趣在多模态生成，包括… | 人大高瓴王希华：图像到有声视频的生成模型 | 22:16 | [看](https://www.bilibili.com/video/BV1wtNizBEzu) |
+| 89 | - | 北京大学人工智能研究院博士生孟繁续 | 北大孟繁续：将 GQA 转成 MLA 获得10倍推理加速 | 19:13 | [看](https://www.bilibili.com/video/BV1F4UbBMEkm) |
+| 90 | - | - | 北理工杨振：大模型视角旋转理解可解释性研究 | 13:43 | [看](https://www.bilibili.com/video/BV1NdTk6nEyP) |
+| 91 | 唐熠杰 | 国防科技大学计算机学院博士在读，研究兴趣包括三维重建、SLAM、三维语义分割等，曾在CVPR、SIGGRAPH Asia… | 国科大唐熠杰：二维视觉基础模型引导的零样本在线三维实例分割方法 | 15:49 | [看](https://www.bilibili.com/video/BV1PpNezPEEh) |
+| 92 | - | 周子翔目前在腾讯混元多模态平台部担任高级算法研究员。他博士毕业于Rutgers University（美国），先后在百度… | 腾讯混元周子翔：多模态驱动的数字人技术（系统） | 27:45 | [看](https://www.bilibili.com/video/BV1hoMizbEiY) |
+| 93 | 齐济 | 清华大学计算机科学与技术系知识工程实验室（KEG）博士生，主要研究方向是多模态大模型训练。曾在CIKM、EMNLP、IC… | 清华齐济：多模态大模型基于操作链进行有证据的视觉推理 | 9:32 | [看](https://www.bilibili.com/video/BV1wNG2zSEi7) |
+| 94 | 罗先镇 | 哈尔滨工业大学赛尔实验室三年级直博生，导师为车万翔教授和朱庆福副教授，研究方向为代码智能。以第一作者在ACL，EMNLP… | 哈工大罗先镇 ：变废为宝:用2MB空间撬起2倍无损加速 | 16:46 | [看](https://www.bilibili.com/video/BV1xY8Jz4EtX) |
+| 95 | - | - | 清华花佳诚：结构化文本表征引导多模态大模型空间推理 | 14:09 | [看](https://www.bilibili.com/video/BV1NdTk6nE6n) |
+| 96 | 胡斗 | 中科院信工所博士，研究方向是自然语言处理，主要关注表示学习理论与可信大语言模型。以一作身份发表论文十余篇，其中CCF-A… | 中科院信工所胡斗：通过平衡表示实现公平的多任务学习 | 17:22 | [看](https://www.bilibili.com/video/BV1e58JzzEtG) |
 
----
+## 逐条
 
-*2026-10-11 快照。仅为目录索引，内容版权归原作者所有。*
+- **中国科学院冯洋：即时交互多模态大模型初探**
+  - 讲者 **冯洋** · 中国科学院计算技术研究所研究员、博士生导师、“新百星人才计划” 入选者，长期从事自然语言处理方向的研究，在本领域重要期刊和会议发表论文 100 多篇。担任 ARR Permanent Senior Action Editor、Artificial Intelligence 等期刊编委以及 ACL/EMNLP 等国际会议 (高级) 领域主席。主导研发了百聆大模型和 LLaMA-Omni 即时交互语音大模型，获得 ACL2019 最佳长文奖、中国人工智能学会 “杰出贡献奖”、CCF 自然言处理专委会 “青年新锐奖”、 中文信息学会 “钱伟长中文信息处理科学技术奖 - 汉王青年创新奖” 一等奖等。 分享摘要：大模型作为现在人工智能领域的主流范式，最初基于文本语料训练得到，由于人们获取信息的多样化，又融合了语音和视觉模态，然而文本仍然是大模型知识的主要来源，其他模态通常与文本模态进行对齐来共享知识。人类有借助于语音和视觉模态与大语言模型进行即时交互的需求，因此需要大模型能够处理流式输入并进行即时响应，发展出了即时交互多模态大模型。而即时交互多模态大模型需要解决以下挑战：首先，要针对用户指令进行快速响应，要求推理速度足够快；其次，针对流式输入，需要判断进行响应的合适时机；再次，需要将其他模态与文本模态对齐，进行跨模态理解和生成；最后，视觉模态信息处理资源消耗大，如何对其压缩保证能够读取更长历史，直接决定视觉模态交互的性能。本报告将围绕即时交互多模态大模型，介绍我们针对以上解码加速、流式输入、多模态对齐以及视觉压缩方面的探索。 · [B站](https://www.bilibili.com/video/BV1v5qmYbESf)
+  - 嘉宾介绍：冯洋，中国科学院计算技术研究所研究员、博士生导师、“新百星人才计划” 入选者，长期从事自然语言处理方向的研究，在本领域重要期刊和会议发表论文 100 多篇。担任 ARR Permanent Senior Action Editor、Artificial Intelligence 等期刊编委以及 ACL/EMNLP 等国际会议 (高级) 领域主席。主导研发了百聆大模型和 LLaMA-Omni 即时交互语音大模型，获得 ACL2019 最佳长文奖、中国人工智能学会 “杰出贡献奖”、CCF 自然言处理专委会 “青年新锐奖”、 中文信息学会 “钱伟长中文信息处理科学技术奖 - 汉王青年创新奖” 一等奖等。 分享摘要：大模型作为现在人工智能领域的主流范式，最初基于文本语料训练得到，由于人们获取信息的多样化，又融合了语音和视觉模态，然而文本仍然是大模型知识的主要来源，其他模态通常与文本模态进行对齐来共享知识。人类有借助于语音和视觉模态与大语言模型进行即时交互的需求，因此需要大模型能够处理流式输入并进行即时响应，发展出了即时交互多模态大模型。而即时交互多模态大模型需要解决以下挑战：首先，要针对用户指令进行快速响应，要求推理速度足够快；其次，针对流式输入，需要判断进行响应的合适时机；再次，需要将其他模态与文本模态对齐，进行跨模态理解和生成；最后，视觉模态信息处理资源消耗大，如何对其压缩保证能够读取更长历史，直接决定视觉模态交互的性能。本报告将围绕即时交互多模态大模型，介绍我们针对以上解码加速、流式输入、多模态对齐以及视觉压缩方面的探索。
+  - 摘要：大模型作为现在人工智能领域的主流范式，最初基于文本语料训练得到，由于人们获取信息的多样化，又融合了语音和视觉模态，然而文本仍然是大模型知识的主要来源，其他模态通常与文本模态进行对齐来共享知识。人类有借助于语音和视觉模态与大语言模型进行即时交互的需求，因此需要大模型能够处理流式输入并进行即时响应，发展出了即时交互多模态大模型。而即时交互多模态大模型需要解决以下挑战：首先，要针对用户指令进行快速响应，要求推理速度足够快；其次，针对流式输入，需要判断进行响应的合适时机；再次，需要将其他模态与文本模态对齐，进行跨模态理解和生成；最后，视觉模态信息处理资源消耗大，如何对其压缩保证能够读取更长历史，直接决定视觉模态交互的性能。本报告将围绕即时交互多模态大模型，介绍我们针对以上解码加速、流式输入、多模态对齐以及视觉压缩方面的探索。
+- **清华叶天竺：差分注意力攻克长序列建模难题**
+  - 叶天竺是来自清华大学的一年级博士生，导师为清华大学自动化系黄高副教授。他的研究主要围绕开发更强大、更高效的深度学习基础模型架构，尤其关注模型的可扩展性与实际应用性。本次分享的论文是他在微软亚洲研究院自然语言计算组实习期间完成，指导教师是董力博士。 论文介绍：https://openreview.net/pdf?id=OvoCm1gGhN  （链接为ICLR Camera Ready版本，与Arxiv版本有所不同，请以此版本为准） 摘要：Differential Transformer论文被ICLR 2025接收，且被选为Oral。论文分析了当前基于Transformer架构的大语言模型为何难以足够有效地利用上下文，并引入差分注意力机制（Differential Attention）来解决这一问题。论文提出的Differential Transformer相比Transformer有着独特的优势，在包括长上下文语言建模、语言模型幻觉评测、数学推理、关键信息抽取、上下文学习等一系列任务中均有优异的表现。 · [B站](https://www.bilibili.com/video/BV1DyGCzsEUt)
+  - 嘉宾介绍：叶天竺是来自清华大学的一年级博士生，导师为清华大学自动化系黄高副教授。他的研究主要围绕开发更强大、更高效的深度学习基础模型架构，尤其关注模型的可扩展性与实际应用性。本次分享的论文是他在微软亚洲研究院自然语言计算组实习期间完成，指导教师是董力博士。 论文介绍：https://openreview.net/pdf?id=OvoCm1gGhN  （链接为ICLR Camera Ready版本，与Arxiv版本有所不同，请以此版本为准） 摘要：Differential Transformer论文被ICLR 2025接收，且被选为Oral。论文分析了当前基于Transformer架构的大语言模型为何难以足够有效地利用上下文，并引入差分注意力机制（Differential Attention）来解决这一问题。论文提出的Differential Transformer相比Transformer有着独特的优势，在包括长上下文语言建模、语言模型幻觉评测、数学推理、关键信息抽取、上下文学习等一系列任务中均有优异的表现。
+- **浙大郭英楠：具身导航基座模型-不仅要“走得到”，还要“走得对”**
+  - 讲者 **郭英楠** · 高德地图视觉技术中心实习生、浙江大学控制科学与工程学院硕士研究生 · [B站](https://www.bilibili.com/video/BV1mtV262EST)
+  - 嘉宾介绍：郭英楠 高德地图视觉技术中心实习生、浙江大学控制科学与工程学院硕士研究生
+- **圆桌对话：OpenClaw 后，Agent 何去何从？**
+  - 讲者 **班义琨** · 北航计算机学院教授 黄之鹏 华为 AI 开源生态总监、LFAI&Data 基金会董事会主席 张宁豫 浙江大学副教授 · [B站](https://www.bilibili.com/video/BV1q1oaBcEvV)
+  - 嘉宾介绍：班义琨 北航计算机学院教授 黄之鹏 华为 AI 开源生态总监、LFAI&Data 基金会董事会主席 张宁豫 浙江大学副教授
+- **清华大学顾欣然：数据混合下大模型知识学习的相变规律**
+  - 清华大学计算机专业博五 顾欣然 · [B站](https://www.bilibili.com/video/BV1bVUhBREuV)
+  - 嘉宾介绍：清华大学计算机专业博五 顾欣然
+- **腾讯 AI Lab 王琰：低熵并行编码实现高效推理**
+  - 讲者 **王琰** · 腾讯AI Lab模型架构探索负责人。曾任职于米哈游以及腾讯游戏AI平台部。曾获ACL 2021杰出论文奖，IEEE Trans on Games 2025最佳论文提名。做出过Temp-Lora、Block-Attention、HPD（哈利波特角色扮演对话）、Contrastive Search、Copy is All You Need等一系列业界知名工作。他开发了游戏解说及角色对话系统并在王者荣耀和三角洲行动等游戏中大规模应用。 · [B站](https://www.bilibili.com/video/BV12h8JzZEpk)
+  - 嘉宾介绍：王琰，腾讯AI Lab模型架构探索负责人。曾任职于米哈游以及腾讯游戏AI平台部。曾获ACL 2021杰出论文奖，IEEE Trans on Games 2025最佳论文提名。做出过Temp-Lora、Block-Attention、HPD（哈利波特角色扮演对话）、Contrastive Search、Copy is All You Need等一系列业界知名工作。他开发了游戏解说及角色对话系统并在王者荣耀和三角洲行动等游戏中大规模应用。
+- **杜伦大学肖程昊：揭示生成-表征缩放定律，以语言为中心的全模态表征学习新范式**
+  - 杜伦大学博士生肖程昊 · [B站](https://www.bilibili.com/video/BV1WEUbBCE6D)
+  - 嘉宾介绍：杜伦大学博士生肖程昊
+- **灵初智能实习研究员祝可菲：自我提升式灵巧手数据生成飞轮**
+  - 灵初智能实习研究员祝可菲 · [B站](https://www.bilibili.com/video/BV1tXUQBUEtm)
+  - 嘉宾介绍：灵初智能实习研究员祝可菲
+- **北大林昊苇：无训练的扩散生成指导**
+  - [B站](https://www.bilibili.com/video/BV164qZYcE3d)
+- **南大刘尚格：理解并强化任务算术中的权重解耦**
+  - 讲者 **刘尚格** · 南京大学计算机学院硕士生 · [B站](https://www.bilibili.com/video/BV1KhV261EsN)
+  - 嘉宾介绍：刘尚格 南京大学计算机学院硕士生
+- **南大程紫峰：增强大语言模型嵌入通过免训练的词元前置技术**
+  - 讲者 **程紫峰** · 2025年6月于南京大学计算机学院获得博士学位，导师为顾庆教授和蒋智威助理教授，研究方向为大语言模型嵌入和引导。在ACL, AAAI, WWW, TOIS等会议期刊上发表论文十余篇，担任NeurIPS，ICLR，ACL ARR等会议的审稿人。个人主页：https://zifengcheng.github.io/。 · [B站](https://www.bilibili.com/video/BV1vV8JzgE7G)
+  - 嘉宾介绍：程紫峰，2025年6月于南京大学计算机学院获得博士学位，导师为顾庆教授和蒋智威助理教授，研究方向为大语言模型嵌入和引导。在ACL, AAAI, WWW, TOIS等会议期刊上发表论文十余篇，担任NeurIPS，ICLR，ACL ARR等会议的审稿人。个人主页：https://zifengcheng.github.io/。
+- **清华占国建：生成式强化学习迈入极速单步时代**
+  - 讲者 **占国建** · 清华大学车辆学院&人工智能学院博士生 · [B站](https://www.bilibili.com/video/BV1RuoaBdEQE)
+  - 嘉宾介绍：占国建 清华大学车辆学院&人工智能学院博士生
+- **北师大徐书航 ：借助隐喻实现游戏智能体的隐蔽通信策略**
+  - 讲者 **徐书航** · 北京师范大学人工智能学院硕士生 · [B站](https://www.bilibili.com/video/BV1Di8jzoEoj)
+  - 嘉宾介绍：徐书航 北京师范大学人工智能学院硕士生
+- **人大王磊：基于大模型智能体研究霍曼斯社会交换论**
+  - 讲者 **王磊** · 中国人民大学高瓴人工智能学院博士生，研究方向为大模型智能体角色扮演和模拟仿真，在WWW，NIPS，TOIS，ACL等会议期刊发表论文十余篇，谷歌引用1800余次，发布多个开源项目，Github累计获得star 3k+。 · [B站](https://www.bilibili.com/video/BV1hi8jzZEWM)
+  - 嘉宾介绍：王磊，中国人民大学高瓴人工智能学院博士生，研究方向为大模型智能体角色扮演和模拟仿真，在WWW，NIPS，TOIS，ACL等会议期刊发表论文十余篇，谷歌引用1800余次，发布多个开源项目，Github累计获得star 3k+。
+- **圆桌对话：下一代视觉智能，该如何定义?**
+  - 张群英（主持人）ICT 产业观察家，黄大年茶思屋科技网站总编 薄杨 华为香港研究所小艺大模型应用实验室多模态专家、技术 Leader 盛律 北京航空航天大学教授，博导 · [B站](https://www.bilibili.com/video/BV1hDV66qEjK)
+  - 嘉宾介绍：张群英（主持人）ICT 产业观察家，黄大年茶思屋科技网站总编 薄杨 华为香港研究所小艺大模型应用实验室多模态专家、技术 Leader 盛律 北京航空航天大学教授，博导
+- **高德熊峰: 面向3D生成数字人的大规模自动绑骨数据集和端到端自动绑骨算法**
+  - 讲者 **熊峰** · 阿里巴巴高德地图算法专家。作为阿里巴巴高德地图世界模型团队负责人，带领团队构建下一代空间智能地图基础设施。我们推出业界首个规模化3D重建与生成产品“奇境”和“3D世界”，打造首个自回归架构原生3D生成大模型以及首个3D生成数字人端到端自动绑骨算法，为行业创新突破，开启地图应用新纪元。 · [B站](https://www.bilibili.com/video/BV1bcMqzdE2w)
+  - 嘉宾介绍：熊峰，阿里巴巴高德地图算法专家。作为阿里巴巴高德地图世界模型团队负责人，带领团队构建下一代空间智能地图基础设施。我们推出业界首个规模化3D重建与生成产品“奇境”和“3D世界”，打造首个自回归架构原生3D生成大模型以及首个3D生成数字人端到端自动绑骨算法，为行业创新突破，开启地图应用新纪元。
+- **南科大杨林易：基于多表多跳复杂问题的大模型评估**
+  - 杨林易博士自2017年起在都柏林大学攻读博士学位，后在UCL及华为诺亚伦敦研究所从事研究科学家工作，在人工智能领域取得了一系列具有国际影响力的学术成果。体现在以第一作者身份在ICLR、ACL等国际顶会发表论文11篇，8篇高被引文章，谷歌学术总引用5000余次。 申请人在GitHub开源多个高影响项目，累计获得7000星标。首次在TPAMI上发表完全独立于 Transformer架构的预训练语言模型。曾获国家优秀自费留学生奖学金、CCIS最佳论文提名等荣誉，并主持或参与科研经费约75万英镑。 论文介绍：https://openreview.net/forum?id=GGlpykXDCa&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)  论文摘要： · [B站](https://www.bilibili.com/video/BV1kNG2zUEtH)
+  - 嘉宾介绍：杨林易博士自2017年起在都柏林大学攻读博士学位，后在UCL及华为诺亚伦敦研究所从事研究科学家工作，在人工智能领域取得了一系列具有国际影响力的学术成果。体现在以第一作者身份在ICLR、ACL等国际顶会发表论文11篇，8篇高被引文章，谷歌学术总引用5000余次。 申请人在GitHub开源多个高影响项目，累计获得7000星标。首次在TPAMI上发表完全独立于 Transformer架构的预训练语言模型。曾获国家优秀自费留学生奖学金、CCIS最佳论文提名等荣誉，并主持或参与科研经费约75万英镑。 论文介绍：https://openreview.net/forum?id=GGlpykXDCa&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)  论文摘要：
+- **中科院李阳：面向细粒度AI生成文本检测的“创作者-编辑者”双重建模**
+  - [B站](https://www.bilibili.com/video/BV11dTk6nES9)
+- **中科院王耀宇：融合预训练模型与深度强化学习攻克稀疏矩阵高性能代码生成难题**
+  - 讲者 **王耀宇** · 中国科学院计算技术研究所博士生 · [B站](https://www.bilibili.com/video/BV1XGoaBXEUZ)
+  - 嘉宾介绍：王耀宇 中国科学院计算技术研究所博士生
+- **北师大钟方威：基于欲求对齐的高效具身通信与主动交互**
+  - [B站](https://www.bilibili.com/video/BV1K9Tk6QEvN)
+- **哈工大车万翔教授：ACL 2025 趋势及展望**
+  - 讲者 **车万翔** · 哈尔滨工业大学计算学部长聘教授 / 博士生导师，人工智能研究院副院长，斯坦福大学访问学者。主要研究领域为自然语言处理、大语言模型。现任中国中文信息学会理事、计算语言学专业委员会副主任兼秘书长；国际计算语言学学会亚太分会（AACL）执委兼秘书长；国际顶级会议ACL 2025程序委员会共同主席。 · [B站](https://www.bilibili.com/video/BV1qB8szbEfm)
+  - 嘉宾介绍：车万翔，哈尔滨工业大学计算学部长聘教授 / 博士生导师，人工智能研究院副院长，斯坦福大学访问学者。主要研究领域为自然语言处理、大语言模型。现任中国中文信息学会理事、计算语言学专业委员会副主任兼秘书长；国际计算语言学学会亚太分会（AACL）执委兼秘书长；国际顶级会议ACL 2025程序委员会共同主席。
+- **清华汪晗阳：基于一致性蒸馏的单步视频扩散与场景生成**
+  - 讲者 **汪晗阳** · 清华大学计算机系本科四年级学生，即将进入清华大学段岳圻老师课题组读研。研究方向为三维视觉、视频生成等，已在CVPR，ECCV，NeurIPS等国际会议发表论文。 · [B站](https://www.bilibili.com/video/BV1PsNiz6ECb)
+  - 嘉宾介绍：汪晗阳，清华大学计算机系本科四年级学生，即将进入清华大学段岳圻老师课题组读研。研究方向为三维视觉、视频生成等，已在CVPR，ECCV，NeurIPS等国际会议发表论文。
+- **清华陈泽华：全局语义、精确时间、人声可懂的高可控文生音频系统ControlAudio**
+  - [B站](https://www.bilibili.com/video/BV1x9Tk6QERY)
+- **清华姚权铭 | 结构化上下文：有限监督泛化的新路径**
+  - 讲者 **姚权铭** · 清华大学电子工程系副教授 · [B站](https://www.bilibili.com/video/BV1eEosBiEL8)
+  - 嘉宾介绍：姚权铭 清华大学电子工程系副教授
+- **清华张亦弛：多模态可信评估MultiTrust**
+  - [B站](https://www.bilibili.com/video/BV1y7qZYTEpN)
+- **国科大温学儒：重新思考奖励模型评估**
+  - 讲者 **温学儒** · 中国科学院大学计算机科学与技术专业博士研究生，研究方向为大语言模型对齐与强化学习。在 ICLR、SIGIR等国际顶级学术会议上发表多篇论文，相关成果入选 ICLR Spotlight 亮点论文等。 论文介绍：https://arxiv.org/abs/2410.05584 分享摘要：本文探究奖励模型准确率与下游表现的关系。合成环境实验表明，两者虽呈弱相关，但相似准确率的模型可能导致不同的下游表现，且测量方式显著影响相关性。分析表明，准确率难以反映可能的奖励过优化，揭示了现有评估的局限。 · [B站](https://www.bilibili.com/video/BV1pJGCzkEer)
+  - 嘉宾介绍：温学儒，中国科学院大学计算机科学与技术专业博士研究生，研究方向为大语言模型对齐与强化学习。在 ICLR、SIGIR等国际顶级学术会议上发表多篇论文，相关成果入选 ICLR Spotlight 亮点论文等。 论文介绍：https://arxiv.org/abs/2410.05584 分享摘要：本文探究奖励模型准确率与下游表现的关系。合成环境实验表明，两者虽呈弱相关，但相似准确率的模型可能导致不同的下游表现，且测量方式显著影响相关性。分析表明，准确率难以反映可能的奖励过优化，揭示了现有评估的局限。
+  - 摘要：本文探究奖励模型准确率与下游表现的关系。合成环境实验表明，两者虽呈弱相关，但相似准确率的模型可能导致不同的下游表现，且测量方式显著影响相关性。分析表明，准确率难以反映可能的奖励过优化，揭示了现有评估的局限。
+- **复旦魏忠钰：大模型驱动的社会智能体**
+  - 讲者 **魏忠钰** · 复旦大学大数据学院副教授、智能复杂体系实验室双聘研究员、博士生导师、数据智能与社会计算实验室（Fudan DISC）负责人，香港中文大学博士，美国德州大学达拉斯分校博士后。担任 CIPS 情感计算专委会副秘书长，CCF 自然语言处理专委会副秘书长，曾任 CIPS 青工委执委会副主任。主要研究领域包括多模态大模型和社会智能体，发表论文 100 余篇，担任 ACL 2023，EMNLP 2024 和 NAACL 2025 高级领域主席（SAC）。代表成果包括多模态多步推理大模型 Volcano，DISC-X 系列垂域大模型（覆盖医疗、司法、金融、网络治理四个领域）和大规模选举模拟框架 ElectionSim。曾获得 CIPS 社会媒体处理专委会新锐奖，上海市启明星计划，CCF 自然语言处理专委会新锐学者奖。 分享摘要：传统的社会科学研究依赖于人类参与，通过问卷调查和心理实验等方法来研究社会现象。然而，这些方法在可扩展性、成本和伦理风险方面存在一定局限性。大模型的发展使得模拟复杂人类行为成为可能，引出了面向社会活动的智能体建构的课题。随着对个体建模的多样化和规模化逐渐增加，大模型驱动的社会智能体建构可以分为三个层级：（1）个体模拟：模拟特定个体或人口属性群体；（2）任务模拟：模拟多智能体在特定场景的交互和协作；（3）社会模拟：模拟复杂的社会动态和社会现象。本次报告将探讨大模型社会智能体在这三个层级模拟中的关键要素、挑战以及未来发展方向。 · [B站](https://www.bilibili.com/video/BV1S2q2YmEp7)
+  - 嘉宾介绍：魏忠钰，复旦大学大数据学院副教授、智能复杂体系实验室双聘研究员、博士生导师、数据智能与社会计算实验室（Fudan DISC）负责人，香港中文大学博士，美国德州大学达拉斯分校博士后。担任 CIPS 情感计算专委会副秘书长，CCF 自然语言处理专委会副秘书长，曾任 CIPS 青工委执委会副主任。主要研究领域包括多模态大模型和社会智能体，发表论文 100 余篇，担任 ACL 2023，EMNLP 2024 和 NAACL 2025 高级领域主席（SAC）。代表成果包括多模态多步推理大模型 Volcano，DISC-X 系列垂域大模型（覆盖医疗、司法、金融、网络治理四个领域）和大规模选举模拟框架 ElectionSim。曾获得 CIPS 社会媒体处理专委会新锐奖，上海市启明星计划，CCF 自然语言处理专委会新锐学者奖。 分享摘要：传统的社会科学研究依赖于人类参与，通过问卷调查和心理实验等方法来研究社会现象。然而，这些方法在可扩展性、成本和伦理风险方面存在一定局限性。大模型的发展使得模拟复杂人类行为成为可能，引出了面向社会活动的智能体建构的课题。随着对个体建模的多样化和规模化逐渐增加，大模型驱动的社会智能体建构可以分为三个层级：（1）个体模拟：模拟特定个体或人口属性群体；（2）任务模拟：模拟多智能体在特定场景的交互和协作；（3）社会模拟：模拟复杂的社会动态和社会现象。本次报告将探讨大模型社会智能体在这三个层级模拟中的关键要素、挑战以及未来发展方向。
+  - 摘要：传统的社会科学研究依赖于人类参与，通过问卷调查和心理实验等方法来研究社会现象。然而，这些方法在可扩展性、成本和伦理风险方面存在一定局限性。大模型的发展使得模拟复杂人类行为成为可能，引出了面向社会活动的智能体建构的课题。随着对个体建模的多样化和规模化逐渐增加，大模型驱动的社会智能体建构可以分为三个层级：（1）个体模拟：模拟特定个体或人口属性群体；（2）任务模拟：模拟多智能体在特定场景的交互和协作；（3）社会模拟：模拟复杂的社会动态和社会现象。本次报告将探讨大模型社会智能体在这三个层级模拟中的关键要素、挑战以及未来发展方向。
+- **MBZUAI高朗：个性化场景下AI文本检测器的效果反转现象**
+  - [B站](https://www.bilibili.com/video/BV1K9Tk6QEiE)
+- **清华何秉翔：大模型的无监督强化学习能走多远？**
+  - 讲者 **何秉翔** · 清华大学计算机系博士生 · [B站](https://www.bilibili.com/video/BV1b6ohB1EEE)
+  - 嘉宾介绍：何秉翔 清华大学计算机系博士生
+- **圆桌对话：Agent又有了新范式？**
+  - [B站](https://www.bilibili.com/video/BV1KdTk6nEtd)
+- **北航盛律：基于生成式视觉先验的三维内容生成和理解**
+  - 讲者 **盛律** · 北京航空航天大学教授，博导 · [B站](https://www.bilibili.com/video/BV1a1VB6AEWo)
+  - 嘉宾介绍：盛律 北京航空航天大学教授，博导
+- **上交邓志杰 | 隐空间统一模型：从跨模态推理到世界建模**
+  - 讲者 **邓志杰** · 上海交通大学副教授，博导 · [B站](https://www.bilibili.com/video/BV1G4Vz6NEMD)
+  - 嘉宾介绍：邓志杰 上海交通大学副教授，博导
+- **清华陈键飞｜基于量化稀疏的高效训练推理：理论及算法**
+  - 讲者 **陈键飞** · 清华大学计算机系准聘副教授。2010-2019 年获清华大学学士和博士学位。从事高效机器学习研究，谷歌学术引用 5000 余次。担任 IEEE TPAMI 的编委，担任 ICLR 等会议领域主席。获得 CCF 青年人才发展计划、清华大学学术新人奖等。 论文简介：大模型所需计算成本高昂，而低精度、稀疏等高效训练推理方法均在原有计算基础上引入了近似，可能会引起精度损失。本报告将介绍近似梯度下降理论，该理论可以为高效的近似训练方法的收敛性、收敛速度提供理论保证。基于该理论，将分别介绍通过量化和稀疏两条技术路线设计的前馈神经网络计算加速、注意力计算加速、激活压缩、优化器压缩、通信压缩等高效训练推理算法。将从机器学习的角度出发，介绍高效训练的过程中遇到的训练不稳定等问题及克服方法。 · [B站](https://www.bilibili.com/video/BV1apGyzbEsn)
+  - 嘉宾介绍：陈键飞，清华大学计算机系准聘副教授。2010-2019 年获清华大学学士和博士学位。从事高效机器学习研究，谷歌学术引用 5000 余次。担任 IEEE TPAMI 的编委，担任 ICLR 等会议领域主席。获得 CCF 青年人才发展计划、清华大学学术新人奖等。 论文简介：大模型所需计算成本高昂，而低精度、稀疏等高效训练推理方法均在原有计算基础上引入了近似，可能会引起精度损失。本报告将介绍近似梯度下降理论，该理论可以为高效的近似训练方法的收敛性、收敛速度提供理论保证。基于该理论，将分别介绍通过量化和稀疏两条技术路线设计的前馈神经网络计算加速、注意力计算加速、激活压缩、优化器压缩、通信压缩等高效训练推理算法。将从机器学习的角度出发，介绍高效训练的过程中遇到的训练不稳定等问题及克服方法。
+- **南大范琦副教授：从帧到世界：面向世界模型的长视频生成**
+  - 南京大学智能科学与技术学院准聘副教授,国家高层次青年人才范琦 · [B站](https://www.bilibili.com/video/BV18PUSBCEW8)
+  - 嘉宾介绍：南京大学智能科学与技术学院准聘副教授,国家高层次青年人才范琦
+- **清华陈泽华：Omni2Sound-破解统一多模态音频生成的"通才困境"**
+  - 讲者 **陈泽华** · 清华大学计算机系水木学者博士后 · [B站](https://www.bilibili.com/video/BV1TdVB64EEx)
+  - 嘉宾介绍：陈泽华 清华大学计算机系水木学者博士后
+- **国防科技大学王奉祥：扩展遥感多模态大模型支撑8K以上分辨率**
+  - 国防科技大学计算机学院博士三年级研究生 王奉祥 · [B站](https://www.bilibili.com/video/BV1V6UQBoEBt)
+  - 嘉宾介绍：国防科技大学计算机学院博士三年级研究生 王奉祥
+- **北京大学吉嘉铭：从弹簧胡克定律思考大模型的参数弹性与抗拒对齐**
+  - 讲者 **吉嘉铭** · 北京大学人工智能研究院博士生，导师为杨耀东助理教授，研究方向为强化学习和大模型对齐，共发表顶会期刊论文二十余篇，论文入选ACL Panel Discussion（TOP 25篇，接收率0.3%），NeurIPS Oral（接受率0.5%），ICLR Spotlight等口头汇报，相关成果谷歌学术总引用3000余次，GitHub开源项目星标3.2万余次，开源模型累积下载量500W余次，主持首批国自然博士青年基金资助，入选苹果学者Apple Scholar，首届中国电子学会-腾讯博士生科研激励计划，获 NeurIPS‘22 机器人灵巧操作比赛冠军。 · [B站](https://www.bilibili.com/video/BV1EQtuz2Ezs)
+  - 嘉宾介绍：吉嘉铭，北京大学人工智能研究院博士生，导师为杨耀东助理教授，研究方向为强化学习和大模型对齐，共发表顶会期刊论文二十余篇，论文入选ACL Panel Discussion（TOP 25篇，接收率0.3%），NeurIPS Oral（接受率0.5%），ICLR Spotlight等口头汇报，相关成果谷歌学术总引用3000余次，GitHub开源项目星标3.2万余次，开源模型累积下载量500W余次，主持首批国自然博士青年基金资助，入选苹果学者Apple Scholar，首届中国电子学会-腾讯博士生科研激励计划，获 NeurIPS‘22 机器人灵巧操作比赛冠军。
+- **西湖大学张驰 | 自主进化智能体：从固定工作流到动态架构的演进**
+  - [B站](https://www.bilibili.com/video/BV1xdTk6nEZC)
+- **字节焦少慧：各向异性3D高斯泼溅**
+  - [B站](https://www.bilibili.com/video/BV1KdqZYGEgz)
+- **清华苑会宁：评估大模型在多智能体环境中的推理决策能力**
+  - 讲者 **苑会宁** · 清华大学深圳国际研究生院博士生 · [B站](https://www.bilibili.com/video/BV1PeV26CESo)
+  - 嘉宾介绍：苑会宁 清华大学深圳国际研究生院博士生
+- **清华韩东辰：解锁视觉测试时训练新架构**
+  - 讲者 **韩东辰** · 清华大学在读博士生 · [B站](https://www.bilibili.com/video/BV12hV26yEGS)
+  - 嘉宾介绍：韩东辰 清华大学在读博士生
+- **人大渠常乐｜从人工标注到自我迭代：大模型工具学习的动态文档优化新范式**
+  - 讲者 **渠常乐** · 中国人民大学高瓴人工智能学院博士二年级，师从徐君教授，研究方向为大模型工具学习，信息检索等，在ICLR，SIGIR，CIKM等国际学术会议上发表过论文。 论文介绍：https://arxiv.org/abs/2410.08197 本研究针对如何设计出适配于LLM的工具文档，提出了动态文档优化框架DRAFT。该框架通过分析LLMs在与外部工具交互过程中产生的反馈与轨迹，自动迭代优化文档的机器可读性，显著提升其质量，从而提高了LLMs的工具使用能力。 · [B站](https://www.bilibili.com/video/BV1YHGyzFEKz)
+  - 嘉宾介绍：渠常乐，中国人民大学高瓴人工智能学院博士二年级，师从徐君教授，研究方向为大模型工具学习，信息检索等，在ICLR，SIGIR，CIKM等国际学术会议上发表过论文。 论文介绍：https://arxiv.org/abs/2410.08197 本研究针对如何设计出适配于LLM的工具文档，提出了动态文档优化框架DRAFT。该框架通过分析LLMs在与外部工具交互过程中产生的反馈与轨迹，自动迭代优化文档的机器可读性，显著提升其质量，从而提高了LLMs的工具使用能力。
+- **上交刘鹏飞副教授：大模型强化学习与复杂推理**
+  - 讲者 **刘鹏飞** · 上海交通大学副教授、创智学院导师、清源研究院院长助理，国家海外优青。专注于自然语言的预训、复杂推理等研究方向；谷歌学术引用2万余次。提示工程、 认知工程概念最早提出者。曾获得首届蚂蚁InTech科技奖等。代表作o1 journey，LIMA, LIMO等。 · [B站](https://www.bilibili.com/video/BV1Eq8szFENv)
+  - 嘉宾介绍：刘鹏飞，上海交通大学副教授、创智学院导师、清源研究院院长助理，国家海外优青。专注于自然语言的预训、复杂推理等研究方向；谷歌学术引用2万余次。提示工程、 认知工程概念最早提出者。曾获得首届蚂蚁InTech科技奖等。代表作o1 journey，LIMA, LIMO等。
+- **帝国理工元文瑄：信息塑造的Koopman表征**
+  - 讲者 **元文瑄** · 英国帝国理工学院应用计算硕士 · [B站](https://www.bilibili.com/video/BV1GhohBQEBd)
+  - 嘉宾介绍：元文瑄 英国帝国理工学院应用计算硕士
+- **OpenDrivelab 布清文：迈向机器人操作的基础模型**
+  - [B站](https://www.bilibili.com/video/BV1rHqZYeECL)
+- **人大汤昕宇：可验证奖励的强化学习中样本极性的探索**
+  - [B站](https://www.bilibili.com/video/BV1K9Tk6QErv)
+- **中国科大郭俊甫：基于三维高斯泼贱的铰链物体自监督重建方法**
+  - 讲者 **郭俊甫** · 中国科学技术大学博士三年级，数学专业，计算机图形学方向，导师为刘利刚老师和深圳大学的胡瑞珍老师。博士期间在图形学会议SIGGRAPH Asia发表文章两篇，CVPR一篇。 · [B站](https://www.bilibili.com/video/BV1KjNezME4e)
+  - 嘉宾介绍：郭俊甫，中国科学技术大学博士三年级，数学专业，计算机图形学方向，导师为刘利刚老师和深圳大学的胡瑞珍老师。博士期间在图形学会议SIGGRAPH Asia发表文章两篇，CVPR一篇。
+- **人大李安亿：几何等变模型：破解混合体系性质预测的新密钥**
+  - 中国人民大学高瓴人工智能学院博士生李安亿 · [B站](https://www.bilibili.com/video/BV1jeUbBYE6e)
+  - 嘉宾介绍：中国人民大学高瓴人工智能学院博士生李安亿
+- **中科院自动化所田浩辰: SimScale-大规模真实世界仿真重塑端到端自动驾驶学习范式**
+  - 讲者 **田浩辰** · 中科院自动化所模式识别实验室在读博士生 · [B站](https://www.bilibili.com/video/BV1HKVz6UEqU)
+  - 嘉宾介绍：田浩辰 中科院自动化所模式识别实验室在读博士生
+- **圆桌对话：世界模型会成为下一个 AI前沿吗?**
+  - [B站](https://www.bilibili.com/video/BV1pEUSBPEhj)
+- **智源崔玉峰：无编码器视觉语言模型**
+  - [B站](https://www.bilibili.com/video/BV1nsqZYYEan)
+- **北理工李朋祥：多模态智能体微调-为高效工具调用构建多模态智能体**
+  - 李朋祥为北京理工大学与北京通用人工智能研究院联合培养博士生，主研多模态智能体、视觉语言模型及三维视觉理解。已在NeurIPS、ICLR、CVPR等会议发表多篇论文。李朋祥师从武玉伟副教授与贾云得教授，并受北京通研院李庆研究员与高志研究员的联合指导。 论文链接：https://arxiv.org/pdf/2412.15606 · [B站](https://www.bilibili.com/video/BV1xiGyzSEgp)
+  - 嘉宾介绍：李朋祥为北京理工大学与北京通用人工智能研究院联合培养博士生，主研多模态智能体、视觉语言模型及三维视觉理解。已在NeurIPS、ICLR、CVPR等会议发表多篇论文。李朋祥师从武玉伟副教授与贾云得教授，并受北京通研院李庆研究员与高志研究员的联合指导。 论文链接：https://arxiv.org/pdf/2412.15606
+- **北大张文涛：面向大模型的 Data-centric AI 基础设施**
+  - [B站](https://www.bilibili.com/video/BV1K9Tk6QE4j)
+- **北大张金禄：多模态条件可控动作生成**
+  - 讲者 **张金禄** · 北京大学博士三年级 · [B站](https://www.bilibili.com/video/BV1j7Vz63EXJ)
+  - 嘉宾介绍：张金禄 北京大学博士三年级
+- **北大黄倍：从高斯内部建模到混合材料模拟**
+  - 讲者 **黄倍** · 北京大学智能科学与技术专业在读研究生 · [B站](https://www.bilibili.com/video/BV1NdVm67EU6)
+  - 嘉宾介绍：黄倍 北京大学智能科学与技术专业在读研究生
+- **北大杨昊桐：数字对于大模型来说为什么这么难？**
+  - 讲者 **杨昊桐** · 北京大学智能学院四年级博士研究生，导师为林宙辰教授和张牧涵助理教授，主要研究方向是大语言模型的复杂推理（reason）能力，包括数学、代码、复杂过程推理等，也涉及多模态大模型的推理能力。 论文分享：https://arxiv.org/abs/2411.03766 或 https://openreview.net/forum?id=BWS5gVjgeY 当前，大语言模型展示出了较强的数学推理能力，然而，与之相对的，在实际应用场景中却屡在和数字相关的任务中出现幻觉。我们认为，当前流行的数学评测集没有集中于关注数字理解和处理能力。为此，我们创建了一个涉及不同数字表示（如整数、小数、分数）和数字处理任务的评测集，并对流行的大语言模型进行评测。结果发现，尽管在常见任务上sota模型具有不错的表现，但在长数字和较少见任务上，模型的性能普遍较差。为此，我们进一步从“分词器等模型组件”、“后训练”和“思维链推理”三个方面研究了不同技术对模型数字能力的影响。结果表示，目前尚无技术能够较为高效的解决模型数字能力不足的问题。 · [B站](https://www.bilibili.com/video/BV12ZG1zWEut)
+  - 嘉宾介绍：杨昊桐，北京大学智能学院四年级博士研究生，导师为林宙辰教授和张牧涵助理教授，主要研究方向是大语言模型的复杂推理（reason）能力，包括数学、代码、复杂过程推理等，也涉及多模态大模型的推理能力。 论文分享：https://arxiv.org/abs/2411.03766 或 https://openreview.net/forum?id=BWS5gVjgeY 当前，大语言模型展示出了较强的数学推理能力，然而，与之相对的，在实际应用场景中却屡在和数字相关的任务中出现幻觉。我们认为，当前流行的数学评测集没有集中于关注数字理解和处理能力。为此，我们创建了一个涉及不同数字表示（如整数、小数、分数）和数字处理任务的评测集，并对流行的大语言模型进行评测。结果发现，尽管在常见任务上sota模型具有不错的表现，但在长数字和较少见任务上，模型的性能普遍较差。为此，我们进一步从“分词器等模型组件”、“后训练”和“思维链推理”三个方面研究了不同技术对模型数字能力的影响。结果表示，目前尚无技术能够较为高效的解决模型数字能力不足的问题。
+- **北理王宇航：压缩域辅助的在线视频超分辨率方法**
+  - 讲者 **王宇航** · 北京理工大学信息与电子学院在读博士 · [B站](https://www.bilibili.com/video/BV1vzVB6TEWt)
+  - 嘉宾介绍：王宇航 北京理工大学信息与电子学院在读博士
+- **圆桌对话：大模型技术拐点到了吗？**
+  - [B站](https://www.bilibili.com/video/BV1PZq2Y3E93)
+- **清华黄宇翔 ：设计序列并行友好的近似注意力机制**
+  - 讲者 **黄宇翔** · 即将入学清华大学自然语言处理与社会人文计算实验室攻读博士学位。他的研究兴趣集中在高效大语言模型，主要从事大模型推理加速方向研究，主攻长文本推理加速。他在ACL、EMNLP与COLM上发表过文章，引用超过800次。 · [B站](https://www.bilibili.com/video/BV1xY8Jz4EtR)
+  - 嘉宾介绍：黄宇翔，即将入学清华大学自然语言处理与社会人文计算实验室攻读博士学位。他的研究兴趣集中在高效大语言模型，主要从事大模型推理加速方向研究，主攻长文本推理加速。他在ACL、EMNLP与COLM上发表过文章，引用超过800次。
+- **博世张志洲：有效利用无标仿真，基于纯几何信息的神经算子预训练框架**
+  - 讲者 **张志洲** · 博世人工智能中心 AI Research Scientist · [B站](https://www.bilibili.com/video/BV1SEoaBUE2S)
+  - 嘉宾介绍：张志洲 博世人工智能中心 AI Research Scientist
+- **人大李崇轩｜LLaDA：语言模型新范式**
+  - 讲者 **李崇轩** · 中国人民大学高瓴人工智能学院准聘副教授、博士生导师，2010-2019年获清华大学学士和博士学位。主要研究机器学习、深度生成模型，代表性工作部署于DALL·E 2、Stable Diffusion、Vidu等生成式大模型。获国际会议ICLR杰出论文奖、吴文俊优秀青年奖、吴文俊人工智能自然科学一等奖、中国计算机学会优秀博士论文等，主持国家自然基金重大研究计划培育项目、面上项目等。担任IEEE TPAMI 编委、软件学报编委和ICLR、NeurIPS等国际会议的领域主席。 论文介绍：本次报告聚焦一个问题：自回归是否是通向当前乃至更高水平的生成式智能的唯一范式？本次报告首先从统一概率建模的视角总结当前基础生成模型的发展，并从这个视角出发指出大语言模型的性质（如可扩展性、指令追随、情景学习、对话、无损压缩）主要来自于生成式准则，而非自回归建模独有。基于这些洞察，本次报告基于掩码的扩散语言模型的技术路线，包括基础理论和扩展定律。最终，基于前期成果，训练8B 扩散大语言模型 LLaDA（Large Language Diffusion with mAsking）。在20多个语言、代码、数学等评测集上，LLaDA 8B 全面超过 LLaMA 2，对标 LLaMA 3。并且LLaDA通过非自回归的方式，展示了令人惊讶的可扩展性和多轮对话能力。这些结果不仅挑战了自回归的地位，更加深了我们对生成式人工智能的理解。 · [B站](https://www.bilibili.com/video/BV1APG2znE2p)
+  - 嘉宾介绍：李崇轩，中国人民大学高瓴人工智能学院准聘副教授、博士生导师，2010-2019年获清华大学学士和博士学位。主要研究机器学习、深度生成模型，代表性工作部署于DALL·E 2、Stable Diffusion、Vidu等生成式大模型。获国际会议ICLR杰出论文奖、吴文俊优秀青年奖、吴文俊人工智能自然科学一等奖、中国计算机学会优秀博士论文等，主持国家自然基金重大研究计划培育项目、面上项目等。担任IEEE TPAMI 编委、软件学报编委和ICLR、NeurIPS等国际会议的领域主席。 论文介绍：本次报告聚焦一个问题：自回归是否是通向当前乃至更高水平的生成式智能的唯一范式？本次报告首先从统一概率建模的视角总结当前基础生成模型的发展，并从这个视角出发指出大语言模型的性质（如可扩展性、指令追随、情景学习、对话、无损压缩）主要来自于生成式准则，而非自回归建模独有。基于这些洞察，本次报告基于掩码的扩散语言模型的技术路线，包括基础理论和扩展定律。最终，基于前期成果，训练8B 扩散大语言模型 LLaDA（Large Language Diffusion with mAsking）。在20多个语言、代码、数学等评测集上，LLaDA 8B 全面超过 LLaMA 2，对标 LLaMA 3。并且LLaDA通过非自回归的方式，展示了令人惊讶的可扩展性和多轮对话能力。这些结果不仅挑战了自回归的地位，更加深了我们对生成式人工智能的理解。
+- **清华邱海权：低精度语言模型训练为什么失败？**
+  - 讲者 **邱海权** · 清华大学电子工程系四年级博士生 · [B站](https://www.bilibili.com/video/BV1MkohB5EGP)
+  - 嘉宾介绍：邱海权 清华大学电子工程系四年级博士生
+- **清华邱寒副教授：揭示大语言模型反思技术的黑暗面**
+  - 讲者 **邱寒** · 清华网研院副教授、博导。研究方向为AI安全，在AI和安全领域顶会顶刊共发表50余篇论文，获ACL 2024杰出论文奖、入选2023、2024年斯坦福大学全球Top2%科学家榜单，担任ACL、NeurIPS、ICLR等人工智能领域顶会的领域主席。 · [B站](https://www.bilibili.com/video/BV1XY8jzfE8N)
+  - 嘉宾介绍：邱寒，清华网研院副教授、博导。研究方向为AI安全，在AI和安全领域顶会顶刊共发表50余篇论文，获ACL 2024杰出论文奖、入选2023、2024年斯坦福大学全球Top2%科学家榜单，担任ACL、NeurIPS、ICLR等人工智能领域顶会的领域主席。
+- **华为诺亚陈汉亭： 重拾U-Net的扩散架构U-DiT**
+  - [B站](https://www.bilibili.com/video/BV11FqSY2EKJ)
+- **圆桌对话 ｜ LLM 驱动的 Agent：技术瓶颈与融合路径**
+  - [B站](https://www.bilibili.com/video/BV1wTG2zEEbx)
+- **北大孟繁续：高效微调方法PiSSA**
+  - [B站](https://www.bilibili.com/video/BV16sqZYaEes)
+- **中科院张泽锋：基于噪声感知偏好优化缓解多模态大模型的模态偏差**
+  - 讲者 **张泽锋** · 中国科学院大学信息工程研究所硕博三年级，导师为柳厅文研究员，主要关注多模态大模型后训练。以第一作者发表于 CVPR 2025、ACL 2024，第二作者发表 KDD 2025 以及第三作者完成 S1-Bench 等研究，目前在百度搜索策略部实习。 · [B站](https://www.bilibili.com/video/BV1RyNizdEBv)
+  - 嘉宾介绍：张泽锋，中国科学院大学信息工程研究所硕博三年级，导师为柳厅文研究员，主要关注多模态大模型后训练。以第一作者发表于 CVPR 2025、ACL 2024，第二作者发表 KDD 2025 以及第三作者完成 S1-Bench 等研究，目前在百度搜索策略部实习。
+- **蚂蚁田长鑫：模型合并驱动的大模型预训练策略革新**
+  - 讲者 **田长鑫** · 蚂蚁集团算法专家 · [B站](https://www.bilibili.com/video/BV1dmoaBfE3e)
+  - 嘉宾介绍：田长鑫 蚂蚁集团算法专家
+- **复旦邱锡鹏教授：情境智能：补全 AGI 的关键拼图**
+  - 复旦大学教授、上海创智学院导师邱锡鹏 · [B站](https://www.bilibili.com/video/BV1HJUSBYEdj)
+  - 嘉宾介绍：复旦大学教授、上海创智学院导师邱锡鹏
+- **人大卫雅珂：关注单模态学习的PEFT方法**
+  - 中国人民大学高瓴人工智能学院博士生卫雅珂 · [B站](https://www.bilibili.com/video/BV19RUUBSEeH)
+  - 嘉宾介绍：中国人民大学高瓴人工智能学院博士生卫雅珂
+- **帝国理工杜思逸：让多模态模型学会选择，突破模态缺失难题**
+  - 讲者 **杜思逸** · 英国帝国理工学院 BioMedIA 实验室博士三年级 · [B站](https://www.bilibili.com/video/BV11toaBkEPx)
+  - 嘉宾介绍：杜思逸 英国帝国理工学院 BioMedIA 实验室博士三年级
+- **圆桌对话：迈向理解与生成统一的多模态大模型**
+  - （排名不分先后）： 徐军，黄大年茶思屋科技网站首席内容官，在ICT从业的30多年期间，从事多种技术和市场工作，服务于包括华为和思科等多家国际著名科技企业，对ICT和科技行业有着全面而深刻的理解。 黄雷，北京航空航天大学人工智能学院副教授。本科和博士均毕业于北京航空航天大学，曾在美国密歇根大学访学和阿联酋IIAI工作。研究主要集中在深度神经网络架构、训练技术及理论分析，出版首部关于DNNs中Normalization技术的英文专著，主导训练发布TinyLLaVA系列模型及TinyLLaVA Factory开源项目，曾以一作兼通讯作者身份获CVPR 2020最佳论文提名奖。 · [B站](https://www.bilibili.com/video/BV1RcNezEEVd)
+  - 嘉宾介绍：（排名不分先后）： 徐军，黄大年茶思屋科技网站首席内容官，在ICT从业的30多年期间，从事多种技术和市场工作，服务于包括华为和思科等多家国际著名科技企业，对ICT和科技行业有着全面而深刻的理解。 黄雷，北京航空航天大学人工智能学院副教授。本科和博士均毕业于北京航空航天大学，曾在美国密歇根大学访学和阿联酋IIAI工作。研究主要集中在深度神经网络架构、训练技术及理论分析，出版首部关于DNNs中Normalization技术的英文专著，主导训练发布TinyLLaVA系列模型及TinyLLaVA Factory开源项目，曾以一作兼通讯作者身份获CVPR 2020最佳论文提名奖。
+- **北航黄雷：从表征和学习视角议多模态大模型的统一之路**
+  - 讲者 **黄雷** · 北京航空航天大学人工智能学院副教授。本科和博士均毕业于北京航空航天大学，曾在美国密歇根大学访学和阿联酋IIAI工作。研究主要集中在深度神经网络架构、训练技术及理论分析，出版首部关于DNNs中Normalization技术的英文专著，主导训练发布TinyLLaVA系列模型及TinyLLaVA Factory开源项目，曾以一作兼通讯作者身份获CVPR 2020最佳论文提名奖。 · [B站](https://www.bilibili.com/video/BV1hTNez5Ets)
+  - 嘉宾介绍：黄雷，北京航空航天大学人工智能学院副教授。本科和博士均毕业于北京航空航天大学，曾在美国密歇根大学访学和阿联酋IIAI工作。研究主要集中在深度神经网络架构、训练技术及理论分析，出版首部关于DNNs中Normalization技术的英文专著，主导训练发布TinyLLaVA系列模型及TinyLLaVA Factory开源项目，曾以一作兼通讯作者身份获CVPR 2020最佳论文提名奖。
+- **复旦黄辰宇：免微调的高性能模型融合**
+  - [B站](https://www.bilibili.com/video/BV1y7qZYTEMy)
+- **清华大学乐洋：RLVR 能力边界再审视——提效多，创新少**
+  - 清华大学四年级直博生乐洋 · [B站](https://www.bilibili.com/video/BV1mDUbBDEXp)
+  - 嘉宾介绍：清华大学四年级直博生乐洋
+- **北理工兰天：分块注意力提升大模型检索增强生成效率**
+  - 讲者 **兰天** · 北京理工大学计算机科学与技术硕博连读研究生，师从毛先领教授，主攻文本生成、生成质量评估及大语言模型反思能力研究。在NeurIPS、ICLR等顶会/刊发表多篇论文，谷歌学术引用量1000余次。曾于腾讯 AI Lab 、上海人工智能研究院等多家研究机构实习。 · [B站](https://www.bilibili.com/video/BV1KgGCzUEfD)
+  - 嘉宾介绍：兰天，北京理工大学计算机科学与技术硕博连读研究生，师从毛先领教授，主攻文本生成、生成质量评估及大语言模型反思能力研究。在NeurIPS、ICLR等顶会/刊发表多篇论文，谷歌学术引用量1000余次。曾于腾讯 AI Lab 、上海人工智能研究院等多家研究机构实习。
+- **UCLA周自横：用 LLM Agent 模拟研究人类为何进化出道德**
+  - [B站](https://www.bilibili.com/video/BV1T9Tk6QEVG)
+- **哈工大陈麒光：如何量化与提升思维链的推理能力边界？**
+  - [B站](https://www.bilibili.com/video/BV1q7qSYNE3V)
+- **北大黄江勇：可靠精细的新型三维视觉语言评测基准**
+  - 讲者 **黄江勇** · 北京大学智能学院在读博士生，师从朱松纯教授，同时是北京通用人工智能研究院通用视觉实验室实习研究员。研究方向包括三维场景理解、多模态学习、具身智能。在CVPR、ICCV、NeurIPS、ICML上发表多篇论文。 · [B站](https://www.bilibili.com/video/BV1R6NezDEBu)
+  - 嘉宾介绍：黄江勇，北京大学智能学院在读博士生，师从朱松纯教授，同时是北京通用人工智能研究院通用视觉实验室实习研究员。研究方向包括三维场景理解、多模态学习、具身智能。在CVPR、ICCV、NeurIPS、ICML上发表多篇论文。
+- **复旦江书洋：参数冗余微调算法NoRM**
+  - 复旦大学计算机学院的二年级博士生，由上海人工智能实验室共同指导。研究兴趣包括自然语言处理、高效机器学习以及医疗/临床领域大型语言模型的下游适应和对齐。 论文介绍：https://openreview.net/pdf?id=ZV7CLf0RHK 大模型进行低秩适配微调（LoRA）的时候为何无法利用更多可学习参数？本文研究了这种学习瓶颈的原因在于微调参数中含有特定的冗余，并提出了NoRM，一种自适应冗余去除算法，提升模型可利用的LoRA参数。 · [B站](https://www.bilibili.com/video/BV11BGyzEEcc)
+  - 嘉宾介绍：复旦大学计算机学院的二年级博士生，由上海人工智能实验室共同指导。研究兴趣包括自然语言处理、高效机器学习以及医疗/临床领域大型语言模型的下游适应和对齐。 论文介绍：https://openreview.net/pdf?id=ZV7CLf0RHK 大模型进行低秩适配微调（LoRA）的时候为何无法利用更多可学习参数？本文研究了这种学习瓶颈的原因在于微调参数中含有特定的冗余，并提出了NoRM，一种自适应冗余去除算法，提升模型可利用的LoRA参数。
+- **圆桌对话：爆火的「上下文工程」，价值几何？**
+  - 张群英（主持人）ICT 产业观察家，黄大年茶思屋科技网站总编 程鹏宇 阿里巴巴夸克基座大模型强化学习方向 Lead 刘鹏飞 上海交通大学副教授、创智学院导师、清源研究院院长助理 · [B站](https://www.bilibili.com/video/BV1zF87z3ErW)
+  - 嘉宾介绍：张群英（主持人）ICT 产业观察家，黄大年茶思屋科技网站总编 程鹏宇 阿里巴巴夸克基座大模型强化学习方向 Lead 刘鹏飞 上海交通大学副教授、创智学院导师、清源研究院院长助理
+- **浙大张宁豫 | 迈向可持续学习的智能体：现状与趋势——以 OpenClaw 为例**
+  - 讲者 **张宁豫** · 浙江大学副教授 · [B站](https://www.bilibili.com/video/BV173osB3E5f)
+  - 嘉宾介绍：张宁豫 浙江大学副教授
+- **人大林宁：降低对称性提升-等变神经网络的表征能力与特征选择**
+  - 讲者 **林宁** · 中国人民大学高瓴人工智能学院硕士二年级 · [B站](https://www.bilibili.com/video/BV124oaBVEVe)
+  - 嘉宾介绍：林宁 中国人民大学高瓴人工智能学院硕士二年级
+- **清华大学潘至璇：从压缩视角理解大语言模型**
+  - 清华大学交叉信息研究院二年级博士生潘至璇 · [B站](https://www.bilibili.com/video/BV1SmUbBXEeU)
+  - 嘉宾介绍：清华大学交叉信息研究院二年级博士生潘至璇
+- **国科大高林：基于混合表达与生成模型的可视媒体合成与编辑方法**
+  - 讲者 **高林** · 中国科学院计算技术研究所研究员、中国科学院大学岗位教授。研究方向为计算机图形学、三维计算机视觉。在SIGGRAPH、TPAMI、TVCG等期刊会议发表论文100余篇。现任或者曾任亚洲图形学学会秘书长，作为项目负责人承担国家重点研发计划、基金委优青等项目，曾获得亚洲图形学会青年学者奖等奖励。 · [B站](https://www.bilibili.com/video/BV1oyMizqE6Z)
+  - 嘉宾介绍：高林，中国科学院计算技术研究所研究员、中国科学院大学岗位教授。研究方向为计算机图形学、三维计算机视觉。在SIGGRAPH、TPAMI、TVCG等期刊会议发表论文100余篇。现任或者曾任亚洲图形学学会秘书长，作为项目负责人承担国家重点研发计划、基金委优青等项目，曾获得亚洲图形学会青年学者奖等奖励。
+- **北理工田炎智：基于Agent-as-a-Judge的非字面翻译评测**
+  - [B站](https://www.bilibili.com/video/BV12dTk6nE4T)
+- **北大张继耀：基于以物体为中心的交互基元构造空间约束驱动机器人通用操作**
+  - 讲者 **张继耀** · 北京大学前沿计算研究中心博士研究生，师从董豪助理教授。研究方向聚焦于3D感知与具身智能。以第一作者或共同第一作者的身份在CVPR/NeurIPS/ECCV/ICRA等机器人及人工智能领域顶级国际会议上发表7篇论文。 · [B站](https://www.bilibili.com/video/BV1AWNezYEyR)
+  - 嘉宾介绍：张继耀，北京大学前沿计算研究中心博士研究生，师从董豪助理教授。研究方向聚焦于3D感知与具身智能。以第一作者或共同第一作者的身份在CVPR/NeurIPS/ECCV/ICRA等机器人及人工智能领域顶级国际会议上发表7篇论文。
+- **人大高瓴王希华：图像到有声视频的生成模型**
+  - 讲者 **王希华** · 本科毕业于哈尔滨工业大学，目前是中国人民大学高瓴人工智能学院在读博士生，导师宋睿华副教授。主要研究兴趣在多模态生成，包括音视频生成、理解生成统一模型等，相关论文发表在CVPR，ACM MM等会议。 · [B站](https://www.bilibili.com/video/BV1wtNizBEzu)
+  - 嘉宾介绍：王希华，本科毕业于哈尔滨工业大学，目前是中国人民大学高瓴人工智能学院在读博士生，导师宋睿华副教授。主要研究兴趣在多模态生成，包括音视频生成、理解生成统一模型等，相关论文发表在CVPR，ACM MM等会议。
+- **北大孟繁续：将 GQA 转成 MLA 获得10倍推理加速**
+  - 北京大学人工智能研究院博士生孟繁续 · [B站](https://www.bilibili.com/video/BV1F4UbBMEkm)
+  - 嘉宾介绍：北京大学人工智能研究院博士生孟繁续
+- **北理工杨振：大模型视角旋转理解可解释性研究**
+  - [B站](https://www.bilibili.com/video/BV1NdTk6nEyP)
+- **国科大唐熠杰：二维视觉基础模型引导的零样本在线三维实例分割方法**
+  - 讲者 **唐熠杰** · 国防科技大学计算机学院博士在读，研究兴趣包括三维重建、SLAM、三维语义分割等，曾在CVPR、SIGGRAPH Asia等会议上发表学术论文。 · [B站](https://www.bilibili.com/video/BV1PpNezPEEh)
+  - 嘉宾介绍：唐熠杰，国防科技大学计算机学院博士在读，研究兴趣包括三维重建、SLAM、三维语义分割等，曾在CVPR、SIGGRAPH Asia等会议上发表学术论文。
+- **腾讯混元周子翔：多模态驱动的数字人技术（系统）**
+  - 周子翔目前在腾讯混元多模态平台部担任高级算法研究员。他博士毕业于Rutgers University（美国），先后在百度IDG，华为ADS，小冰担任高级算法工程师和算法研究员。他目前的主要研究方向包括以人为中心的视频生成，驱动和编辑（Human-centric video generation）。 · [B站](https://www.bilibili.com/video/BV1hoMizbEiY)
+  - 嘉宾介绍：周子翔目前在腾讯混元多模态平台部担任高级算法研究员。他博士毕业于Rutgers University（美国），先后在百度IDG，华为ADS，小冰担任高级算法工程师和算法研究员。他目前的主要研究方向包括以人为中心的视频生成，驱动和编辑（Human-centric video generation）。
+- **清华齐济：多模态大模型基于操作链进行有证据的视觉推理**
+  - 讲者 **齐济** · 清华大学计算机科学与技术系知识工程实验室（KEG）博士生，主要研究方向是多模态大模型训练。曾在CIKM、EMNLP、ICLR、NeurIPS等人工智能领域重要学术会议上发表论文，并作为CVPR/ICCV/ICML/ICLR/NeurIPS等会议审稿人。曾以第一作者身份获得EMNLP 2023杰出论文奖。 论文介绍：https://arxiv.org/pdf/2402.04236 摘要：以往的视觉语言模型通过对齐模型输出与文本答案的训练方式获得多模态能力，这种方式使得模型忽略了必要的视觉推理过程，进一步导致模型在细节推理类问题上的失败或输出与视觉内容不符的回复。受人类解决复杂视觉类问题的过程启发，本研究提出视觉语言模型操作链机制，使得模型可以通过有证据地逐步推理来解决问题。本研究详细探索了这一方法论，包括操作链定义、大规模数据构建、模型优化及模型训练。 · [B站](https://www.bilibili.com/video/BV1wNG2zSEi7)
+  - 嘉宾介绍：齐济，清华大学计算机科学与技术系知识工程实验室（KEG）博士生，主要研究方向是多模态大模型训练。曾在CIKM、EMNLP、ICLR、NeurIPS等人工智能领域重要学术会议上发表论文，并作为CVPR/ICCV/ICML/ICLR/NeurIPS等会议审稿人。曾以第一作者身份获得EMNLP 2023杰出论文奖。 论文介绍：https://arxiv.org/pdf/2402.04236 摘要：以往的视觉语言模型通过对齐模型输出与文本答案的训练方式获得多模态能力，这种方式使得模型忽略了必要的视觉推理过程，进一步导致模型在细节推理类问题上的失败或输出与视觉内容不符的回复。受人类解决复杂视觉类问题的过程启发，本研究提出视觉语言模型操作链机制，使得模型可以通过有证据地逐步推理来解决问题。本研究详细探索了这一方法论，包括操作链定义、大规模数据构建、模型优化及模型训练。
+- **哈工大罗先镇 ：变废为宝:用2MB空间撬起2倍无损加速**
+  - 讲者 **罗先镇** · 哈尔滨工业大学赛尔实验室三年级直博生，导师为车万翔教授和朱庆福副教授，研究方向为代码智能。以第一作者在ACL，EMNLP等顶会上发表5篇论文，参与共计发表10篇顶会论文。在阶跃星辰实习期间参与代码预训练相关工作。 · [B站](https://www.bilibili.com/video/BV1xY8Jz4EtX)
+  - 嘉宾介绍：罗先镇，哈尔滨工业大学赛尔实验室三年级直博生，导师为车万翔教授和朱庆福副教授，研究方向为代码智能。以第一作者在ACL，EMNLP等顶会上发表5篇论文，参与共计发表10篇顶会论文。在阶跃星辰实习期间参与代码预训练相关工作。
+- **清华花佳诚：结构化文本表征引导多模态大模型空间推理**
+  - [B站](https://www.bilibili.com/video/BV1NdTk6nE6n)
+- **中科院信工所胡斗：通过平衡表示实现公平的多任务学习**
+  - 讲者 **胡斗** · 中科院信工所博士，研究方向是自然语言处理，主要关注表示学习理论与可信大语言模型。以一作身份发表论文十余篇，其中CCF-A类7篇。曾获Afrisenti-SemEval最佳系统奖、4项国际语义测评竞赛冠军、中科院院长特别奖等。担任ACL、EMNLP等会议的领域主席。 · [B站](https://www.bilibili.com/video/BV1e58JzzEtG)
+  - 嘉宾介绍：胡斗，中科院信工所博士，研究方向是自然语言处理，主要关注表示学习理论与可信大语言模型。以一作身份发表论文十余篇，其中CCF-A类7篇。曾获Afrisenti-SemEval最佳系统奖、4项国际语义测评竞赛冠军、中科院院长特别奖等。担任ACL、EMNLP等会议的领域主席。
