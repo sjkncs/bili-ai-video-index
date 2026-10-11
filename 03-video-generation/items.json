@@ -1,0 +1,290 @@
+[
+    {
+        "index":  1,
+        "bvid":  "BV14T8j6qEQD",
+        "url":  "https://www.bilibili.com/video/BV14T8j6qEQD",
+        "title":  "【视频生成】SASMA:MLLM-Guided Semantic Correction for Text-to-Video Generation",
+        "duration_s":  936,
+        "views":  81,
+        "pubdate":  "2026-08-19"
+    },
+    {
+        "index":  2,
+        "bvid":  "BV17GtN6mE9i",
+        "url":  "https://www.bilibili.com/video/BV17GtN6mE9i",
+        "title":  "【CVPR 2025｜视频生成】LeviTor:3D Trajectory Oriented Image-to-Video Synthesis",
+        "duration_s":  955,
+        "views":  64,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  3,
+        "bvid":  "BV19ybZ6bEJL",
+        "url":  "https://www.bilibili.com/video/BV19ybZ6bEJL",
+        "title":  "【ECCV 2026｜视频生成】MSEditor:Toward Consistent Multi-Shot Video Editing",
+        "duration_s":  880,
+        "views":  175,
+        "pubdate":  "2026-08-20"
+    },
+    {
+        "index":  4,
+        "bvid":  "BV1Bag766Ew6",
+        "url":  "https://www.bilibili.com/video/BV1Bag766Ew6",
+        "title":  "【ICCV 2025｜视频生成】ReCamMaster:Camera-Controlled Generative Rendering from A Single",
+        "duration_s":  1020,
+        "views":  23,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  5,
+        "bvid":  "BV1CNhN6AEqy",
+        "url":  "https://www.bilibili.com/video/BV1CNhN6AEqy",
+        "title":  "【视频生成】Echo-Infinity:Learning Evolving Memory for Real-Time Infinite Video Genera",
+        "duration_s":  941,
+        "views":  84,
+        "pubdate":  "2026-08-24"
+    },
+    {
+        "index":  6,
+        "bvid":  "BV1E58g6BE86",
+        "url":  "https://www.bilibili.com/video/BV1E58g6BE86",
+        "title":  "【视频生成】Beyond Text Conditioning:A Systematic Study of MLLM-DiT Fusion for Video G",
+        "duration_s":  901,
+        "views":  109,
+        "pubdate":  "2026-08-18"
+    },
+    {
+        "index":  7,
+        "bvid":  "BV1JTgN6gEfk",
+        "url":  "https://www.bilibili.com/video/BV1JTgN6gEfk",
+        "title":  "【视频生成】SCoPE:Sightline-Coordinate Positional Encoding for Video Diffusion Transfo",
+        "duration_s":  1123,
+        "views":  98,
+        "pubdate":  "2026-08-14"
+    },
+    {
+        "index":  8,
+        "bvid":  "BV1K58E6rE4o",
+        "url":  "https://www.bilibili.com/video/BV1K58E6rE4o",
+        "title":  "【ECCV 2026｜视频生成】HOIMask:Towards Generative Masked Modeling for Human Object Inte",
+        "duration_s":  1013,
+        "views":  68,
+        "pubdate":  "2026-08-19"
+    },
+    {
+        "index":  9,
+        "bvid":  "BV1QPg76fEA9",
+        "url":  "https://www.bilibili.com/video/BV1QPg76fEA9",
+        "title":  "【视频生成】Open-Sora 2.0:Training a Commercial-Level Video Generation Model in $200k",
+        "duration_s":  991,
+        "views":  34,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  10,
+        "bvid":  "BV1SWbC62EKp",
+        "url":  "https://www.bilibili.com/video/BV1SWbC62EKp",
+        "title":  "【视频生成】Seedance 2.0:Advancing Video Generation for World Complexity",
+        "duration_s":  953,
+        "views":  194,
+        "pubdate":  "2026-08-15"
+    },
+    {
+        "index":  11,
+        "bvid":  "BV1Ss8S6PEAs",
+        "url":  "https://www.bilibili.com/video/BV1Ss8S6PEAs",
+        "title":  "【视频生成】RealWonder:Real-Time Physical Action-Conditioned Video Generation",
+        "duration_s":  926,
+        "views":  190,
+        "pubdate":  "2026-08-22"
+    },
+    {
+        "index":  12,
+        "bvid":  "BV1TP8v6pELF",
+        "url":  "https://www.bilibili.com/video/BV1TP8v6pELF",
+        "title":  "【视频生成】JoyAI-Echo:Pushing the Frontier of Long Audio-Visual Generation",
+        "duration_s":  938,
+        "views":  200,
+        "pubdate":  "2026-08-24"
+    },
+    {
+        "index":  13,
+        "bvid":  "BV1XyhP62EZK",
+        "url":  "https://www.bilibili.com/video/BV1XyhP62EZK",
+        "title":  "【视频生成】Echo-Forcing:A Scene Memory Framework for Interactive Long Video Generatio",
+        "duration_s":  1133,
+        "views":  237,
+        "pubdate":  "2026-08-24"
+    },
+    {
+        "index":  14,
+        "bvid":  "BV1ZyhM6AEyU",
+        "url":  "https://www.bilibili.com/video/BV1ZyhM6AEyU",
+        "title":  "【视频生成】Grounded-Exo2Ego:Structured Semantic Grounding for Robust Exocentric-to-Eg",
+        "duration_s":  865,
+        "views":  277,
+        "pubdate":  "2026-08-25"
+    },
+    {
+        "index":  15,
+        "bvid":  "BV1bE8p6WEa7",
+        "url":  "https://www.bilibili.com/video/BV1bE8p6WEa7",
+        "title":  "【ECCV 2026｜视频生成】Video Generation Models are General-Purpose Vision Learners",
+        "duration_s":  866,
+        "views":  192,
+        "pubdate":  "2026-08-19"
+    },
+    {
+        "index":  16,
+        "bvid":  "BV1bm8T6EEzH",
+        "url":  "https://www.bilibili.com/video/BV1bm8T6EEzH",
+        "title":  "【视频生成】CamWorldQA:Perceptual Quality Assessment of Camera-Controlled World Video",
+        "duration_s":  1032,
+        "views":  19,
+        "pubdate":  "2026-08-21"
+    },
+    {
+        "index":  17,
+        "bvid":  "BV1nV8g6uEne",
+        "url":  "https://www.bilibili.com/video/BV1nV8g6uEne",
+        "title":  "【视频生成】InstructVVT:Instruction-Driven Video Virtual Try-On without Auxiliary Spat",
+        "duration_s":  998,
+        "views":  102,
+        "pubdate":  "2026-08-18"
+    },
+    {
+        "index":  18,
+        "bvid":  "BV1o98S65EPY",
+        "url":  "https://www.bilibili.com/video/BV1o98S65EPY",
+        "title":  "【视频生成】DeMoDiff:Spatiotemporally Decoupled Autoregressive Diffusion Model for Hum",
+        "duration_s":  984,
+        "views":  54,
+        "pubdate":  "2026-08-26"
+    },
+    {
+        "index":  19,
+        "bvid":  "BV1o9gj6iEgk",
+        "url":  "https://www.bilibili.com/video/BV1o9gj6iEgk",
+        "title":  "【CVPR 2025｜视频生成】PhysGen3D:Crafting a Miniature Interactive World from a Single I",
+        "duration_s":  952,
+        "views":  69,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  20,
+        "bvid":  "BV1pwud6QENS",
+        "url":  "https://www.bilibili.com/video/BV1pwud6QENS",
+        "title":  "【ICCV 2025｜视频生成】VACE:All-in-One Video Creation and Editing",
+        "duration_s":  810,
+        "views":  73,
+        "pubdate":  "2026-08-10"
+    },
+    {
+        "index":  21,
+        "bvid":  "BV1r2tN6WE2D",
+        "url":  "https://www.bilibili.com/video/BV1r2tN6WE2D",
+        "title":  "【视频生成】LingBot-Video:Scaling Mixture-of-Experts Video Pretraining for Embodied In",
+        "duration_s":  985,
+        "views":  37,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  22,
+        "bvid":  "BV1tD8T6jEJZ",
+        "url":  "https://www.bilibili.com/video/BV1tD8T6jEJZ",
+        "title":  "【视频生成】Context-Matched Distillation:Teacher Causality for Autoregressive Video Di",
+        "duration_s":  874,
+        "views":  52,
+        "pubdate":  "2026-08-21"
+    },
+    {
+        "index":  23,
+        "bvid":  "BV1zdtn6YE4Q",
+        "url":  "https://www.bilibili.com/video/BV1zdtn6YE4Q",
+        "title":  "【视频生成】LiveVVT:High-Fidelity Video Virtual Try-On in Real Time",
+        "duration_s":  959,
+        "views":  57,
+        "pubdate":  "2026-08-30"
+    },
+    {
+        "index":  24,
+        "bvid":  "BV1zjtu6hEzD",
+        "url":  "https://www.bilibili.com/video/BV1zjtu6hEzD",
+        "title":  "【视频生成】Tether the Subject, Release the Scene:Query-Aware Memory Routing for Long-",
+        "duration_s":  866,
+        "views":  21,
+        "pubdate":  "2026-09-01"
+    },
+    {
+        "index":  25,
+        "bvid":  "BV1FDtT68E6n",
+        "url":  "https://www.bilibili.com/video/BV1FDtT68E6n",
+        "title":  "【视频生成】GeoNeXt:Video Generative Models as Geometry Learner",
+        "duration_s":  935,
+        "views":  301,
+        "pubdate":  "2026-09-01"
+    },
+    {
+        "index":  26,
+        "bvid":  "BV1VktB6KEjc",
+        "url":  "https://www.bilibili.com/video/BV1VktB6KEjc",
+        "title":  "【视频生成】MeRoPE:Metric Rotary Position Embedding for Camera-Controlled Video Genera",
+        "duration_s":  971,
+        "views":  252,
+        "pubdate":  "2026-09-04"
+    },
+    {
+        "index":  27,
+        "bvid":  "BV1BNeJ6gEqT",
+        "url":  "https://www.bilibili.com/video/BV1BNeJ6gEqT",
+        "title":  "【视频生成】PhysPlan:Physics-Aware Video Generation via Agentic Planning and Graph-Gui",
+        "duration_s":  853,
+        "views":  100,
+        "pubdate":  "2026-09-15"
+    },
+    {
+        "index":  28,
+        "bvid":  "BV1isY96hEtz",
+        "url":  "https://www.bilibili.com/video/BV1isY96hEtz",
+        "title":  "【视频生成】DIAL:Harnessing Intrinsic Subject-Aware Attention for Controllable Multi-S",
+        "duration_s":  847,
+        "views":  89,
+        "pubdate":  "2026-09-12"
+    },
+    {
+        "index":  29,
+        "bvid":  "BV1pwec68Ee1",
+        "url":  "https://www.bilibili.com/video/BV1pwec68Ee1",
+        "title":  "【视频生成】LynnReal-Omni:Native multi-modal Video Generation for Agentic Visual Workf",
+        "duration_s":  944,
+        "views":  262,
+        "pubdate":  "2026-09-16"
+    },
+    {
+        "index":  30,
+        "bvid":  "BV14ueu6oEwJ",
+        "url":  "https://www.bilibili.com/video/BV14ueu6oEwJ",
+        "title":  "【视频生成】PhysStream:Streaming Physics-Grounded Video Generation with Structured Sce",
+        "duration_s":  922,
+        "views":  214,
+        "pubdate":  "2026-09-17"
+    },
+    {
+        "index":  31,
+        "bvid":  "BV1fNeM66E58",
+        "url":  "https://www.bilibili.com/video/BV1fNeM66E58",
+        "title":  "【视频生成】SlotDiT:Object-Centric Representations for Diffusion Transformers",
+        "duration_s":  883,
+        "views":  220,
+        "pubdate":  "2026-09-17"
+    },
+    {
+        "index":  32,
+        "bvid":  "BV1aRp36yECo",
+        "url":  "https://www.bilibili.com/video/BV1aRp36yECo",
+        "title":  "【视频生成】GenCine:Generative Cinematographer:Composing Camera and Object Motion in 3",
+        "duration_s":  944,
+        "views":  3,
+        "pubdate":  "2026-10-10"
+    }
+]
