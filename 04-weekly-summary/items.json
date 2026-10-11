@@ -1,9 +1,24 @@
-{
-    "index":  1,
-    "bvid":  "BV1pXtp6VEai",
-    "url":  "https://www.bilibili.com/video/BV1pXtp6VEai",
-    "title":  "【本周论文总结】2026.08.24–08.30｜WAM·VLA·世界模型·3DGS",
-    "duration_s":  1323,
-    "views":  508,
-    "pubdate":  "2026-08-30"
-}
+[
+    {
+        "bvid":  "BV1pXtp6VEai",
+        "url":  "https://www.bilibili.com/video/BV1pXtp6VEai",
+        "source":  "HH",
+        "collection":  "合集·每周论文总结",
+        "bvid_title":  "【本周论文总结】2026.08.24–08.30｜WAM·VLA·世界模型·3DGS",
+        "full_title":  "",
+        "venue":  "",
+        "arxiv_id":  "",
+        "arxiv_url":  "",
+        "links":  [
+
+                  ],
+        "summary_zh":  "",
+        "speaker":  "",
+        "affiliation":  "",
+        "guest_intro":  "",
+        "talk_abstract":  "",
+        "duration_s":  1323,
+        "views":  508,
+        "pubdate":  "2026-08-30"
+    }
+]
