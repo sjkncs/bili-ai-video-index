@@ -1,0 +1,749 @@
+[
+    {
+        "index":  1,
+        "bvid":  "BV11etN6aEST",
+        "url":  "https://www.bilibili.com/video/BV11etN6aEST",
+        "title":  "【世界模型】LingBot-World:Advancing Open-source World Models",
+        "duration_s":  969,
+        "views":  232,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  2,
+        "bvid":  "BV12jg76DEgn",
+        "url":  "https://www.bilibili.com/video/BV12jg76DEgn",
+        "title":  "【ICRA 2025｜世界模型】RenderWorld:World Model with Self-Supervised 3D Label",
+        "duration_s":  949,
+        "views":  194,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  3,
+        "bvid":  "BV13Btw6PEqM",
+        "url":  "https://www.bilibili.com/video/BV13Btw6PEqM",
+        "title":  "【世界模型】Code as Worlds:Agentic Discovery of Executable World Representations for P",
+        "duration_s":  963,
+        "views":  146,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  4,
+        "bvid":  "BV13shA6kEjo",
+        "url":  "https://www.bilibili.com/video/BV13shA6kEjo",
+        "title":  "【世界模型】LeFlow:Generative Latent Flow Planning for World Models",
+        "duration_s":  960,
+        "views":  1166,
+        "pubdate":  "2026-08-27"
+    },
+    {
+        "index":  5,
+        "bvid":  "BV16mtN6XEoX",
+        "url":  "https://www.bilibili.com/video/BV16mtN6XEoX",
+        "title":  "【世界模型】LingBot-World 2.0:Infinite Worlds with Versatile Interactions",
+        "duration_s":  968,
+        "views":  229,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  6,
+        "bvid":  "BV17K8S67EyT",
+        "url":  "https://www.bilibili.com/video/BV17K8S67EyT",
+        "title":  "【世界模型】Evaluating Gemini Robotics Policies in a Veo World Simulator",
+        "duration_s":  947,
+        "views":  465,
+        "pubdate":  "2026-08-22"
+    },
+    {
+        "index":  7,
+        "bvid":  "BV17LgE63EDG",
+        "url":  "https://www.bilibili.com/video/BV17LgE63EDG",
+        "title":  "【ICCV 2025｜世界模型】TesserAct:Learning 4D Embodied World Models",
+        "duration_s":  1044,
+        "views":  53,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  8,
+        "bvid":  "BV19LuJ6KE9h",
+        "url":  "https://www.bilibili.com/video/BV19LuJ6KE9h",
+        "title":  "【ICCV 2025｜世界模型】Epona:Autoregressive Diffusion World Model for Autonomous Drivin",
+        "duration_s":  746,
+        "views":  350,
+        "pubdate":  "2026-08-06"
+    },
+    {
+        "index":  9,
+        "bvid":  "BV19igL6FEab",
+        "url":  "https://www.bilibili.com/video/BV19igL6FEab",
+        "title":  "【世界模型】WorldMAP:Bootstrapping Vision-Language Navigation Trajectory Prediction wi",
+        "duration_s":  1232,
+        "views":  119,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  10,
+        "bvid":  "BV1AWhP6wE4k",
+        "url":  "https://www.bilibili.com/video/BV1AWhP6wE4k",
+        "title":  "【世界模型】WNM-3D:A World Navigation Model with 3D Scene Conditioning for Closed-Loop",
+        "duration_s":  884,
+        "views":  232,
+        "pubdate":  "2026-08-24"
+    },
+    {
+        "index":  11,
+        "bvid":  "BV1BtgL6vEqS",
+        "url":  "https://www.bilibili.com/video/BV1BtgL6vEqS",
+        "title":  "【NeurIPS 2024｜世界模型】Vista:A Generalizable Driving World Model with High Fidelity",
+        "duration_s":  959,
+        "views":  35,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  12,
+        "bvid":  "BV1D8hA6MEx8",
+        "url":  "https://www.bilibili.com/video/BV1D8hA6MEx8",
+        "title":  "【世界模型】TrAct:Bridging Robot Control and Visual Prediction with Visual Tracks",
+        "duration_s":  951,
+        "views":  329,
+        "pubdate":  "2026-08-27"
+    },
+    {
+        "index":  13,
+        "bvid":  "BV1Eu8S6LE75",
+        "url":  "https://www.bilibili.com/video/BV1Eu8S6LE75",
+        "title":  "【世界模型】Cosmos 2.5:World Simulation with Video Foundation Models for Physical AI",
+        "duration_s":  928,
+        "views":  149,
+        "pubdate":  "2026-08-22"
+    },
+    {
+        "index":  14,
+        "bvid":  "BV1Eugj6qEnS",
+        "url":  "https://www.bilibili.com/video/BV1Eugj6qEnS",
+        "title":  "【世界模型】Qwen-RobotWorld Technical Report:Unifying Embodied World Modeling through",
+        "duration_s":  823,
+        "views":  61,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  15,
+        "bvid":  "BV1HNtN6pEaL",
+        "url":  "https://www.bilibili.com/video/BV1HNtN6pEaL",
+        "title":  "【RSS 2026｜世界模型】LingBot-VA:Causal World Modeling for Robot Control",
+        "duration_s":  878,
+        "views":  260,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  16,
+        "bvid":  "BV1JRtn6PEpv",
+        "url":  "https://www.bilibili.com/video/BV1JRtn6PEpv",
+        "title":  "【世界模型】WALL-SS:Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "duration_s":  934,
+        "views":  178,
+        "pubdate":  "2026-08-30"
+    },
+    {
+        "index":  17,
+        "bvid":  "BV1LSu76KE69",
+        "url":  "https://www.bilibili.com/video/BV1LSu76KE69",
+        "title":  "【世界模型】NVIDIA OmniDreams:Real-Time Generative World Model for Closed-Loop Autonom",
+        "duration_s":  907,
+        "views":  371,
+        "pubdate":  "2026-08-06"
+    },
+    {
+        "index":  18,
+        "bvid":  "BV1P1tn63E6D",
+        "url":  "https://www.bilibili.com/video/BV1P1tn63E6D",
+        "title":  "【世界模型】CLAP:Cross-Embodiment Video World Models are Zero-Shot Physical Simulators",
+        "duration_s":  1010,
+        "views":  333,
+        "pubdate":  "2026-08-30"
+    },
+    {
+        "index":  19,
+        "bvid":  "BV1Pgtw6pEmT",
+        "url":  "https://www.bilibili.com/video/BV1Pgtw6pEmT",
+        "title":  "【世界模型】ConfAL-WM:Confidence-Guided Active Learning for Action-Conditioned World M",
+        "duration_s":  830,
+        "views":  104,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  20,
+        "bvid":  "BV1PmM96JELX",
+        "url":  "https://www.bilibili.com/video/BV1PmM96JELX",
+        "title":  "【世界模型】Causal Forcing++:Scalable Few-Step Autoregressive Diffusion Distillation f",
+        "duration_s":  773,
+        "views":  133,
+        "pubdate":  "2026-08-03"
+    },
+    {
+        "index":  21,
+        "bvid":  "BV1Uqtn61Ebu",
+        "url":  "https://www.bilibili.com/video/BV1Uqtn61Ebu",
+        "title":  "【世界模型】SpatialCrafter:Single Image World Modeling with Generative 3D Proxies",
+        "duration_s":  928,
+        "views":  668,
+        "pubdate":  "2026-08-30"
+    },
+    {
+        "index":  22,
+        "bvid":  "BV1VJgE6BEf1",
+        "url":  "https://www.bilibili.com/video/BV1VJgE6BEf1",
+        "title":  "【世界模型】T3Former:Temporal Triplane Transformers as Occupancy World Models",
+        "duration_s":  1108,
+        "views":  123,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  23,
+        "bvid":  "BV1Y1gJ6zEcX",
+        "url":  "https://www.bilibili.com/video/BV1Y1gJ6zEcX",
+        "title":  "【TIP 2026｜世界模型】OccSora:4D Occupancy Generation Models as World Simulators for Au",
+        "duration_s":  954,
+        "views":  152,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  24,
+        "bvid":  "BV1ZDgj6BEoo",
+        "url":  "https://www.bilibili.com/video/BV1ZDgj6BEoo",
+        "title":  "【世界模型·综述】Generative Physical AI in Vision:A Survey",
+        "duration_s":  996,
+        "views":  105,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  25,
+        "bvid":  "BV1aDgJ6KEjR",
+        "url":  "https://www.bilibili.com/video/BV1aDgJ6KEjR",
+        "title":  "【世界模型】OWMR:Occupancy World Model for Robots",
+        "duration_s":  963,
+        "views":  192,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  26,
+        "bvid":  "BV1e98L6jEPn",
+        "url":  "https://www.bilibili.com/video/BV1e98L6jEPn",
+        "title":  "【TPAMI 2026｜世界模型】GaussianDWM++:Language-Grounded 3D Gaussian Driving World Model",
+        "duration_s":  1051,
+        "views":  1134,
+        "pubdate":  "2026-08-19"
+    },
+    {
+        "index":  27,
+        "bvid":  "BV1eB8T6sEjp",
+        "url":  "https://www.bilibili.com/video/BV1eB8T6sEjp",
+        "title":  "【世界模型】USR-Drive:Unified Driving Scene Representation via Joint Denoising of 3D G",
+        "duration_s":  965,
+        "views":  65,
+        "pubdate":  "2026-08-21"
+    },
+    {
+        "index":  28,
+        "bvid":  "BV1fT8S61Ess",
+        "url":  "https://www.bilibili.com/video/BV1fT8S61Ess",
+        "title":  "【世界模型】Hydra-0:Action Flow for Generalist World Modeling and Control",
+        "duration_s":  1033,
+        "views":  552,
+        "pubdate":  "2026-08-22"
+    },
+    {
+        "index":  29,
+        "bvid":  "BV1g1hw6uEkc",
+        "url":  "https://www.bilibili.com/video/BV1g1hw6uEkc",
+        "title":  "【世界模型】Code World Model:Coding Agent as World Brain",
+        "duration_s":  981,
+        "views":  339,
+        "pubdate":  "2026-08-27"
+    },
+    {
+        "index":  30,
+        "bvid":  "BV1irgJ6GEgv",
+        "url":  "https://www.bilibili.com/video/BV1irgJ6GEgv",
+        "title":  "【ECCV 2024｜世界模型】OccWorld:Learning a 3D Occupancy World Model for Autonomous Driv",
+        "duration_s":  1065,
+        "views":  179,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  31,
+        "bvid":  "BV1jg8S6yEjN",
+        "url":  "https://www.bilibili.com/video/BV1jg8S6yEjN",
+        "title":  "【世界模型】WorldGym:World Model as an Environment for Policy Evaluation",
+        "duration_s":  935,
+        "views":  244,
+        "pubdate":  "2026-08-22"
+    },
+    {
+        "index":  32,
+        "bvid":  "BV1nC8B6pEzk",
+        "url":  "https://www.bilibili.com/video/BV1nC8B6pEzk",
+        "title":  "【世界模型】GE-Sim 2.0:A Roadmap Towards Comprehensive Closed-loop Video World Simulat",
+        "duration_s":  1014,
+        "views":  70,
+        "pubdate":  "2026-08-21"
+    },
+    {
+        "index":  33,
+        "bvid":  "BV1u9hP6rEhB",
+        "url":  "https://www.bilibili.com/video/BV1u9hP6rEhB",
+        "title":  "【世界模型】Echo-Memory:A Controlled Study of Memory in Action World Models",
+        "duration_s":  857,
+        "views":  738,
+        "pubdate":  "2026-08-24"
+    },
+    {
+        "index":  34,
+        "bvid":  "BV1vYgL6wErA",
+        "url":  "https://www.bilibili.com/video/BV1vYgL6wErA",
+        "title":  "【ECCV 2024｜世界模型】WoVoGen:World Volume-aware Diffusion for Controllable Multi-came",
+        "duration_s":  1002,
+        "views":  76,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  35,
+        "bvid":  "BV1vcuo63EGx",
+        "url":  "https://www.bilibili.com/video/BV1vcuo63EGx",
+        "title":  "【世界模型】Latent Spatial Memory for Video World Models",
+        "duration_s":  774,
+        "views":  1506,
+        "pubdate":  "2026-08-10"
+    },
+    {
+        "index":  36,
+        "bvid":  "BV1fbt76WEvq",
+        "url":  "https://www.bilibili.com/video/BV1fbt76WEvq",
+        "title":  "【交互式世界模型】Matrix-Game 3.5:Enhancing Real-Time Streaming Interactive World Models",
+        "duration_s":  834,
+        "views":  218,
+        "pubdate":  "2026-09-02"
+    },
+    {
+        "index":  37,
+        "bvid":  "BV1gutS6tEwn",
+        "url":  "https://www.bilibili.com/video/BV1gutS6tEwn",
+        "title":  "【交互式世界模型】The Matrix:Infinite-Horizon World Generation with Real-Time Moving Cont",
+        "duration_s":  893,
+        "views":  74,
+        "pubdate":  "2026-09-02"
+    },
+    {
+        "index":  38,
+        "bvid":  "BV1yBtU6UEqy",
+        "url":  "https://www.bilibili.com/video/BV1yBtU6UEqy",
+        "title":  "【交互式世界模型】Matrix-Game:Interactive World Foundation Model",
+        "duration_s":  868,
+        "views":  90,
+        "pubdate":  "2026-09-02"
+    },
+    {
+        "index":  39,
+        "bvid":  "BV1sqtU6JEWE",
+        "url":  "https://www.bilibili.com/video/BV1sqtU6JEWE",
+        "title":  "【交互式世界模型】Matrix-Game 2.0:An Open-Source, Real-Time, and Streaming Interactive Wo",
+        "duration_s":  944,
+        "views":  74,
+        "pubdate":  "2026-09-02"
+    },
+    {
+        "index":  40,
+        "bvid":  "BV1YLtU6eEof",
+        "url":  "https://www.bilibili.com/video/BV1YLtU6eEof",
+        "title":  "【交互式世界模型】Matrix-Game 3.0:Real-Time and Streaming Interactive World Model with Lo",
+        "duration_s":  965,
+        "views":  141,
+        "pubdate":  "2026-09-02"
+    },
+    {
+        "index":  41,
+        "bvid":  "BV1RVtv6tE45",
+        "url":  "https://www.bilibili.com/video/BV1RVtv6tE45",
+        "title":  "【世界模型】SolarWM:Open Data and Scalable Training for Long-Horizon Video World Model",
+        "duration_s":  810,
+        "views":  250,
+        "pubdate":  "2026-09-04"
+    },
+    {
+        "index":  42,
+        "bvid":  "BV1aYtR6jE9R",
+        "url":  "https://www.bilibili.com/video/BV1aYtR6jE9R",
+        "title":  "【世界模型】H3-World:Turning Language Understanding into World Control",
+        "duration_s":  934,
+        "views":  247,
+        "pubdate":  "2026-09-03"
+    },
+    {
+        "index":  43,
+        "bvid":  "BV1j2bE6REdP",
+        "url":  "https://www.bilibili.com/video/BV1j2bE6REdP",
+        "title":  "【世界模型】OctWorld:Long-Range World-Consistent Video Generation with Octree-Based 3D",
+        "duration_s":  1031,
+        "views":  686,
+        "pubdate":  "2026-09-06"
+    },
+    {
+        "index":  44,
+        "bvid":  "BV1bnbE6kEMr",
+        "url":  "https://www.bilibili.com/video/BV1bnbE6kEMr",
+        "title":  "【世界模型】FactoSR:Unfold The World:Factorize 4D Properties in Reinforcing Spatial Re",
+        "duration_s":  1021,
+        "views":  120,
+        "pubdate":  "2026-09-06"
+    },
+    {
+        "index":  45,
+        "bvid":  "BV1nkb36VE9G",
+        "url":  "https://www.bilibili.com/video/BV1nkb36VE9G",
+        "title":  "【世界模型】TourPhysics:Bringing Physics to World Models for Exploration and Manipulat",
+        "duration_s":  970,
+        "views":  229,
+        "pubdate":  "2026-09-08"
+    },
+    {
+        "index":  46,
+        "bvid":  "BV15Zb36NEL5",
+        "url":  "https://www.bilibili.com/video/BV15Zb36NEL5",
+        "title":  "【世界模型】WorldSculpt:Generating Compositional Worlds from Grounded Videos",
+        "duration_s":  918,
+        "views":  195,
+        "pubdate":  "2026-09-08"
+    },
+    {
+        "index":  47,
+        "bvid":  "BV1qMeJ6MEC6",
+        "url":  "https://www.bilibili.com/video/BV1qMeJ6MEC6",
+        "title":  "【世界模型】VideoTok4D:A 4D-Aware Video Tokenizer for Compact World Representation",
+        "duration_s":  886,
+        "views":  369,
+        "pubdate":  "2026-09-15"
+    },
+    {
+        "index":  48,
+        "bvid":  "BV1SreE6dEa2",
+        "url":  "https://www.bilibili.com/video/BV1SreE6dEa2",
+        "title":  "【世界模型】DWMP:Leveraging Dual World Models for Humanoid Obstacle Traversal",
+        "duration_s":  939,
+        "views":  163,
+        "pubdate":  "2026-09-15"
+    },
+    {
+        "index":  49,
+        "bvid":  "BV1C7eE6VELN",
+        "url":  "https://www.bilibili.com/video/BV1C7eE6VELN",
+        "title":  "【世界模型】Pelican-Sim 1.0:A General World Model Simulator for Embodied Intelligence",
+        "duration_s":  915,
+        "views":  83,
+        "pubdate":  "2026-09-15"
+    },
+    {
+        "index":  50,
+        "bvid":  "BV14GY56TEUg",
+        "url":  "https://www.bilibili.com/video/BV14GY56TEUg",
+        "title":  "【世界模型】Programmable World Model",
+        "duration_s":  951,
+        "views":  340,
+        "pubdate":  "2026-09-11"
+    },
+    {
+        "index":  51,
+        "bvid":  "BV1seYV6AEKx",
+        "url":  "https://www.bilibili.com/video/BV1seYV6AEKx",
+        "title":  "【世界模型】DUET-DINO:Simultaneous Cross-View World Modeling for Latent Planning in Ro",
+        "duration_s":  907,
+        "views":  464,
+        "pubdate":  "2026-09-11"
+    },
+    {
+        "index":  52,
+        "bvid":  "BV1zeYD6ZE6X",
+        "url":  "https://www.bilibili.com/video/BV1zeYD6ZE6X",
+        "title":  "【世界模型】World in World:Explore the World with World Models",
+        "duration_s":  881,
+        "views":  668,
+        "pubdate":  "2026-09-12"
+    },
+    {
+        "index":  53,
+        "bvid":  "BV1XhY964EDe",
+        "url":  "https://www.bilibili.com/video/BV1XhY964EDe",
+        "title":  "【世界模型】RCWM:Recursive Code World Models:Building Complex Worlds through Recursive",
+        "duration_s":  919,
+        "views":  215,
+        "pubdate":  "2026-09-12"
+    },
+    {
+        "index":  54,
+        "bvid":  "BV16Mec6xErX",
+        "url":  "https://www.bilibili.com/video/BV16Mec6xErX",
+        "title":  "【世界模型】AlayaVista:Streaming World Modeling from Panoramic States to Perspective V",
+        "duration_s":  945,
+        "views":  135,
+        "pubdate":  "2026-09-16"
+    },
+    {
+        "index":  55,
+        "bvid":  "BV1EGey6kEB9",
+        "url":  "https://www.bilibili.com/video/BV1EGey6kEB9",
+        "title":  "【世界模型】PointZero:3D Point Track Completion for Learning Transferable 3D Dynamics",
+        "duration_s":  899,
+        "views":  487,
+        "pubdate":  "2026-09-18"
+    },
+    {
+        "index":  56,
+        "bvid":  "BV1Rney6TEvm",
+        "url":  "https://www.bilibili.com/video/BV1Rney6TEvm",
+        "title":  "【世界模型】StrucPhysVideo:Learning Physical Dynamics from Structured Captions and Rob",
+        "duration_s":  884,
+        "views":  96,
+        "pubdate":  "2026-09-18"
+    },
+    {
+        "index":  57,
+        "bvid":  "BV1Ufe46jEeC",
+        "url":  "https://www.bilibili.com/video/BV1Ufe46jEeC",
+        "title":  "【交互式世界模型】Astronex-World 1.0:Real-Time Interactive World Model Foundation",
+        "duration_s":  1066,
+        "views":  185,
+        "pubdate":  "2026-09-19"
+    },
+    {
+        "index":  58,
+        "bvid":  "BV14xhk65EUw",
+        "url":  "https://www.bilibili.com/video/BV14xhk65EUw",
+        "title":  "【交互式世界模型】ZYT-World:A Real-Time Controllable World Model for Closed-Loop Autonomo",
+        "duration_s":  910,
+        "views":  322,
+        "pubdate":  "2026-09-22"
+    },
+    {
+        "index":  59,
+        "bvid":  "BV1gshy6XENZ",
+        "url":  "https://www.bilibili.com/video/BV1gshy6XENZ",
+        "title":  "【世界模型】HelloWorld:Towards Practical Applications of Generative Driving World Mode",
+        "duration_s":  818,
+        "views":  412,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  60,
+        "bvid":  "BV1nfhC66EVP",
+        "url":  "https://www.bilibili.com/video/BV1nfhC66EVP",
+        "title":  "【世界模型】WorldCrafter:Consistent Video World Model with Implicit 3D-aware Memory",
+        "duration_s":  863,
+        "views":  120,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  61,
+        "bvid":  "BV1pZhC63Er9",
+        "url":  "https://www.bilibili.com/video/BV1pZhC63Er9",
+        "title":  "【世界模型】GAE:Learning a Geometry-Native Latent Space for 3D-Consistent World Genera",
+        "duration_s":  916,
+        "views":  294,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  62,
+        "bvid":  "BV1xQhC6LEq2",
+        "url":  "https://www.bilibili.com/video/BV1xQhC6LEq2",
+        "title":  "【世界模型】Relationally Grounded Latent World Models for Autonomous Driving",
+        "duration_s":  839,
+        "views":  86,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  63,
+        "bvid":  "BV1VEh26vEVg",
+        "url":  "https://www.bilibili.com/video/BV1VEh26vEVg",
+        "title":  "【世界模型】NeuIDO:Neural Intrinsic Dynamics Operator for Physics-Informed 4D World Mo",
+        "duration_s":  951,
+        "views":  271,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  64,
+        "bvid":  "BV1KVpt6mEJ9",
+        "url":  "https://www.bilibili.com/video/BV1KVpt6mEJ9",
+        "title":  "【交互式世界模型】SPW-Nav:A Streaming Panoramic World Model for Language-Guided Navigatio",
+        "duration_s":  1002,
+        "views":  25,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  65,
+        "bvid":  "BV1Bmp46vE8R",
+        "url":  "https://www.bilibili.com/video/BV1Bmp46vE8R",
+        "title":  "【世界模型】STRIKE:Learning Visual State Transitions for Physical World Modeling",
+        "duration_s":  903,
+        "views":  55,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  66,
+        "bvid":  "BV1Khp46jEHh",
+        "url":  "https://www.bilibili.com/video/BV1Khp46jEHh",
+        "title":  "【世界模型】WALT:Learning World-Model-Aligned Latent Trajectories for Autonomous Drivi",
+        "duration_s":  865,
+        "views":  74,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  67,
+        "bvid":  "BV1ENp46PEmg",
+        "url":  "https://www.bilibili.com/video/BV1ENp46PEmg",
+        "title":  "【世界模型】GeoVerse:World-Consistent Novel View Synthesis in Geometric Latent Space",
+        "duration_s":  943,
+        "views":  62,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  68,
+        "bvid":  "BV1N6ph6dER7",
+        "url":  "https://www.bilibili.com/video/BV1N6ph6dER7",
+        "title":  "【世界模型】Proxy2World:Learning to Generate Worlds From Lightweight Proxies without S",
+        "duration_s":  893,
+        "views":  98,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  69,
+        "bvid":  "BV1FRph6jEap",
+        "url":  "https://www.bilibili.com/video/BV1FRph6jEap",
+        "title":  "【世界模型】GEAR:Geometry as Address:Routing Attention to Visual Memory for Long-Horiz",
+        "duration_s":  895,
+        "views":  279,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  70,
+        "bvid":  "BV1EPpi6dEZF",
+        "url":  "https://www.bilibili.com/video/BV1EPpi6dEZF",
+        "title":  "【世界模型】IntactWorld:Joint World Modeling with Intact Features",
+        "duration_s":  926,
+        "views":  13,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  71,
+        "bvid":  "BV1Adpv6wEp9",
+        "url":  "https://www.bilibili.com/video/BV1Adpv6wEp9",
+        "title":  "【世界模型】WorldAlign:Decoupled 4D Reward for World-Consistent Video Generation",
+        "duration_s":  929,
+        "views":  11,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  72,
+        "bvid":  "BV1MFpg6YEg3",
+        "url":  "https://www.bilibili.com/video/BV1MFpg6YEg3",
+        "title":  "【世界模型】WorldWeave:Growing Persistent Geometric Worlds for Video Generation",
+        "duration_s":  964,
+        "views":  15,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  73,
+        "bvid":  "BV1Jjpg6QEp7",
+        "url":  "https://www.bilibili.com/video/BV1Jjpg6QEp7",
+        "title":  "【世界模型】RoGSW4RLD:Feed-Forward 4D Gaussian Lifting for Robot World Model Rollouts",
+        "duration_s":  951,
+        "views":  30,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  74,
+        "bvid":  "BV1oJpg6SEDX",
+        "url":  "https://www.bilibili.com/video/BV1oJpg6SEDX",
+        "title":  "【世界模型】World2Motion:Turning Video World Models into 3D Human Motion Generators",
+        "duration_s":  938,
+        "views":  26,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  75,
+        "bvid":  "BV1Agpg6dET8",
+        "url":  "https://www.bilibili.com/video/BV1Agpg6dET8",
+        "title":  "【世界模型】Honeycomb:Constant-Size Scene Memory Representation for Video World Models",
+        "duration_s":  913,
+        "views":  5,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  76,
+        "bvid":  "BV1TKpG6TEw8",
+        "url":  "https://www.bilibili.com/video/BV1TKpG6TEw8",
+        "title":  "【世界模型】Dream4ACT:A Shared Visual Action Interface for Multi-Embodiment Video-Acti",
+        "duration_s":  870,
+        "views":  5,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  77,
+        "bvid":  "BV17yp36HEPS",
+        "url":  "https://www.bilibili.com/video/BV17yp36HEPS",
+        "title":  "【世界模型】World Motion Models:Flexible Sequence Modeling of SE(3) Trajectories",
+        "duration_s":  962,
+        "views":  54,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  78,
+        "bvid":  "BV16ip36oE6t",
+        "url":  "https://www.bilibili.com/video/BV16ip36oE6t",
+        "title":  "【世界模型】Latent-Foresight:End-to-End Learning Predictable Representations for Laten",
+        "duration_s":  878,
+        "views":  7,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  79,
+        "bvid":  "BV1fBp36xEeF",
+        "url":  "https://www.bilibili.com/video/BV1fBp36xEeF",
+        "title":  "【世界模型】4Director:Controlling Video World Models with Rigid 3D Geometry",
+        "duration_s":  977,
+        "views":  8,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  80,
+        "bvid":  "BV18Ep36uEYS",
+        "url":  "https://www.bilibili.com/video/BV18Ep36uEYS",
+        "title":  "【世界模型】Kepler4D:Controllable Future Video Generation via 4D Scene State Evolution",
+        "duration_s":  926,
+        "views":  11,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  81,
+        "bvid":  "BV1Whp36cEv7",
+        "url":  "https://www.bilibili.com/video/BV1Whp36cEv7",
+        "title":  "【世界模型】Artemis:Geometry-Grounded Multi-Agent Driving World Models with Shared 3D",
+        "duration_s":  954,
+        "views":  10,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  82,
+        "bvid":  "BV1Whp36cEHC",
+        "url":  "https://www.bilibili.com/video/BV1Whp36cEHC",
+        "title":  "【世界模型】GeoWM:Efficient Direct World Modeling in Explicit Geometry",
+        "duration_s":  852,
+        "views":  18,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  83,
+        "bvid":  "BV1xsp36NEiA",
+        "url":  "https://www.bilibili.com/video/BV1xsp36NEiA",
+        "title":  "【世界模型】DepthWorld:3D World Model for Robot Manipulation",
+        "duration_s":  961,
+        "views":  41,
+        "pubdate":  "2026-10-10"
+    }
+]
