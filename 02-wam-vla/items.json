@@ -1,0 +1,596 @@
+[
+    {
+        "index":  1,
+        "bvid":  "BV13khF6YEzp",
+        "url":  "https://www.bilibili.com/video/BV13khF6YEzp",
+        "title":  "【WAM】GlanceWAM:Sparse Test-Time Imagination for World-Action Models",
+        "duration_s":  904,
+        "views":  427,
+        "pubdate":  "2026-08-27"
+    },
+    {
+        "index":  2,
+        "bvid":  "BV13ktP6MEG6",
+        "url":  "https://www.bilibili.com/video/BV13ktP6MEG6",
+        "title":  "【WAM】Next Forcing:Causal World Modeling with Multi-Chunk Prediction",
+        "duration_s":  863,
+        "views":  347,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  3,
+        "bvid":  "BV16v4f6qE4r",
+        "url":  "https://www.bilibili.com/video/BV16v4f6qE4r",
+        "title":  "【VLA】GaussianDream++:Efficient 3D Gaussian World Modeling for Robotic Manipulati",
+        "duration_s":  1148,
+        "views":  152,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  4,
+        "bvid":  "BV17Y8X6xEWg",
+        "url":  "https://www.bilibili.com/video/BV17Y8X6xEWg",
+        "title":  "【WAM】GeoWAM:Visual Geometry World Action Models for Autonomous Driving",
+        "duration_s":  942,
+        "views":  302,
+        "pubdate":  "2026-08-26"
+    },
+    {
+        "index":  5,
+        "bvid":  "BV1BXuH6UEPk",
+        "url":  "https://www.bilibili.com/video/BV1BXuH6UEPk",
+        "title":  "【WAM】DreamZero:World Action Models are Zero-shot Policies",
+        "duration_s":  471,
+        "views":  132,
+        "pubdate":  "2026-08-06"
+    },
+    {
+        "index":  6,
+        "bvid":  "BV1Dx876VExv",
+        "url":  "https://www.bilibili.com/video/BV1Dx876VExv",
+        "title":  "【VLA】GigaBrain-0.7:Scaling Embodied Foundation Models to Emergent Capabilities w",
+        "duration_s":  932,
+        "views":  96,
+        "pubdate":  "2026-08-19"
+    },
+    {
+        "index":  7,
+        "bvid":  "BV1EMgj6MEFj",
+        "url":  "https://www.bilibili.com/video/BV1EMgj6MEFj",
+        "title":  "【VLA】Qwen-RobotManip Technical Report:Alignment Unlocks Scale for Robotic Manipu",
+        "duration_s":  818,
+        "views":  136,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  8,
+        "bvid":  "BV1GJuh6PEY6",
+        "url":  "https://www.bilibili.com/video/BV1GJuh6PEY6",
+        "title":  "【WAM】DreamWAM:Beyond RGB Future Prediction for World Action Models",
+        "duration_s":  792,
+        "views":  1296,
+        "pubdate":  "2026-08-07"
+    },
+    {
+        "index":  9,
+        "bvid":  "BV1HStn6qEqM",
+        "url":  "https://www.bilibili.com/video/BV1HStn6qEqM",
+        "title":  "【VLA】TemporalFlow-VLA:Learning Physically Grounded Execution History for Long-Ho",
+        "duration_s":  972,
+        "views":  172,
+        "pubdate":  "2026-08-30"
+    },
+    {
+        "index":  10,
+        "bvid":  "BV1HphF6jEPW",
+        "url":  "https://www.bilibili.com/video/BV1HphF6jEPW",
+        "title":  "【WAM】GaussianWAM:Distilling Geometry and Semantics from 3D Gaussian Fields into",
+        "duration_s":  925,
+        "views":  417,
+        "pubdate":  "2026-08-27"
+    },
+    {
+        "index":  11,
+        "bvid":  "BV1NitN6wEyT",
+        "url":  "https://www.bilibili.com/video/BV1NitN6wEyT",
+        "title":  "【VLA】LingBot-VLA:A Pragmatic VLA Foundation Model",
+        "duration_s":  983,
+        "views":  77,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  12,
+        "bvid":  "BV1P88w6xET5",
+        "url":  "https://www.bilibili.com/video/BV1P88w6xET5",
+        "title":  "【IJRR 2026｜VLA·综述】World Model for Robot Learning:A Comprehensive Survey",
+        "duration_s":  860,
+        "views":  1617,
+        "pubdate":  "2026-08-20"
+    },
+    {
+        "index":  13,
+        "bvid":  "BV1PiuJ6XEna",
+        "url":  "https://www.bilibili.com/video/BV1PiuJ6XEna",
+        "title":  "【VLA】See like a Robot:Robot-Centric Pointmaps for Vision-Language-Action Models",
+        "duration_s":  323,
+        "views":  382,
+        "pubdate":  "2026-08-06"
+    },
+    {
+        "index":  14,
+        "bvid":  "BV1R9g56ZERG",
+        "url":  "https://www.bilibili.com/video/BV1R9g56ZERG",
+        "title":  "【WAM】4D-WAM:Infusing Spatiotemporal Awareness into World Action Models through T",
+        "duration_s":  439,
+        "views":  156,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  15,
+        "bvid":  "BV1Re8q6zEqy",
+        "url":  "https://www.bilibili.com/video/BV1Re8q6zEqy",
+        "title":  "【VLA】GS-VLA:Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via",
+        "duration_s":  916,
+        "views":  314,
+        "pubdate":  "2026-08-21"
+    },
+    {
+        "index":  16,
+        "bvid":  "BV1SE4f6EE4t",
+        "url":  "https://www.bilibili.com/video/BV1SE4f6EE4t",
+        "title":  "【VLA】GaussVLA:Geometry-Aware Spatial Reasoning for Vision-Language-Action Model",
+        "duration_s":  1077,
+        "views":  731,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  17,
+        "bvid":  "BV1UcgV6LEr3",
+        "url":  "https://www.bilibili.com/video/BV1UcgV6LEr3",
+        "title":  "【WAM】SG-WAM:Text-Grounded and Spatial-aware Semantic Guidance for World-Action M",
+        "duration_s":  1053,
+        "views":  151,
+        "pubdate":  "2026-08-12"
+    },
+    {
+        "index":  18,
+        "bvid":  "BV1Wjtw67Ewb",
+        "url":  "https://www.bilibili.com/video/BV1Wjtw67Ewb",
+        "title":  "【VLA】V-Link:Recovering Lost Visual Representations in Action DiT for Vision-Lang",
+        "duration_s":  898,
+        "views":  135,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  19,
+        "bvid":  "BV1Xq8q6qEyz",
+        "url":  "https://www.bilibili.com/video/BV1Xq8q6qEyz",
+        "title":  "【WAM】DA-WAM:Decision-Aligned Future Latents for Driving World Models",
+        "duration_s":  872,
+        "views":  172,
+        "pubdate":  "2026-08-21"
+    },
+    {
+        "index":  20,
+        "bvid":  "BV1Yitw6eEin",
+        "url":  "https://www.bilibili.com/video/BV1Yitw6eEin",
+        "title":  "【WAM】Zero-WAM:In-Context World-Action Modeling from Human Videos for Open-Ended",
+        "duration_s":  973,
+        "views":  154,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  21,
+        "bvid":  "BV1bg4R6uEF8",
+        "url":  "https://www.bilibili.com/video/BV1bg4R6uEF8",
+        "title":  "【WAM】Flex-π:A Multi-Stream World-Action Model with Compute Flexibility",
+        "duration_s":  921,
+        "views":  140,
+        "pubdate":  "2026-08-27"
+    },
+    {
+        "index":  22,
+        "bvid":  "BV1hshG6YEav",
+        "url":  "https://www.bilibili.com/video/BV1hshG6YEav",
+        "title":  "【VLA】A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonom",
+        "duration_s":  960,
+        "views":  93,
+        "pubdate":  "2026-08-25"
+    },
+    {
+        "index":  23,
+        "bvid":  "BV1ka4f6zEu1",
+        "url":  "https://www.bilibili.com/video/BV1ka4f6zEu1",
+        "title":  "【VLA】UCAG-P:One Policy, Many Embodiments:Unified Camera-Centric Action Geometry",
+        "duration_s":  970,
+        "views":  116,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  24,
+        "bvid":  "BV1nQuA6qEC8",
+        "url":  "https://www.bilibili.com/video/BV1nQuA6qEC8",
+        "title":  "【WAM】NavWAM:A Navigation World Action Model for Goal-Conditioned Visual Navigati",
+        "duration_s":  1427,
+        "views":  657,
+        "pubdate":  "2026-08-04"
+    },
+    {
+        "index":  25,
+        "bvid":  "BV1r9ux6eEqv",
+        "url":  "https://www.bilibili.com/video/BV1r9ux6eEqv",
+        "title":  "【NeurIPS 2025｜VLA】VideoVLA:Video Generators Can Be Generalizable Robot Manipulat",
+        "duration_s":  631,
+        "views":  169,
+        "pubdate":  "2026-08-07"
+    },
+    {
+        "index":  26,
+        "bvid":  "BV1rCtN6xELX",
+        "url":  "https://www.bilibili.com/video/BV1rCtN6xELX",
+        "title":  "【VLA】LingBot-VLA 2.0:From Foundation to Application:Improving VLA Models in Prac",
+        "duration_s":  1009,
+        "views":  247,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  27,
+        "bvid":  "BV1tH4f67EfQ",
+        "url":  "https://www.bilibili.com/video/BV1tH4f67EfQ",
+        "title":  "【WAM】4DGS-WAM:Bridging Past and Future with an Object-Centric World Action Model",
+        "duration_s":  900,
+        "views":  164,
+        "pubdate":  "2026-08-28"
+    },
+    {
+        "index":  28,
+        "bvid":  "BV1vW8g6aEq4",
+        "url":  "https://www.bilibili.com/video/BV1vW8g6aEq4",
+        "title":  "【VLA】Reflex:Enabling Fast and Predictive Vision-Language-Action Models for React",
+        "duration_s":  1087,
+        "views":  167,
+        "pubdate":  "2026-08-18"
+    },
+    {
+        "index":  29,
+        "bvid":  "BV1wZ8j6YERR",
+        "url":  "https://www.bilibili.com/video/BV1wZ8j6YERR",
+        "title":  "【CVPR Findings 2026｜VLA】ART:Evolve Vision-Language-Action Model into an Agent wi",
+        "duration_s":  942,
+        "views":  299,
+        "pubdate":  "2026-08-19"
+    },
+    {
+        "index":  30,
+        "bvid":  "BV1nYtg6BE54",
+        "url":  "https://www.bilibili.com/video/BV1nYtg6BE54",
+        "title":  "【VLA】Beyond Data Scaling:Representation-Centric Continued Pre-training for Visio",
+        "duration_s":  1001,
+        "views":  308,
+        "pubdate":  "2026-09-01"
+    },
+    {
+        "index":  31,
+        "bvid":  "BV1JEtn6fEPu",
+        "url":  "https://www.bilibili.com/video/BV1JEtn6fEPu",
+        "title":  "【VLA】Temporal Forcing:4D Representation Alignment for Vision-Language-Action Mod",
+        "duration_s":  866,
+        "views":  274,
+        "pubdate":  "2026-09-02"
+    },
+    {
+        "index":  32,
+        "bvid":  "BV1GLtZ6xEqM",
+        "url":  "https://www.bilibili.com/video/BV1GLtZ6xEqM",
+        "title":  "【WAM】ZimaBlue:Evolving Generalizable World Action Models through Scalable Video",
+        "duration_s":  936,
+        "views":  81,
+        "pubdate":  "2026-09-03"
+    },
+    {
+        "index":  33,
+        "bvid":  "BV1JAtv6KEsE",
+        "url":  "https://www.bilibili.com/video/BV1JAtv6KEsE",
+        "title":  "【VLA】Towards Zero-Shot Transfer Across Embodiments For Driving VLAs",
+        "duration_s":  912,
+        "views":  189,
+        "pubdate":  "2026-09-04"
+    },
+    {
+        "index":  34,
+        "bvid":  "BV1Z1tv6iEWU",
+        "url":  "https://www.bilibili.com/video/BV1Z1tv6iEWU",
+        "title":  "【WAM】SA-WAM:Spatially Aware World Action Model via Geometric Latent Diffusion",
+        "duration_s":  937,
+        "views":  651,
+        "pubdate":  "2026-09-04"
+    },
+    {
+        "index":  35,
+        "bvid":  "BV1vgbE6JEnQ",
+        "url":  "https://www.bilibili.com/video/BV1vgbE6JEnQ",
+        "title":  "【VLA】LaPla:Continuous Actions from Discrete Minds:Latent-Aligned Planning for En",
+        "duration_s":  884,
+        "views":  135,
+        "pubdate":  "2026-09-06"
+    },
+    {
+        "index":  36,
+        "bvid":  "BV1DBeE6ZEYZ",
+        "url":  "https://www.bilibili.com/video/BV1DBeE6ZEYZ",
+        "title":  "【WAM】LIT:Breaking the Vision-Action Shortcut:Latent Interface Training for Gener",
+        "duration_s":  877,
+        "views":  61,
+        "pubdate":  "2026-09-15"
+    },
+    {
+        "index":  37,
+        "bvid":  "BV13fe76xE6c",
+        "url":  "https://www.bilibili.com/video/BV13fe76xE6c",
+        "title":  "【VLA】Dynin-Robotics:Omnimodal Unified Diffusion Vision-Language-Action Model",
+        "duration_s":  913,
+        "views":  57,
+        "pubdate":  "2026-09-15"
+    },
+    {
+        "index":  38,
+        "bvid":  "BV1iZYK6YEqH",
+        "url":  "https://www.bilibili.com/video/BV1iZYK6YEqH",
+        "title":  "【VLA】3DWay:Generalizing Robot Manipulation via 3D Consistent Waypoints",
+        "duration_s":  1057,
+        "views":  504,
+        "pubdate":  "2026-09-10"
+    },
+    {
+        "index":  39,
+        "bvid":  "BV1wPYK66EUj",
+        "url":  "https://www.bilibili.com/video/BV1wPYK66EUj",
+        "title":  "【VLA】GIF:Agentic Generation of Interactive and Functional Object Compositions fo",
+        "duration_s":  949,
+        "views":  106,
+        "pubdate":  "2026-09-10"
+    },
+    {
+        "index":  40,
+        "bvid":  "BV14TYd6QEeQ",
+        "url":  "https://www.bilibili.com/video/BV14TYd6QEeQ",
+        "title":  "【VLA】UniMPA:A Unified Memory-Prediction-Action Model via Action-Grounded Transit",
+        "duration_s":  999,
+        "views":  194,
+        "pubdate":  "2026-09-12"
+    },
+    {
+        "index":  41,
+        "bvid":  "BV1wNec6bEvY",
+        "url":  "https://www.bilibili.com/video/BV1wNec6bEvY",
+        "title":  "【VLA】GeomVLA:Unifying Scene, Motion, and Action in 3D",
+        "duration_s":  947,
+        "views":  432,
+        "pubdate":  "2026-09-16"
+    },
+    {
+        "index":  42,
+        "bvid":  "BV1LEec6UEhs",
+        "url":  "https://www.bilibili.com/video/BV1LEec6UEhs",
+        "title":  "【WAM】DIDO:Distilling Interaction-Centric Dynamics into One-Step Denoising for Wo",
+        "duration_s":  883,
+        "views":  112,
+        "pubdate":  "2026-09-16"
+    },
+    {
+        "index":  43,
+        "bvid":  "BV1U4eM6xEC1",
+        "url":  "https://www.bilibili.com/video/BV1U4eM6xEC1",
+        "title":  "【WAM】ModAR:Modality-Autoregressive World-Action Models",
+        "duration_s":  881,
+        "views":  111,
+        "pubdate":  "2026-09-17"
+    },
+    {
+        "index":  44,
+        "bvid":  "BV1umeC6fEH9",
+        "url":  "https://www.bilibili.com/video/BV1umeC6fEH9",
+        "title":  "【VLA】RAF-VLA:Representation Alignment with the Future for End-to-End Autonomous",
+        "duration_s":  892,
+        "views":  123,
+        "pubdate":  "2026-09-18"
+    },
+    {
+        "index":  45,
+        "bvid":  "BV1tDeC6oEJP",
+        "url":  "https://www.bilibili.com/video/BV1tDeC6oEJP",
+        "title":  "【WAM】CSWAM:Better Causal Semantic Representations for Out-of-Distribution Genera",
+        "duration_s":  885,
+        "views":  97,
+        "pubdate":  "2026-09-18"
+    },
+    {
+        "index":  46,
+        "bvid":  "BV1TXeC6xEq9",
+        "url":  "https://www.bilibili.com/video/BV1TXeC6xEq9",
+        "title":  "【VLA】ActiveScale:Scaling Active Perception for Robots across Model, Data, and Ha",
+        "duration_s":  998,
+        "views":  119,
+        "pubdate":  "2026-09-18"
+    },
+    {
+        "index":  47,
+        "bvid":  "BV1ewe16MEmo",
+        "url":  "https://www.bilibili.com/video/BV1ewe16MEmo",
+        "title":  "【WAM】OpenWAM:An Open, Modular Exploration Towards Systematic World-Action Model",
+        "duration_s":  857,
+        "views":  115,
+        "pubdate":  "2026-09-18"
+    },
+    {
+        "index":  48,
+        "bvid":  "BV1yuhn61EpW",
+        "url":  "https://www.bilibili.com/video/BV1yuhn61EpW",
+        "title":  "【VLA】FOCAL-VLA:Subtask-Guided Geometry Distillation and Implicit World Modeling",
+        "duration_s":  969,
+        "views":  387,
+        "pubdate":  "2026-09-22"
+    },
+    {
+        "index":  49,
+        "bvid":  "BV1umhp6tEH9",
+        "url":  "https://www.bilibili.com/video/BV1umhp6tEH9",
+        "title":  "【VLA】GALA:Geometry-Aware Latent Action Modeling for Vision-Language-Action Model",
+        "duration_s":  952,
+        "views":  404,
+        "pubdate":  "2026-09-22"
+    },
+    {
+        "index":  50,
+        "bvid":  "BV1anhy6xEhZ",
+        "url":  "https://www.bilibili.com/video/BV1anhy6xEhZ",
+        "title":  "【WAM】DeltaWAM:Delta World Action Models for Bimanual Manipulation",
+        "duration_s":  915,
+        "views":  209,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  51,
+        "bvid":  "BV1Fchy6gE22",
+        "url":  "https://www.bilibili.com/video/BV1Fchy6gE22",
+        "title":  "【VLA】Bridge3D:Enabling Vision-Language-Action Models to See and Act in 3D",
+        "duration_s":  934,
+        "views":  100,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  52,
+        "bvid":  "BV1Xwhm6NEFv",
+        "url":  "https://www.bilibili.com/video/BV1Xwhm6NEFv",
+        "title":  "【VLA】StrataVLA:Hierarchical and Efficient 3D Geometric Grounding for Vision-Lang",
+        "duration_s":  1383,
+        "views":  210,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  53,
+        "bvid":  "BV1XFhm6iE24",
+        "url":  "https://www.bilibili.com/video/BV1XFhm6iE24",
+        "title":  "【VLA】HABILIS Brain 0:Geometry-Change Supervision for Vision-Language-Action and",
+        "duration_s":  961,
+        "views":  65,
+        "pubdate":  "2026-09-25"
+    },
+    {
+        "index":  54,
+        "bvid":  "BV1upp46QEZQ",
+        "url":  "https://www.bilibili.com/video/BV1upp46QEZQ",
+        "title":  "【VLA】Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matchin",
+        "duration_s":  913,
+        "views":  28,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  55,
+        "bvid":  "BV1Wqp46GEMc",
+        "url":  "https://www.bilibili.com/video/BV1Wqp46GEMc",
+        "title":  "【WAM】InternW0-$\\Delta$:InternW0-\\Delta:A World Action Model Bridging Predictive",
+        "duration_s":  1038,
+        "views":  38,
+        "pubdate":  "2026-10-09"
+    },
+    {
+        "index":  56,
+        "bvid":  "BV16Fpi6bEHR",
+        "url":  "https://www.bilibili.com/video/BV16Fpi6bEHR",
+        "title":  "【VLA】VGGTWorld-VLA:Intent-Conditioned 3D World Evolution for Autonomous Driving",
+        "duration_s":  899,
+        "views":  43,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  57,
+        "bvid":  "BV1g6pv6VEHP",
+        "url":  "https://www.bilibili.com/video/BV1g6pv6VEHP",
+        "title":  "【WAM】AffordDrive3D:Affordance-Aware World-Action Modeling with Spatial Understan",
+        "duration_s":  865,
+        "views":  25,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  58,
+        "bvid":  "BV1fjpg6DEgf",
+        "url":  "https://www.bilibili.com/video/BV1fjpg6DEgf",
+        "title":  "【WAM】PhysWAM:Physically Consistent World Action Model for Autonomous Driving",
+        "duration_s":  939,
+        "views":  9,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  59,
+        "bvid":  "BV1FLpg6pECf",
+        "url":  "https://www.bilibili.com/video/BV1FLpg6pECf",
+        "title":  "【WAM】MVG-WAM:Multiple View Geometry-Aware World-Action Modeling for Robotic Mani",
+        "duration_s":  806,
+        "views":  18,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  60,
+        "bvid":  "BV121pG6zEGw",
+        "url":  "https://www.bilibili.com/video/BV121pG6zEGw",
+        "title":  "【WAM】DiffWAM:A Fast and Efficient Navigation World Action Model",
+        "duration_s":  997,
+        "views":  14,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  61,
+        "bvid":  "BV1hZp36kELr",
+        "url":  "https://www.bilibili.com/video/BV1hZp36kELr",
+        "title":  "【VLA】IG-VLA:Imagine the Future, Internalize the Gist:Efficient VLA Reasoning via",
+        "duration_s":  884,
+        "views":  10,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  62,
+        "bvid":  "BV1uop36VEdb",
+        "url":  "https://www.bilibili.com/video/BV1uop36VEdb",
+        "title":  "【VLA】GeoScaffold:Learning Compact Geometric Latents via Reconstruction for Effic",
+        "duration_s":  924,
+        "views":  16,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  63,
+        "bvid":  "BV1uop36VEoC",
+        "url":  "https://www.bilibili.com/video/BV1uop36VEoC",
+        "title":  "【WAM】PointWAM:3D World Action Modeling for Dexterous Robotic Manipulation",
+        "duration_s":  924,
+        "views":  14,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  64,
+        "bvid":  "BV1aQp362Efe",
+        "url":  "https://www.bilibili.com/video/BV1aQp362Efe",
+        "title":  "【WAM】XGenAct:Geometry-Enhanced World Action Models through Cross-Task Generation",
+        "duration_s":  882,
+        "views":  14,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  65,
+        "bvid":  "BV1tJp36BEgT",
+        "url":  "https://www.bilibili.com/video/BV1tJp36BEgT",
+        "title":  "【VLA】ForeAct3D:Policy-Grounded Future World Modeling for VLA Policies",
+        "duration_s":  929,
+        "views":  17,
+        "pubdate":  "2026-10-10"
+    },
+    {
+        "index":  66,
+        "bvid":  "BV1Zzp36REBH",
+        "url":  "https://www.bilibili.com/video/BV1Zzp36REBH",
+        "title":  "【WAM】UniWAM:Unified World-Action Model",
+        "duration_s":  933,
+        "views":  13,
+        "pubdate":  "2026-10-10"
+    }
+]
