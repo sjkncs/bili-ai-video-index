@@ -1,0 +1,218 @@
+[
+    {
+        "index":  1,
+        "bvid":  "BV1637VzPEZt",
+        "url":  "https://www.bilibili.com/video/BV1637VzPEZt",
+        "title":  "CBQ: 一种基于跨块重建的 LLM 后训练量化框架",
+        "duration_s":  2242,
+        "views":  955,
+        "pubdate":  "2025-05-29"
+    },
+    {
+        "index":  2,
+        "bvid":  "BV1H37VzNE3c",
+        "url":  "https://www.bilibili.com/video/BV1H37VzNE3c",
+        "title":  "SlimLLM：面向大语言模型的精确结构化剪枝方法",
+        "duration_s":  2702,
+        "views":  908,
+        "pubdate":  "2025-05-29"
+    },
+    {
+        "index":  3,
+        "bvid":  "BV1ru7VzvEC2",
+        "url":  "https://www.bilibili.com/video/BV1ru7VzvEC2",
+        "title":  "KnowTrace: 一个基于结构化知识追踪的迭代式 RAG 框架",
+        "duration_s":  2323,
+        "views":  752,
+        "pubdate":  "2025-05-29"
+    },
+    {
+        "index":  4,
+        "bvid":  "BV1ZD7nzSEFJ",
+        "url":  "https://www.bilibili.com/video/BV1ZD7nzSEFJ",
+        "title":  "盘古 Embedded: 灵活切换快慢思考的高效大语言模型",
+        "duration_s":  2623,
+        "views":  397,
+        "pubdate":  "2025-05-30"
+    },
+    {
+        "index":  5,
+        "bvid":  "BV17D7nzDEot",
+        "url":  "https://www.bilibili.com/video/BV17D7nzDEot",
+        "title":  "盘古 - Light：基于权重重初始化的大语言模型极致剪枝框架",
+        "duration_s":  1711,
+        "views":  386,
+        "pubdate":  "2025-05-30"
+    },
+    {
+        "index":  6,
+        "bvid":  "BV1ED7nzDEFb",
+        "url":  "https://www.bilibili.com/video/BV1ED7nzDEFb",
+        "title":  "ESA: 一种基于低维压缩的高效选择性注意力方法",
+        "duration_s":  1340,
+        "views":  225,
+        "pubdate":  "2025-05-30"
+    },
+    {
+        "index":  7,
+        "bvid":  "BV1BET7zUEoA",
+        "url":  "https://www.bilibili.com/video/BV1BET7zUEoA",
+        "title":  "昇腾原生的盘古 MoE 大模型",
+        "duration_s":  2431,
+        "views":  1462,
+        "pubdate":  "2025-06-04"
+    },
+    {
+        "index":  8,
+        "bvid":  "BV1BET7zUEBA",
+        "url":  "https://www.bilibili.com/video/BV1BET7zUEBA",
+        "title":  "PreMoe：大 Batchsize 下 MoE 模型专家路由优化",
+        "duration_s":  1780,
+        "views":  1187,
+        "pubdate":  "2025-06-04"
+    },
+    {
+        "index":  9,
+        "bvid":  "BV1BET7zUEi6",
+        "url":  "https://www.bilibili.com/video/BV1BET7zUEi6",
+        "title":  "无需训练、近似无损！基于 LLM 机理分析的大模型 KV 优化与反思压缩",
+        "duration_s":  2688,
+        "views":  308,
+        "pubdate":  "2025-06-04"
+    },
+    {
+        "index":  10,
+        "bvid":  "BV1ea4y1K7KK",
+        "url":  "https://www.bilibili.com/video/BV1ea4y1K7KK",
+        "title":  "01「隐语开源社区开放日」任奎教授致辞",
+        "duration_s":  391,
+        "views":  253,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  11,
+        "bvid":  "BV1Nj411A7Js",
+        "url":  "https://www.bilibili.com/video/BV1Nj411A7Js",
+        "title":  "02 数据要素大潮的技术挑战",
+        "duration_s":  1401,
+        "views":  351,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  12,
+        "bvid":  "BV1L24y157ks",
+        "url":  "https://www.bilibili.com/video/BV1L24y157ks",
+        "title":  "03 从AI到BI：基于多方安全计算的隐语数据分析引擎",
+        "duration_s":  1077,
+        "views":  72,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  13,
+        "bvid":  "BV1Mg4y137kq",
+        "url":  "https://www.bilibili.com/video/BV1Mg4y137kq",
+        "title":  "04 支撑隐语密文计算引擎：Intel安全技术助力隐私计算",
+        "duration_s":  1052,
+        "views":  75,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  14,
+        "bvid":  "BV1Cg4y1g7M3",
+        "url":  "https://www.bilibili.com/video/BV1Cg4y1g7M3",
+        "title":  "05 隐私计算和分布式计算的融合与未来",
+        "duration_s":  1201,
+        "views":  284,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  15,
+        "bvid":  "BV12h411u7ZB",
+        "url":  "https://www.bilibili.com/video/BV12h411u7ZB",
+        "title":  "06 恶意安全多方计算协议研发及在隐语中的共建计划",
+        "duration_s":  1235,
+        "views":  137,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  16,
+        "bvid":  "BV17g4y1g7zK",
+        "url":  "https://www.bilibili.com/video/BV17g4y1g7zK",
+        "title":  "07 隐私计算互联互通开放协议共建及行业实践进展",
+        "duration_s":  1178,
+        "views":  137,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  17,
+        "bvid":  "BV1FM4y117JU",
+        "url":  "https://www.bilibili.com/video/BV1FM4y117JU",
+        "title":  "08 隐语框架使用与金融场景需求的融合经验及共建思考",
+        "duration_s":  776,
+        "views":  590,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  18,
+        "bvid":  "BV1ea4y1K7yj",
+        "url":  "https://www.bilibili.com/video/BV1ea4y1K7yj",
+        "title":  "09 基于隐语框架 探索区域跨行账户风险联防联控",
+        "duration_s":  2605,
+        "views":  322,
+        "pubdate":  "2023-04-06"
+    },
+    {
+        "index":  19,
+        "bvid":  "BV1dqo5BkEsh",
+        "url":  "https://www.bilibili.com/video/BV1dqo5BkEsh",
+        "title":  "世界模型，点燃下一个Al爆点（第二期）",
+        "duration_s":  5573,
+        "views":  1931,
+        "pubdate":  "2026-04-24"
+    },
+    {
+        "index":  20,
+        "bvid":  "BV1iidhBsEhg",
+        "url":  "https://www.bilibili.com/video/BV1iidhBsEhg",
+        "title":  "世界模型，点燃下一个 AI 爆点",
+        "duration_s":  7308,
+        "views":  4312,
+        "pubdate":  "2026-04-16"
+    },
+    {
+        "index":  21,
+        "bvid":  "BV1DN4y1z77G",
+        "url":  "https://www.bilibili.com/video/BV1DN4y1z77G",
+        "title":  "AI 在生命科学领域研究进展简介",
+        "duration_s":  1338,
+        "views":  689,
+        "pubdate":  "2023-12-27"
+    },
+    {
+        "index":  22,
+        "bvid":  "BV1664y1H7SD",
+        "url":  "https://www.bilibili.com/video/BV1664y1H7SD",
+        "title":  "ProDESIGN-LE：用AI辅助的蛋白质设计",
+        "duration_s":  1330,
+        "views":  694,
+        "pubdate":  "2023-12-27"
+    },
+    {
+        "index":  23,
+        "bvid":  "BV1aa4y1B7Hi",
+        "url":  "https://www.bilibili.com/video/BV1aa4y1B7Hi",
+        "title":  "“AI + 物理” 驱动新一代计算生物医学成像",
+        "duration_s":  1469,
+        "views":  548,
+        "pubdate":  "2023-12-27"
+    },
+    {
+        "index":  24,
+        "bvid":  "BV1Ac411y7p8",
+        "url":  "https://www.bilibili.com/video/BV1Ac411y7p8",
+        "title":  "圆桌主题：共探 AI 赋能生物医学新进展",
+        "duration_s":  2360,
+        "views":  553,
+        "pubdate":  "2023-12-27"
+    }
+]
