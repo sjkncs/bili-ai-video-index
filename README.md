@@ -1,41 +1,42 @@
-# B 站 AI 视频索引（按类型分目录）
+# bili-ai-video-index - moved into the master index
 
-> 快照：**2026-10-11**，共 **370** 集，来自两位 UP 主，按**内容类型**分目录。
+> This repository's content is now part of the **master index**:
+> **[bili-ai-index](https://github.com/sjkncs/bili-ai-index)** - B 站 AI 学习资源总索引（按内容类型分目录）
 >
-> - B 站 UP 主 **HyperHorizon**（mid `11470647`）— 论文解读
-> - B 站 **机器之心**（mid `73414544`）— 顶会分享 / 访谈 / 论坛 / 实战 / 开源产业
->
-> **3D 视觉论文解读（229 集）在另一个仓库**：[`bili-3dv-paper-notes`](https://github.com/sjkncs/bili-3dv-paper-notes)
+> Snapshot: **2026-10-12** - 370 episodes indexed here.
 
-## 目录
+## What this repo covered
 
-| 目录 | 类型 | 来源 | 集数 | 论文全名 | arXiv | 讲者 |
-|---|---|---|---:|---:|---:|---:|
-| [`01-world-model/`](01-world-model/) | 世界模型论文解读 | HyperHorizon | 83 | 83 | 74 | 0 |
-| [`02-wam-vla/`](02-wam-vla/) | WAM 与 VLA 论文解读 | HyperHorizon | 66 | 66 | 57 | 0 |
-| [`03-video-generation/`](03-video-generation/) | 视频生成论文解读 | HyperHorizon | 32 | 31 | 29 | 0 |
-| [`04-weekly-summary/`](04-weekly-summary/) | 每周论文总结 | HyperHorizon | 1 | 0 | 0 | 0 |
-| [`05-conferences/`](05-conferences/) | 顶会论文分享 | 机器之心 | 96 | 0 | 3 | 53 |
-| [`06-interviews/`](06-interviews/) | 访谈与对话 | 机器之心 | 13 | 0 | 0 | 0 |
-| [`07-forums/`](07-forums/) | 论坛与圆桌 | 机器之心 | 37 | 0 | 0 | 12 |
-| [`08-hands-on/`](08-hands-on/) | AIGC 上手实战 | 机器之心 | 18 | 0 | 0 | 5 |
-| [`09-opensource/`](09-opensource/) | 开源与产业 | 机器之心 | 24 | 0 | 2 | 21 |
-| | | **合计** | **370** | | | |
+HyperHorizon 世界模型 / WAM-VLA / 视频生成 / 每周总结；机器之心顶会 / 访谈 / 论坛 / 开源 / AIGC
 
-## 数据来源 · 计算方法 · 口径限制
+## Where to find it now
 
-**数据来源**
-1. 分集列表：B 站 `x/polymer/web-space/seasons_archives_list`（按 mid + season_id 逐合集抓取，`page_size=100`）。
-2. **增强字段（论文全名 / 会议 / arXiv / 中文摘要 / 讲者）**：逐条调 `x/web-interface/view` 取 **`desc`（简介）** 字段，共 370 条，**0 失败**。
+| master folder | content |
+|---|---|
+| [`04-world-model/`](https://github.com/sjkncs/bili-ai-index/tree/main/04-world-model) | 世界模型论文解读 |
+| [`05-wam-vla/`](https://github.com/sjkncs/bili-ai-index/tree/main/05-wam-vla) | WAM 与 VLA 论文解读 |
+| [`06-video-generation/`](https://github.com/sjkncs/bili-ai-index/tree/main/06-video-generation) | 视频生成论文解读 |
+| [`07-hh-weekly/`](https://github.com/sjkncs/bili-ai-index/tree/main/07-hh-weekly) | 每周论文总结 |
+| [`08-conferences/`](https://github.com/sjkncs/bili-ai-index/tree/main/08-conferences) | 机器之心 · 顶会论文分享 |
+| [`09-mqzx-interviews/`](https://github.com/sjkncs/bili-ai-index/tree/main/09-mqzx-interviews) | 机器之心 · 访谈与论坛 |
+| [`10-opensource-hands-on/`](https://github.com/sjkncs/bili-ai-index/tree/main/10-opensource-hands-on) | 开源生态与 AIGC 实战 |
 
-**计算方法**：分类归属按合集**原始名称显式映射**（不用模糊匹配——首版用模糊匹配时漏掉了一整届会议系列，48 集应为 96 集）。论文类来源按 `【论文分享】<全名> (<会议>) — <摘要>` 模板解析；机器之心来源的讲者只从「嘉宾介绍」段落提取并做有效性校验。
+## Data still in this repository
 
-**口径限制**
-- **只做目录索引**，不含视频文件、字幕或讲义。
-- B 站**视频标题上限 80 字符**，论文类来源的标题有 136/229 条被截断；本仓库的论文全名取自**简介**，因此完整，原始标题保留在 `bvid_title`。
-- 机器之心来源**没有统一简介模板**，讲者字段只有部分条目可得（本仓 91/188 + 3D 仓另有），**不声称完整讲者名单**；圆桌条目的嘉宾介绍含多人，未拆分到个人。
-- 抓取期间 B 站会返回风控码 `-352`；数据是退避重试后取齐的，但不保证与线上实时一致。
+The machine-readable files are unchanged, so existing links keep working:
+
+- `items.json（各目录）`
+
+## Data source / method / limits
+
+**Data source**: collected from the Bilibili anonymous API (`seasons_archives_list` for
+episode lists, `x/web-interface/view` for the `desc` field).
+
+**Method**: this repository is no longer rebuilt by the tool; the master index is. The
+files here are a frozen snapshot kept for stable links.
+
+**Limits**: for current data use the master index above. This page is a pointer, not an
+index -- it lists no episodes.
 
 ---
-
-*2026-10-11 快照。内容版权归原作者所有。*
+*2026-10-12. All content belongs to the original authors.*
